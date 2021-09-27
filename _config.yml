@@ -1,0 +1,40 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+repository:          igorcferreira/PersonalBlog
+title:               Igor Ferreira
+tagline:             'Um simples blog'
+description:         'Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas'
+url:                 http://igorcferreira.com
+baseurl:             ''
+paginate:            3
+
+# About/contact
+author:
+  name:              Igor Ferreira
+  url:               https://twitter.com/icastanheda
+  email:             igorcferreira@hotmail.com
+
+# Custom vars
+version:             1.0.0
+
+plugins: 
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-mentions
+
+feed:
+  path: atom.xml
+  excerpt_only: true
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'static.json', 'README.md', 'CONTRIBUTING.md', 'LICENSE.md']
+
+github:
+  repo:           https://github.com/igorcferreira/PersonalBlog
