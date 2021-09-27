@@ -1,28 +1,693 @@
----
-layout: null
----
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}{{ site.baseurl }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Igor Ferreira</title>
+ <link href="http://igorcferreira.com/atom.xml" rel="self"/>
+ <link href="http://igorcferreira.com/"/>
+ <updated>2021-09-27T17:06:19+00:00</updated>
+ <id>http://igorcferreira.com</id>
  <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   <name>Igor Ferreira</name>
+   <email>igorcferreira@hotmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Assexualidade</title>
+   <link href="http://igorcferreira.com/life/2020/05/17/assexualidade/"/>
+   <updated>2020-05-17T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2020/05/17/assexualidade</id>
+   <content type="html">&lt;p&gt;Este texto comentará algo pessoal, e mencionará sexualidade. Se você não tem interesse, recomendo pular meus próximos posts. Dito isso:&lt;/p&gt;
+
+&lt;p&gt;Recentemente tenho postado sobre ADHD, e desafios em saúde mental. E algo que venho resolvido apenas recentemente é assexualidade.&lt;/p&gt;
+
+&lt;p&gt;Infelizmente, sexualidade é um assunto que não é debatido como deveria (em minha opinião). E cresci em uma cultura machista. Não em minha casa/família, mas em minha comunidade. Brasil, até hoje, é muito machista, e permeia o conceito de que um homem precisa ser “Macho”. E parte da masculiade frágil do “macho” é que o homem precisa constantemente estar desejando sexo. Mesmo quando se extende para homens homossexuais, ainda é culturalmente esperado que “homem sempre pense em sexo”. E daí vem algo que constantemente afetava meu sono/sanidade; Apesar de me identificar como homem não homosexual, nunca consegui me identificar como heterosexual. Não me colocarei no mesmo level de dificuldades de vida dos homossexuais ou bissexuais, mas sempre foi algo que atormentou minha mente. E me trás consequências até hoje.&lt;/p&gt;
+
+&lt;p&gt;Pela maior parte de minha vida, para poder me encaixar na sociedade, mentia a outros (e a mim mesmo) sobre relacionamento. Buscando falar o que os outros queriam ouvir, enquanto tentava converser-me de que aquilo que falava devia ser a verdade que buscava. Ainda mais que, sempre, tive curiosidades a cerca de sexo. Curiosidade de alguém que está fora desse mundo e gostaria de saber mais sobre. Por simples e pura curiosidade. Algo que dificultava meu entendimento sobre minhas escolhas de relacionamento e sexualidade. Estou muito próximo de meus 30 anos, e apenas nos últimos anos aceitei o conceito de Assexualidade, e aceitei que me enquadro nesse espectro (sim, acredito que sexualidade é um espectro, não um valor definido. E muito menos binário). E devo dizer que foi algo muito reconfortante.&lt;/p&gt;
+
+&lt;p&gt;Reconfortante porque pude aceitar minha curiosidade sobre sexo no mesmo nível da minha curiosidade sobre culinária, ou música: Quais os fatores (sociais e biológicos) que levam um ser humano a preferir X em vez de Y. Este ponto ainda tem um imenso impacto em minhas relações romântica, porque envolve expectativas e desejos. Algo muito importante. Mas, agora, pelo menos, me dá total ciência do que se deve ser debatido, como deve ser debatido, porque se deve ser debatido, e com quem debater.&lt;/p&gt;
+
+&lt;p&gt;Aos que se perguntam do porque esse textão: Hoje, mais do que nunca, acredito que temos (como sociedade) nos abrir para debater temas sociológicos e de saúde mental. E sexualidade é parte disso. E, uma parte muito importante na formação de identidade de um ser. E sexualidade, por conta de religião e conservadorismo, é algo que é agressivamente escondido, e evitado. Entretanto, tem um papel importante na vida do ser humano, uma vez que define as relações interpessoais. E entendimento da categorização de relacionamentos.&lt;/p&gt;
+
+&lt;p&gt;E, com isso, termino meu relato. Beijos, e até uma próxima.&lt;/p&gt;
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Primeiro Terço - Dia 4</title>
+   <link href="http://igorcferreira.com/life/2018/04/15/day-04/"/>
+   <updated>2018-04-15T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2018/04/15/day-04</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/pamplona_exposition.jpg&quot; alt=&quot;Sala de exposições, em Pamplona&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Sala de exposições, em Pamplona&lt;/figcaption&gt;
+
+&lt;p&gt;Eu fiquei em Pamplona hoje, o dia todo. E acredito que foi uma boa ideia.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Aproveitei a parada para lavar um conjunto de roupas, inclusive minha capa de chuva. Foi minha primeira vez usando um serviço “self service” de lavanderia. É algo interessante. Por tabela, tive um tempo para folhear uma revista de figuras famosas da Espanha (nada muito diferente do comum).&lt;/p&gt;
+
+&lt;p&gt;Outra oportunidade que tive foi entender o sistema de envio de cartas da Espanha. Decidi ir atrás de selos para poder enviar postais que tenho comigo, e descobri que há 3 tipos de selos: Um para envio nacional, um para envio dentro da União Européia, e um para envio internacional, for da UE. Cada um com seu preço, e estilo. No fim, com um pouco de ajuda, consegui comprar o correto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/stamps.jpg&quot; alt=&quot;Selo para fora da UE, e para o UK&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Selo para fora da UE, e para o UK&lt;/figcaption&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Fico feliz de ser capaz de entender Castelhano quase perfeitamente, mesmo sem ser capaz de formular uma sentença, atualmente. Estou usando meu espanhol o máximo que posso, na tentativa de, um dia, ser capaz de formular uma frase completa sem colocar um inglês, ou português no meio. No momento, já consigo não morrer de fome! Sei pedir um café, suco de laranja, sanduíche, e água!&lt;/p&gt;
+
+&lt;p&gt;Hoje, foi celebrado o dia em homenagem ao idioma vasco: Euskera. Até o momento, todo o trajeto foi feito dentro do país vasco, e, tal qual Catalunha, é possível ver a bandeira vasca nas ruas, e em prédios (ao lado da bandeira Espanhola, em alguns casos).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/pamplona_walls.jpg&quot; alt=&quot;Murros de Pamplona&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Murros de Pamplona&lt;/figcaption&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Nota do editor:&lt;/strong&gt; Até o momento, todos os sanduíches de “queijo e presunto” que eu pedi foram servidos com queijo artesanal, e presunto ibérico! Não estou tendo do que reclamar&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Primeiro Terço - Dia 3</title>
+   <link href="http://igorcferreira.com/life/2018/04/02/day-03/"/>
+   <updated>2018-04-02T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2018/04/02/day-03</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/villa_entrance.jpg&quot; alt=&quot;Uma bela vista na entrada do vilarejo&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Uma bela vista na entrada do vilarejo&lt;/figcaption&gt;
+
+&lt;p&gt;Ontem, eu jantei em uma mesa junto com outros 4 falantes da língua francesa, e foi um jantar proveitoso! Eles passaram a maior parte do tempo falando Francês, uma vez que não havia motivo de mudar o idioma por minha causa, ainda mais que a maioria deles não falam inglês.&lt;/p&gt;
+
+&lt;p&gt;Mas, foi um jantar muito bom; Comida deliciosa: Uma leve sopa de entrada, uma carne preparada com molho de tomate fresco, e um pudim de sobremesa.&lt;/p&gt;
+
+&lt;p&gt;Era meu plano pedir por um café após a janta, uma vez que é meu costume, mesmo sendo tarde, e tendo de acordar cedo no dia seguinte. Nunca tive problemas em dormir após um espresso, e, em muitas situações, isso acabou me fazendo até dormir melhor.&lt;/p&gt;
+
+&lt;p&gt;Mas, não quis ser o estranho na mesa. Ainda mais que me foi oferecido um “bonne nuit infusion”, trazido na mala por um dos peregrinos à mesa. Me pareceu uma boa ideia me juntar aos Franceses nessa ocasião.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Você pode estar se questionando porque eu estou falando do jantar de ontem no diário de hoje. Para resolver seus questionamentos: Eu decidi começar com essa descrição porque hoje foi um dia de caminhada BEM leve.&lt;/p&gt;
+
+&lt;p&gt;Como eu comentei no último post, o esforço para fazer a extensão da caminhada de ontem até Larrasoaña fez com que eu chegasse cedo em Pamplona, apesar de, como sempre, ter saído tarde.&lt;/p&gt;
+
+&lt;p&gt;Desta vez, eu comecei no que seria metade do trajeto para a maioria das pessoas. Então, eu encontrei muitas pessoas pelo caminho. MUITAS PESSOAS. Isso me deixou feliz com a ideia de sair tarde dos hotéis. Mas, ter boa parte do dia à minha frente me mostrou os prazeres de longas paradas ao longo do trajeto.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/river_view.jpg&quot; alt=&quot;Companheiro de viagem&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Companheiro de viagem&lt;/figcaption&gt;
+
+&lt;p&gt;De volta à descrição do trajeto de hoje: Foi uma fácil caminhada feita, na maior parte do dia, seguindo um belo rio, sendo um gracioso prazer ouvir o fluxo do rio, e o cantos dos pássaros. Entretanto, o final do trajeto é feito inteiramente por três cidades: Trinidade de Arre, Burlada, e Pamplona. Sendo, estas, tão próximas que a fronteira entre elas é imperceptível.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/villava.jpg&quot; alt=&quot;Prédio da Intia, em Villava&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Prédio da Intia, em Villava&lt;/figcaption&gt;
+
+&lt;p&gt;Algumas horas caminhando em meio à civilização, em calçadas e ruas, com carros, ônibus e vida rotineira acontecendo a sua volta. A arquitetura e cores das cidades são belas, mas, preciso o cenário natural.&lt;/p&gt;
+
+&lt;p&gt;Por sinal, em Trinidade de Arre, eu vi uma garota carregando uma mala ENORME, com selfie stick, e tocando uma música no celular. Quando me aproximei, eu tive a impressão de que conhecia a música (algo que foi confirmado em alguns minutos, quando passei pela pessoa). Skank! Algo que bateu na nostalgia. Ao reparar mais na mochila, pude ver a bandeira do Brasil, e a bandeira da cidade de Tiradentes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/entrance_pamplona.jpg&quot; alt=&quot;Entrada de Pamplona&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Entrada de Pamplona&lt;/figcaption&gt;
+
+&lt;p&gt;Logo na entrada de Pamplona eu decidi ficar um dia mais na cidade. Afinal, é uma grande cidade, com tradição, e muitos lugares para ver. Dois dos maiores eventos da cidade são Carnaval, e corrida dos touros; Não sou fã do primeiro, e sou contra o segundo, então eu acredito que não terei tantos motivos para retornar à cidade.&lt;/p&gt;
+
+&lt;p&gt;Portanto, acredito que será legal passar mais um dia aqui, me dando tempo para, calmamente, caminhar pela cidade, e ver mais coisas. Além de mais tempo para lavar roupas, comprar selos, e, finalmente, enviar alguns postais que tenho carregado comigo já faz um tempo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Nota do editor:&lt;/strong&gt; Hoje, eu desinstalei uma boa quantidade de apps do meu celular, para evitar ficar abrindo eles para ver novidades, e resistir à tentação de ficar postando fotos!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/park_pamplona.jpg&quot; alt=&quot;Parque na entrada de Pamplona&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Parque na entrada de Pamplona&lt;/figcaption&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Primeiro Terço - Dia 2</title>
+   <link href="http://igorcferreira.com/life/2018/03/28/day-02/"/>
+   <updated>2018-03-28T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2018/03/28/day-02</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/roncesvalles_exit.jpg&quot; alt=&quot;Saída de Roncesvalles&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Saída de Roncesvalles&lt;/figcaption&gt;
+
+&lt;p&gt;Hoje, eu sai da cidade tarde. Dessa forma, eu não encontraria muita gente no caminho. E, isso foi verdade durante a primeira metade do trajeto. Antes do almoço, apenas encontrei pessoas mais idosas, que caminhavam mais lentamente, e paravam muitas vezes para descansar.&lt;/p&gt;
+
+&lt;p&gt;Tem sido um caminho tranquilo! Especialmente quando comparado com ontem. Tem suas subidas, especialmente depois de Burguete, mas a maioria do caminho é um prazerosa reta, com uma vista maravilhosa.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/bridge_stop.jpg&quot; alt=&quot;Momento de parada&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Momento de parada&lt;/figcaption&gt;
+
+&lt;p&gt;Eu escrevi o parágrafo anterior durante uma parada, antes de chegar em Zubiri, e devo adicionar aqui que não tive tanto prazer em um bom pedaço do dia. Foi mais decida, mas, com muitas pedras, me forçando a reduzir o passo e pensar bastante em onde pisava. Isso é algo que sempre me incomodou ao andar em Londres (e na maioria das grandes cidades); Ter de reduzir a velocidade de passo por conta de turistas, grupos, ou pessoas que tomam toda a calçada ao andar.&lt;/p&gt;
+
+&lt;p&gt;Outro elemento que atrapalhou um pouco o fim do dia foi a decisão de seguir um “livro guia”, que sugeria seguir caminhada depois de Zubiri, baseado em uma decisão de uma menor caminhada no dia seguinte, e poder passar mais tempo em Pamplona. Estou tão cansado quanto ontem, se não mais. Mas, veremos se foi uma boa decisão ou não.&lt;/p&gt;
+
+&lt;p&gt;Dado tais colocamentos, foi um dia tranquilo. Reencontrei as 2 Brasileiras, e os 2 Irlandeses que conheci ontem. Eles saíram da cidade cedo, mas o passo mais lento me permitiu “cruzar caminhos” com eles mais uma vez. Aparentemente, irei revê-los algumas vezes durante todo o caminho.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/green_hills.jpg&quot; alt=&quot;Vista do trajeto&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Vista do trajeto&lt;/figcaption&gt;
+
+&lt;p&gt;Meus olhos adoraram o trajeto, e minhas pernas estão tirando um sarro de meus ombros. Os pobres coitados não estão acostumados a carregar uma mochila carregada durante horas. Entretanto, posso, facilmente, caminhar por mais algumas horas (sem mochila) antes de ir dormir.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Sou um introvertido, e estou passando a maior parte do dia em completo silêncio, apenas com meus pensamentos, e estou muito feliz com isso. Foi para isso que vim. Estou apenas de acabar gostando demais da experiência da isolação.&lt;/p&gt;
+
+&lt;p&gt;Algo que pude perceber, todavia, foi a forma como eu me direciona a pessoas, quando é algo não relacionado a trabalho: Tímido, passivo no começo da coversa, e resiliente em “ofender” ao longo da conversação, ficando mais mudo. Vejo que afasta algumas pessoas, e irrita (mesmo que levemente) algumas outras.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Nota do escritor:&lt;/strong&gt; Fazer o caminho sem tomar cerveja/álcool, parece belezura, mas, sem tomar café (que eu havia planejado), eu desisti logo nos primeiro passos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/food.jpg&quot; alt=&quot;Café, e pão com Presunto Ibérico! (Delícia)&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;imageCaption&quot;&gt;Café, e pão com Presunto Ibérico! (Delícia)&lt;/figcaption&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Gostaria de dizer que não sei usar a internet!</title>
+   <link href="http://igorcferreira.com/life/2017/07/04/nao-sei-usar-internet/"/>
+   <updated>2017-07-04T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2017/07/04/nao-sei-usar-internet</id>
+   <content type="html">&lt;p&gt;Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados.&lt;/p&gt;
+
+&lt;p&gt;Isso provoca uma mudança de vida: Não posso usar a internet fora do trabalho, além de mensagens de textos. E, honestamente, foi algo muito bom. Porque me provou uma coisa: Eu não sei usar a internet.&lt;/p&gt;
+
+&lt;p&gt;A internet é uma ferramenta sensacional, que proporciona a interligação de unidades de processamento e armazenamento por todo o mundo. Com isso, o acesso a informação é facilitada, tal qual processamento e análise das mesmas!&lt;/p&gt;
+
+&lt;p&gt;Mas, na nossa realidade do dia-a-dia, não é para isso que a internet é usada… E, sim, para entretenimento: Séries, vídeos aleatórios, gifs de gatos, etc.&lt;/p&gt;
+
+&lt;p&gt;Como uma pessoa que usa a internet para se manter em contato com família e amigos que moram em outros países, eu me coloquei em uma situação bem ruim. Youtube vídeo, atrás de youtube vídeo. Milhões de séries na playlist. Uma longa lista de quadrinhos para ler.&lt;/p&gt;
+
+&lt;p&gt;Mas, pouca leitura literária de maior complexidade (amo quadrinhos, mas o volume reduzido não permite um grande trabalho filosófico, tal qual livros); Pouca leitura técnica; E, principalmente, me fechando ao mundo online.&lt;/p&gt;
+
+&lt;p&gt;Barcelona é uma cidade que te convida a sair do seu apartamento. Um clima lindo, arquitetura impressionante, praia convidativa, e comida MARAVILHOSA. Ainda assim, desprendia algumas tardes revendo PR que vazou do dia de trabalho, séries atrás de séries, vídeos do youtube atrás de vídeos do youtube…&lt;/p&gt;
+
+&lt;p&gt;Se entrenter com essas formas de arte não é um problema. Mas, acredito ser válido carregar seu e-reader com publicações e sentar à beira do calçadão para ler; Andar até o cinema para ver uma sessão de um filme local; Tomar uma cerveja enquanto ouve à música ao vivo.&lt;/p&gt;
+
+&lt;p&gt;Saber usar a internet como uma ferramenta de acesso à informação, não como uma ferramenta de socialização! :)&lt;/p&gt;
+
+&lt;p&gt;Um extra:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;iframe src=&quot;https://open.spotify.com/embed?uri=spotify%3Atrack%3A41obHLt3mui2I7w2wBqAsV&quot; width=&quot;300&quot; height=&quot;380&quot; frameborder=&quot;0&quot; allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Primeiro Terço — Notas de um peregrino</title>
+   <link href="http://igorcferreira.com/life/2017/05/27/notas-de-um-peregrino/"/>
+   <updated>2017-05-27T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2017/05/27/notas-de-um-peregrino</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/boots.jpg&quot; alt=&quot;Botas e caderno em frente à igreja de Santiago&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Eu resolvi colocar aqui, primeiramente em português, o log de uma pequena viagem que fiz pelo norte da Espanha: O primeiro terço do &lt;a href=&quot;https://pt.wikipedia.org/wiki/Caminhos_de_Santiago&quot;&gt;Caminho de Santiago&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Esses textos que virão ao longo de um período incerto, são extratos de um diário que foi escrito durante a viagem, com pequenas edições e traduções (já que esse teve trechos em português, inglês e espanhol). Decidi escrever esse relato para retomar a prática da escrita, e para guardar em palavras algumas coisas que podem desaparecer ou se ofuscar na memória.&lt;/p&gt;
+
+&lt;p&gt;Além disso, algumas outras decisões foram feitas: Sem data específica, sem nome de pessoas, sem descrições físicas detalhadas, sem entrar nas minúcias do trajeto, e sem muitos filtros dos pensamentos que permearam-me durante o trajeto.&lt;/p&gt;
+
+&lt;p&gt;Neste momento, eu já terminei o caminho, e estou em casa, com uma cerveja, ou um café, ou um churros redigindo o que este caderno vermelho guarda. Alguns já viram algumas fotos, ou já ouviram um pouco sobre os eventos. Mas, para os que nada ouviram, aproveitem!&lt;/p&gt;
+
+&lt;p&gt;Sorry for my english speakers. The en version will come on in a near future…&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>So long, and thanks for all the fishes!</title>
+   <link href="http://igorcferreira.com/life/2017/03/28/so-long/"/>
+   <updated>2017-03-28T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2017/03/28/so-long</id>
+   <content type="html">&lt;p&gt;Some time ago, I wrote about my experience on moving to London. It’s in Portuguese because it is hosted on my personal “blog”. But, it resumes my view about this great new city.&lt;/p&gt;
+
+&lt;p&gt;Now, I decided to open this medium for english texts because a new moment on my life has begun: Time to move on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/so_long.jpg&quot; alt=&quot;So long... Thanks for all the fish!&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Things are happening in the world. Not good things. Really not good things. And, one of them is the &lt;a href=&quot;http://www.bbc.co.uk/news/uk-politics-32810887&quot;&gt;UK is leaving the EU&lt;/a&gt;. This have consequences in the national economy and business market, for big and small companies.&lt;/p&gt;
+
+&lt;p&gt;The company where I work is one that decided to make a decision driven by the recents facts:&lt;/p&gt;
+
+&lt;center&gt;
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-permalink=&quot;https://www.instagram.com/p/BRYR-PUjSD1/?utm_source=ig_embed&amp;amp;utm_medium=loading&quot; data-instgrm-version=&quot;12&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BRYR-PUjSD1/?utm_source=ig_embed&amp;amp;utm_medium=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/BRYR-PUjSD1/?utm_source=ig_embed&amp;amp;utm_medium=loading&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_blank&quot;&gt;A new chapter&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;A post shared by &lt;a href=&quot;https://www.instagram.com/igorcferreira/?utm_source=ig_embed&amp;amp;utm_medium=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;&quot; target=&quot;_blank&quot;&gt; Igor Ferreira&lt;/a&gt; (@igorcferreira) on &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2017-03-08T13:48:46+00:00&quot;&gt;Mar 8, 2017 at 5:48am PST&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+&lt;p&gt;A lot was put on the table to be analised. Market, people, clients, and world politics. Always putting people and employees above all. That is why the decision to have a new office out of UK was made.&lt;/p&gt;
+
+&lt;p&gt;An option for the employees and an extra option for new comers! A decision that makes sense for a company like Future Workshops.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;a-new-opportunity-good-and-exciting-but-that-leaves-a-broken-heart-behind&quot;&gt;A new opportunity, good and exciting, but, that leaves a broken heart behind&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/broken_heart.gif&quot; alt=&quot;Can a heart still break once it's stopped beating&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Changing is good, exciting, amazing, and empowers someone to see new cultures, thoughts, point of view, and nature! But, obviously, is never easy. You are leaving things behind to be able to live new adventures.&lt;/p&gt;
+
+&lt;p&gt;I’ve been in London for almost an year and a half. You may say that is not so long. But, I fell in love with the city, made friends in the company and in a small town called Oxted!&lt;/p&gt;
+
+&lt;p&gt;I’ll miss the night walks to get the last train from Oxted to London. A moment where I was able to see stars in the sky. I’ll miss the walks from Latimer Road to Liverpool Street Station, going through the Kesington Gardens and Hyde Park. And, I’ll miss the people.&lt;/p&gt;
+
+&lt;p&gt;But, there is something that I will not miss: The weather!&lt;/p&gt;
+
+&lt;p&gt;The weather is something that, at first, I though it would be something that I could easily overcome and adapt. But, every winter hit me, and hit me HARD. The wind, cold, rainy, dark afternoons are heavy in the soul.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;so-what-is-the-next-step&quot;&gt;So, what is the next step?&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://igorcferreira.com/public/barcelona_night_sky.jpg&quot; alt=&quot;Barcelona's night sky&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Barcelona!&lt;/p&gt;
+
+&lt;p&gt;Let’s be a Spanish in Spain.&lt;/p&gt;
+
+&lt;p&gt;But, this will be a new chapter on a new life… When I settle down and have more to say, believe! I’ll come back to tell you more about it! 🎉&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>ADHD de cada dia</title>
+   <link href="http://igorcferreira.com/life/2016/09/02/adhdpi/"/>
+   <updated>2016-09-02T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2016/09/02/adhdpi</id>
+   <content type="html">&lt;meta property=&quot;og:image&quot; content=&quot;http://blogs.discovermagazine.com/sciencenotfiction/files/2011/03/Braaaains.jpg&quot; /&gt;
+
+&lt;p&gt;Fui motivado a escrever esse texto por 3 motivos:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;É algo que me incomoda no momento.&lt;/li&gt;
+  &lt;li&gt;Um &lt;a href=&quot;http://www.campograndenews.com.br/lado-b/faz-bem/depressao-nao-e-frescura-e-so-se-cura-com-diagnostico-remedio-e-terapia&quot;&gt;post&lt;/a&gt; sobre a importância que deve ser dada à depressão.&lt;/li&gt;
+  &lt;li&gt;E tweets:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;center&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When I worked at a startup I&amp;#39;d go in at 5am so I could get 5 hours of work in before the first foosball game started &lt;a href=&quot;https://t.co/QCk310Glg0&quot;&gt;https://t.co/QCk310Glg0&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rebecca Slatkin (@RebeccaSlatkin) &lt;a href=&quot;https://twitter.com/RebeccaSlatkin/status/765652886797819905&quot;&gt;August 16, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Startup culture and office environments create challenges for workers with ADHD: &lt;a href=&quot;https://t.co/SvKTaHdAQw&quot;&gt;https://t.co/SvKTaHdAQw&lt;/a&gt;&lt;/p&gt;&amp;mdash; shanley (@shanley) &lt;a href=&quot;https://twitter.com/shanley/status/765627245616521219&quot;&gt;August 16, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Gostaria de começar esse texto relatando que &lt;b&gt;a pior sensação do mundo é a raiva misturada à decepção de perder uma briga contra você mesmo&lt;/b&gt;!&lt;/p&gt;
+
+&lt;p&gt;Doenças mentais, mesmo hoje, ainda precisam ser aceitadas e entendidas pelas pessoas. Muitos mitos, preconceitos e descrenças acontecem em torno desse problema real, fazendo com que quem sofre se esconda ou não aceite o diagnóstico, usando termos como “é só uma fase” de muleta para seguir a vida.&lt;/p&gt;
+
+&lt;p&gt;Eu tenho &lt;a href=&quot;https://pt.wikipedia.org/wiki/Distúrbio_do_déficit_de_atenção_sem_hiperatividade&quot;&gt;ADHD-PI&lt;/a&gt;. E, sim, diagnosticado, precisando de medicação e tudo mais! Não, não é fase e não falo isso porque é “famoso” ter alguma doença hoje em dia! E, não, não é uma simples desculpa!&lt;/p&gt;
+
+&lt;p&gt;Quem assiste “The Big Bang Theory” não entende o quão sofrível é ter OCD, ser incapaz de falar com outra pessoa ou déficit de atenção. Não é essa coisa bonita e engraçada que é representada na série. Especialmente porque, em muitos casos, o problema não vem sozinho e, ao longo do tempo, acaba ganhando novas complicações.&lt;/p&gt;
+
+&lt;p&gt;Para ser mais “realista”, vou reportar o que sei/vivi e tentar colocar no cenário de tecnologia (o que vivo diariamente):&lt;/p&gt;
+
+&lt;p&gt;ADHD é uma doença caracterizada por inatenção e impulsividade. Desde 2000 é caracterizada em 3 três tipos, sendo eles: Predominante inatenção (ADHD-PI), predominante hiperatividade e, a pior, sem predominância.&lt;/p&gt;
+
+&lt;p&gt;Ela é, geralmente, diagnosticada ainda na infância, tanto que o site da NHS (sistema público de saúde britânico) &lt;a href=&quot;http://www.nhs.uk/conditions/Attention-deficit-hyperactivity-disorder/Pages/Introduction.aspx&quot;&gt;representa como uma doença infantil&lt;/a&gt;, colocando apenas uma nota de como adultos podem sobreviver com a doença. Com isso, o preconceito de que crianças são naturalmente ativas e desatentas faz com que pessoas não sejam diagnosticadas corretamente, aumenta a negação e gera adultos que sofrem diariamente sem ter uma ideia real da causa.&lt;/p&gt;
+
+&lt;p&gt;Nas crises, o dia-a-dia de quem sofre ou convive com essa doença não é fácil:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Roupas sujas se acumulam, não por preguiça ou desleixo, mas pelo simples fato de lavá-las é uma atividade repetitiva. Inclusive, há ocasiões onde a pessoa abre a máquina de lavar, coloca metade das roupas e esquece de terminar o que estava fazendo.&lt;/li&gt;
+  &lt;li&gt;Prato com comida, deixado de lado para esfriar.&lt;/li&gt;
+  &lt;li&gt;Ferro de passar roupa esquecido ligado, assim como fogão, forno, etc.&lt;/li&gt;
+  &lt;li&gt;Bifes queimados disparando alarme de incêndio com sua fumaça.&lt;/li&gt;
+  &lt;li&gt;Portas de casa/apartamento/carro/empresa destrancadas depois que a pessoa sai.&lt;/li&gt;
+  &lt;li&gt;Chaves largadas na porta ou dentro do carro.&lt;/li&gt;
+  &lt;li&gt;Mochilas, carteira e blusas largadas dentro de ônibus/trem/restaurante.&lt;/li&gt;
+  &lt;li&gt;Medicamentos abertos e não consulmidos.&lt;/li&gt;
+  &lt;li&gt;Dificuldade em lembrar nomes e datas em certos momentos.&lt;/li&gt;
+  &lt;li&gt;Dificuldade em manter uma conversa superficial.&lt;/li&gt;
+  &lt;li&gt;Ter de ver/ler várias vezes um livro, filme ou ouvir um podcast para poder absorver um conteúdo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Recomenda-se que uma pessoa com ADHD muito forte, em momentos de crise, não fique sozinha e procure alguém que possa ajudá-la a lembrar da medicação e protegê-la de coisas rotineiras, como fazer um almoço ou janta e crie rotinas para poder aprender algo ou realizar alguma tarefa.&lt;/p&gt;
+
+&lt;p&gt;E não é só a vida pessoal que é atrapalhada, a vida profissional é altamente impactada, em momentos de crise e até em momentos “normais”. A pessoa passa a ser vista como desleixada por causa dos grandes momentos de procrastinação, atividades inacabas, reuniões perdidas e bugs simples deixados no código.&lt;/p&gt;
+
+&lt;p&gt;No texto linkado em um dos tweets que coloquei no começo, é mensionado a &lt;a href=&quot;https://pt.wikipedia.org/wiki/S%C3%ADndrome_do_impostor&quot;&gt;síndrome do impostor&lt;/a&gt;, um pensamento que é constante na vida dos que lutam contra o ADHD, pelo simples fato de que não importa quão competente a pessoa seja, ela vai atrasar entregas, deixar pequenos erros passarem despercebidos e ser incapaz de finalizar projetos, especialmente projetos pessoais onde a gerência é 100% individual.&lt;/p&gt;
+
+&lt;p&gt;Um exemplo: Na tentativa de melhorar uma funcionalidade de um app onde trabalho, decidi estudar e implementar um sistema básico de machine learning para encadear e balancear operações em imagens usando OpenGL, uma ideia excitante e complicada. Mas, o projeto acabou não sendo finalizado ainda, porque, após ter 98% do algoritmo pronto e testado, restou apenas a criação de um processo de escolhas de quadriláteros. Apesar disso ser uma das partes mais simples do sistema, é uma tarefa repetitiva e, portanto, algo ABSURDAMENTE difícil, para mim, finalizar!&lt;/p&gt;
+
+&lt;p&gt;E é aí que outros problemas surgem, como depressão e ansiedade.&lt;/p&gt;
+
+&lt;p&gt;Talvez você já tenha visto uma pessoa assim, aquela que tem o carma do ⌘+Tab (ou Alt+Tab para os não Mac). Sempre trocando de aplicativos sem parar em nenhum, acessando uma página que ele acabou de sair e constantemente &lt;i&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Daydream&quot;&gt;day dreaming&lt;/a&gt;&lt;/i&gt; e (um parâmetro bem difícil de identificar na área de tecnologia) constantemente tomando café ou algo com cafeina, já que esse componente químico ajuda a balancear os hormônios e dar um pouco mais de equilíbrio.&lt;/p&gt;
+
+&lt;p&gt;O ambiente coorporativo espera que a pessoa seja sociável, mesmo que isso seja absurdamente difícil para ela. Temos reuniões constantes, escritórios compartilhados, mesa de pimbolim e diversos outros elementos que dificultam a concentração. Um artigo no site Gamasutra fala sobre &lt;a href=&quot;http://www.gamasutra.com/view/feature/190891/programmer_interrupted.php&quot;&gt;como um programador é afetado por interrupções&lt;/a&gt; e, acredite, isso é o maior problema que temos de enfrentar!&lt;/p&gt;
+
+&lt;p&gt;Agora volto à frase que coloquei no começo do texto, é horrível ter de, diariamente, lutar contra você mesmo e, muitas vezes, perder! Não é algo engraçado ou que se fale alegremente para os amigos para justificar uma ação banal! E é algo que as empresas e as pessoas não estão prontas para entender e aceitar que, assim como cadeiras de rodas, é algo que afeta a pessoa, a limita e precisa ser considerado no dia-a-dia.&lt;/p&gt;
+
+&lt;p&gt;Afinal, ao acordar, sabemos que teremos de enfrentar a ADHD de cada dia.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Quick thought - Language</title>
+   <link href="http://igorcferreira.com/life/2016/06/30/language/"/>
+   <updated>2016-06-30T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2016/06/30/language</id>
+   <content type="html">&lt;meta property=&quot;og:image&quot; content=&quot;http://ricardojorge.net/wp-content/uploads/2010/03/ingvspt.png&quot; /&gt;
+
+&lt;center&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;pt&quot; dir=&quot;ltr&quot;&gt;Já &amp;quot;sofremos&amp;quot; com a falta de conteúdo e de influenciadores locais. Brasileiros gerando conteúdo só em inglês, pra mim, é estrelismo.&lt;/p&gt;&amp;mdash; Neto Marin (@netomarin) &lt;a href=&quot;https://twitter.com/netomarin/status/699646795631218688&quot;&gt;February 16, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/center&gt;
+
+&lt;p&gt;Mais um quick thought: Em que língua deveria postar meus conteúdos?&lt;/p&gt;
+
+&lt;p&gt;Essa é uma dúvida que me bate toda vez que eu abro um novo arquivo de postagem, ou até mesmo o Twitter. Em que idioma eu devo escrever minha opinião?&lt;/p&gt;
+
+&lt;p&gt;Eu acredito que a comunidade brasileira precisa de mais conteúdo em português! Principalmente na área de tecnologia. Mas, a minha realidade não é só Brasil.&lt;/p&gt;
+
+&lt;p&gt;Mas, no Twitter, tenho seguidores que falam os mais diversos idiomas e a maioria fala ou entende inglês. Meus colegas de trabalho, inclusive, falam inglês.&lt;/p&gt;
+
+&lt;p&gt;Aí fico com essa dúvida: Em qual idioma postar? Não só opinião técnica, mas coisas do meu dia-a-dia. Não quero me afastar de minha terra natal e amigos, mas sinto que perco interação com pessoas ao postar apenas em português.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Quick thought - WWDC/Alt 2016</title>
+   <link href="http://igorcferreira.com/life/2016/06/26/wwdc-alt/"/>
+   <updated>2016-06-26T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2016/06/26/wwdc-alt</id>
+   <content type="html">&lt;center&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Thank you &lt;a href=&quot;https://twitter.com/Microsoft&quot;&gt;@Microsoft&lt;/a&gt; for the awesome after party! &lt;a href=&quot;https://t.co/s0ihOsvy4o&quot;&gt;pic.twitter.com/s0ihOsvy4o&lt;/a&gt;&lt;/p&gt;&amp;mdash; AltConf (@AltConference) &lt;a href=&quot;https://twitter.com/AltConference/status/743621272307826688&quot;&gt;June 17, 2016&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+
+&lt;p&gt;Mais uma vez eu fui para San Francisco, participar (inicialmente) da &lt;a href=&quot;http://altconf.com&quot;&gt;AltConf&lt;/a&gt;. Esse ano foi um tanto diferente: Além do vôo de 12 horas direto, rever os colegas/amigos brazucas foi diferente e viajei com vários colegas de trabalho. Foi uma experiência diferente das prévias viagens para SF.&lt;/p&gt;
+
+&lt;p&gt;Como sempre, as conferências conseguiram fazer com que eu odia-se minha personalidade! Eu sou absurdamente introvertido e, portanto, não aproveita 100% das oportunidades que me são dadas para construir novas amizades/contatos. E, no fim do dia, fico com aquela sensação de que não me dedico/estudo como deveria, sendo apenas medíocre em minha carreira.&lt;/p&gt;
+
+&lt;p&gt;Mas, este texto sendo publicado demonstra o outro lado das conferências: Me motiva a questionar e produzir. Tentar entender onde eu erro e procurar a melhor forma de resolver isso.&lt;/p&gt;
+
+&lt;p&gt;Eu fui/fiquei mais na WWDC e rondando a cidade do que na Alt. Assim, perdi algumas palestras muito boas, que terei de ver online quando os vídeos estiverem online.&lt;/p&gt;
+
+&lt;p&gt;Entretanto, eu tive a oportunidade de conversar com alguns engenheiros da Apple sobre problemas/implementações que eu estou fazendo no meu dia-a-dia e me acalmar ao saber que os problemas que estou enfrentando são referentes à bugs nas APIs e não no meu código.&lt;/p&gt;
+
+&lt;p&gt;Eu saí dos USA com o pensamento de que foi uma ótima e proveitosa semana, mas, ao mesmo tempo, com a sensação de que não foi uma semana 100%.&lt;/p&gt;
+
+&lt;p&gt;Do lado não técnico: Eu perdi algumas ótimas oportunidades de estar com o pessoal do Brasil e deveria ter me preparado para correr mais pela cidade. Mas, foi ótimo sair para beber/conversar com os colegas de trabalho e poder sentar, beber e conversar com amigos que não via a uma longo tempo.&lt;/p&gt;
+
+&lt;p&gt;Espero, ansioso, pelo próximo ano.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Batman vs Superman</title>
+   <link href="http://igorcferreira.com/review/2016/03/27/batman_vs_superman/"/>
+   <updated>2016-03-27T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/review/2016/03/27/batman_vs_superman</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://images-cdn.moviepilot.com/images/c_fill,h_449,w_800/t_mp_quality/wnw0sltgej1ltlsietrg/is-this-darkseid-s-role-in-batman-vs-superman-832749.jpg&quot; alt=&quot;Batman vs Superman&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tenha em mente que este review lhe é trazido por um grande fã da DC e Vertigo comics, especialmente de &lt;em&gt;Justice League Dark&lt;/em&gt;, &lt;em&gt;The Sandman&lt;/em&gt;, &lt;em&gt;Watchmen&lt;/em&gt;, &lt;em&gt;HellBlazer&lt;/em&gt;, &lt;em&gt;Blackest Night&lt;/em&gt;, &lt;em&gt;Green Arrow&lt;/em&gt;, &lt;em&gt;Trinity War&lt;/em&gt;, &lt;em&gt;The Killing Joke&lt;/em&gt;, &lt;em&gt;Fables&lt;/em&gt; e outros quadrinhos que não tem medo de tocar em assuntos polêmicos, trazer imagens fortes e lançar volumes rated &lt;a href=&quot;http://oyster.ignimgs.com/mediawiki/apis.ign.com/ratings/d/d5/ESRB-ver2013_M.png&quot;&gt;M&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O mesmo vale para meus quadrinhos preferidos da Marvel, como &lt;em&gt;DareDevil&lt;/em&gt;, &lt;em&gt;Blade&lt;/em&gt;, &lt;em&gt;The Punisher&lt;/em&gt;, &lt;em&gt;Old Man Logan&lt;/em&gt;, &lt;em&gt;Alias&lt;/em&gt;, etc.&lt;/p&gt;
+
+&lt;p&gt;Eu poderia sair listando vários outros, de outras publishers, como &lt;em&gt;The Walking Dead&lt;/em&gt;, &lt;em&gt;Lazarus&lt;/em&gt; e &lt;em&gt;Spawn&lt;/em&gt; da &lt;a href=&quot;https://imagecomics.com&quot;&gt;Image Comics&lt;/a&gt;. Mas, quem sabe, um dia eu escreva um post só para falar sobre isso.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Eu gostei do filme!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pontos mais extremista:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Esse filme mostrou, mais uma vez, o porque eu não uso Rotten Tomatoes como critério de decisão se devo ou não assistir um filme.&lt;/li&gt;
+  &lt;li&gt;Você que está xingando este filme e gostou de Age of Ultron: Parabéns por ser um fã irracional da Marvel.&lt;/li&gt;
+  &lt;li&gt;A forma como a DC escolheu para construir seu universo cinematográfico é BEM diferente da forma escolhida pela Marvel.&lt;/li&gt;
+  &lt;li&gt;E: Este é um filme feito para a páscoa! O que não falta é &lt;a href=&quot;https://en.wikipedia.org/wiki/Easter_egg_(media)&quot;&gt;Easter Egg&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ah, importante:&lt;/p&gt;
+
+&lt;center&gt;&lt;img alt=&quot;Spoiler warning&quot; src=&quot;https://kayleighmaymedia.files.wordpress.com/2014/07/spoilerstoo.gif&quot; /&gt;&lt;/center&gt;
+
+&lt;h2 id=&quot;universo&quot;&gt;Universo&lt;/h2&gt;
+
+&lt;p&gt;Este não é o Batman do Christopher Nolan, nem o Superman de Christopher Reeve e nem a Mulher Maravilha de Lynda Carter!  Continua-se com o que começou-se em &lt;em&gt;Man of Steel&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;Aqui, Kalel quebra pescoços, Bruce esfaqueia pessoas no peito e a princesa Diana prefere se esconder a ter sua imagem revelada ao mundo dos homens.&lt;/p&gt;
+
+&lt;p&gt;A Warner deixou claro que o universo dos filmes ia ser algo novo quando anunciou que não misturaria as séries e filmes. E mais claro ainda quando mostrou o super herói mais overpower da história com a cueca para dentro do uniforme!&lt;/p&gt;
+
+&lt;p&gt;O universo extendido da DC foi lançado em Man of Steel, mas, esse foi o primeiro filme que deixa isso claro, através da aparição da trindade. E, assim como o primeiro filme, trás um ambiente muito mais dark.&lt;/p&gt;
+
+&lt;p&gt;Outra coisa que ressalta isso foi o assassinato do fotógrafo James Olsen, o fato de que Bruce Wayne já é o Batman há 20 anos e não tem receio de matar os bandidos que se colocam no caminho.&lt;/p&gt;
+
+&lt;p&gt;Uma das críticas que eu li do filme ressaltou que o filme não teve muitas piadas, como uma coisa ruim. É necessário entender que essa não é a ideia! Quando Barry Allen aparecer, podemos começar a pensar em piadas. Até lá, a seriedade, trauma e o peso da defesa do mundo é o que leva o universo.&lt;/p&gt;
+
+&lt;p&gt;Eu acredito que este é o tom ideal para a DC! E nesse ambiente que quero ver Zantana, Constantine, Hal Jordan, Black Hand, Brainiac…&lt;/p&gt;
+
+&lt;h2 id=&quot;filme-geral&quot;&gt;Filme (Geral)&lt;/h2&gt;
+
+&lt;p&gt;Dawn of Justice é uma continuação de Man of Steel, mostra como o mundo está se acostumando com a ideia de conviver com um alien que destruiu uma cidade inteira.&lt;/p&gt;
+
+&lt;p&gt;E essa idea de impotência e impunidade que leva Bruce Wayne ao projeto de destruir Clark Kent. Mas, desde o começo do filme, percebe-se que a batalha entre os heróis é apenas um round da briga contra Lex Luthor.&lt;/p&gt;
+
+&lt;p&gt;Em comics arcs, é uma mistura de Dark Knight Returns, The Dead of Superman, Forever Evil, Justice League #1 e Injustice.&lt;/p&gt;
+
+&lt;p&gt;Acredito que o roteiro e o CGI fez com que as lutas e as mortes fizessem sentido. A trama criada por Lex para questionar o papel do Superman na sociedade com o objetivo de conseguir acesso a armas e formas de eliminar o “novo deus”.&lt;/p&gt;
+
+&lt;p&gt;Concordo com algumas críticas ao diretor Zack Snyder, principalmente na apresentação dos meta humanos que configuram a liga da justiça e nas passagens que servem como conexão para os demais filmes do universo.&lt;/p&gt;
+
+&lt;h2 id=&quot;super-powered-batman&quot;&gt;Super powered batman&lt;/h2&gt;
+
+&lt;p&gt;“Eles estão vindo, agora que eles sabem que o Deus está morto”. Essa frase de Lex Luthor no final do filme é brochante!&lt;/p&gt;
+
+&lt;p&gt;Justice League #1 e Injustice foram colocados no filme através dos sonhos de Bruce Wayne. Aqui, parece que o Batman tem uma conexão entre dois mundos. E, nesse segundo mundo, Superman deixou de ser bonzinho e se aliou com Darkside para tacar o mal.&lt;/p&gt;
+
+&lt;p&gt;E esse Batman com poderes psíquicos ficou bem estranho e desviado do que se espera do cavaleiro. Esse arco, dentro do filme, foi algo que eu, realmente, achei bem ruim.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Queen's Land <abbr title="United Kingdom">🇬🇧</abbr></title>
+   <link href="http://igorcferreira.com/life/2016/03/12/queen-s-land/"/>
+   <updated>2016-03-12T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2016/03/12/queen-s-land</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;http://wiki.mindseyesociety.org/images/thumb/5/5d/London-england-at-night-banner-no-logo.jpg/850px-London-england-at-night-banner-no-logo.jpg&quot; alt=&quot;Congress&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Chegou o fim do primeiro inverno que passo na terra da Rainha, e acredito que já tive tempo para entrosar um pouco com a cidade! &lt;i&gt;(Para vocês que imaginaram que falaria da região no nordeste da Austrália ou do parque indiano, me desculpe)&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;A mudança de vida para Londres não foi fácil. Ainda mais vindo para cá sozinho, sem família e amigos. Algo que foi aliviado pelos ótimos colegas de trabalho que tenho e por minha prima que já morava por aqui.&lt;/p&gt;
+
+&lt;p&gt;Não tive tempo de ser turista, já comecei a trabalhar (bastante) no meu segundo dia aqui, já estou trocando cartas com o governo para fazer o balanço de um ano de imposto e sou um grande exemplar de introvertidos, então não posso dar uma visão total da cidade, mas posso dar minha visão sobre esse local lindo:&lt;/p&gt;
+
+&lt;h1 id=&quot;uma-cidade-para-todos&quot;&gt;Uma cidade para todos&lt;/h1&gt;
+
+&lt;p&gt;A primeira coisa que impressiona em Londres (assim como em muitas cidades da Europa) é a mistura do antigo e do novo. Na arquitetura, arte e até mesmo na cultura.&lt;/p&gt;
+
+&lt;p&gt;Mas, algo que é bem claro é que Londres é uma cidade para todos. Aqui, qualquer um pode achar sua “tribo”, independente do movimento cultural ao qual pertence.&lt;/p&gt;
+
+&lt;p&gt;Baladas, música, arte de rua, parques, museus, bibliotecas, universidades, etc. Você consegue fazer tudo que quiser e aprender coisas novas.&lt;/p&gt;
+
+&lt;h1 id=&quot;o-mundo-está-aqui&quot;&gt;O mundo está aqui&lt;/h1&gt;
+
+&lt;p&gt;Essa cidade multicultural, claramente, se constituiu graças ao idioma, a história do país, a economia e a participação na união européia. Por que, por aqui, você ouve a todos os idiomas do mundo.&lt;/p&gt;
+
+&lt;p&gt;Londres é uma cidade movida por imigrantes. Isso é constantemente um motivo de debates políticos e, as vezes, xenofobia, mas é uma verdade. A maior prova são os restaurantes. Uma coisa que amo é a facilidade de se achar qualquer tipo de comida!&lt;/p&gt;
+
+&lt;h1 id=&quot;pub-culture&quot;&gt;Pub culture&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.english-blogs.com/wp-content/uploads/2008/02/uk-fullerspub.jpg&quot; alt=&quot;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Eu adoro gastronomia e cerveja e essa é uma cidade muito boa para os dois. Especialmente para o famoso happy hour!&lt;/p&gt;
+
+&lt;p&gt;O país tem a cultura do pub. Um londrino toma muita cerveja! Isso é um fato. Assim, você encontra um pub em cada esquina, com ale on tap e lagger a vontade. É fácil ver o pub movimentado no café da manhã, almoço e fim de tarde. Com rodas de amigos tomando vinho, cerveja, cider, suco de tomate, ou alguma outra bebida.&lt;/p&gt;
+
+&lt;h1 id=&quot;coffee-shops&quot;&gt;Coffee shops&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://cdn.images.express.co.uk/img/dynamic/1/590x/Phone-box-coffee-595709.jpg&quot; alt=&quot;Coffee shops&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Não é só de cerveja que se move Londres, temos, também o café e, claro, chá! É ridículo a quantidade de chá que um britânico toma. A chaleira está sempre fervendo água, o dia todo, especialmente em escritórios.&lt;/p&gt;
+
+&lt;p&gt;Por isso, assim como pub, é muito fácil encontrar um coffee shop. Grandes marcas, como Costa e Nero dividem espaço com espaços menores e mais artesanais. E, não, não há tanto Starbucks quanto NY, ou até mesmo São Paulo. A marca chega a ser odiada por alguns.&lt;/p&gt;
+
+&lt;h1 id=&quot;weather&quot;&gt;Weather&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://kniftonholdingcourt.files.wordpress.com/2014/05/wpid-img_5055690190826.jpeg?w=620&quot; alt=&quot;Clima&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma coisa que é um tema recorrente aqui (e levado bem a sério) é o clima! Algo que pode ser resumido em: awful!&lt;/p&gt;
+
+&lt;p&gt;Muitos tomam vitamina D e usam lâmpadas S.A.D. para sobreviver às chuvas constantes, tempo cinza e o inverno anoitecendo às 4 da tarde.&lt;/p&gt;
+
+&lt;h1 id=&quot;house&quot;&gt;House&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.inciteinteriors.co.uk/images/ww/Golive-Images/Slipper%20Satin%20Painted%20and%20Walnut%20kitchen.jpg&quot; alt=&quot;Kitchen&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora, tem coisas que só se percebe quando está aqui há algum tempo, ou se pretende ficar aqui por algum tempo. O primeiro deles, e mais significativo, é o preço de moradia de Londres. Que é absurdamente caro. De verdade!&lt;/p&gt;
+
+&lt;p&gt;Além disso, tem algumas características da residência britância que é bem diferente da brasileira. Coisas como:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tomada
+&lt;img src=&quot;http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg&quot; alt=&quot;Tomada&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Aquecimento
+&lt;img src=&quot;http://www.woodpelletstove.co.uk/images/artel_01_2008/house_diagram.gif&quot; alt=&quot;Aquecimento&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Máquina de lavar roupa na cozinha
+&lt;img src=&quot;http://www.kwkitchens.co.uk/media/10123/washing-machine-ceramic-sink-and-swivel-tap.jpg&quot; alt=&quot;Máquina de lavar&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Varal dentro de casa
+&lt;img src=&quot;http://spartanandhannah.files.wordpress.com/2012/09/built-in-clothes-line-from-third-floor-stairs-web.jpg&quot; alt=&quot;Varal&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;self-checkout&quot;&gt;Self checkout&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://regmedia.co.uk/2013/10/04/checkout.jpg?x=1200&amp;amp;y=794&quot; alt=&quot;Self checkout&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Outra coisa que é bem diferente é mercado. Diferente de São Paulo, as compras, geralmente, são feitas em pound stores e mercados de bairro. Não nos gigantes supermercados. Locais como Sainsburg’s e Tesco.&lt;/p&gt;
+
+&lt;p&gt;Agora, uma coisa fenomenal é o self checkout. Todos os supermercados menores possuem terminais onde o indivíduo pode escanear os itens e pagar sem precisar de um atendente.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Self checkout + Contactless = &lt;abbr title=&quot;amor&quot;&gt;❤️&lt;/abbr&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;contactless&quot;&gt;Contactless&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Universal_Contactless_Card_Symbol.svg/1280px-Universal_Contactless_Card_Symbol.svg.png&quot; alt=&quot;Contactless&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Junto com o self checkout, algo que ajuda muito é o contactless payment. Esse é um sistema que aplica RFC no seu cartão de débito e te permite fazer pagamentos sem precisar digitar a senha.&lt;/p&gt;
+
+&lt;p&gt;Assim, você pode, rapidamente, pagar por compras pequenas, metrô (underground) e ônibus. Podendo usar, inclusive, aparelhos com contactless payment (iPhone, Apple Watch, etc). Nunca mais passa pela situação de não ter crédito no bilhete único.&lt;/p&gt;
+
+&lt;h1 id=&quot;public-system&quot;&gt;Public system&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/0/02/London_Underground_Interior_Jubilee_line.jpg&quot; alt=&quot;Underground&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Uma coisa que funciona lindamente é o sistema público britânico. Pelo menos, os serviços que precisei!&lt;/p&gt;
+
+&lt;p&gt;Transporte público completo e pontual (só não barato); O sistema de saúde é pontual e eficiente (mas um pouco confuso); Polícia e sistema de vigilância eficiente e simpático.&lt;/p&gt;
+
+&lt;h1 id=&quot;custo-de-vida&quot;&gt;Custo de vida&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i.telegraph.co.uk/multimedia/archive/02854/ed_2854911b.jpg&quot; alt=&quot;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A cidade não é perfeita por vários motivos. Mas, um dos mais fortes é o custo de vida!&lt;/p&gt;
+
+&lt;p&gt;Como já mencionei antes, o custo para alugar/comprar uma residência é absurdo. Muitas pessoas dividem apartamentos, alugando um quarto. E, no centro, um aluguel pode chegar a £1000 por semana (Não cometi um erro não, é por semana mesmo).&lt;/p&gt;
+
+&lt;p&gt;Ganhar em libra ajuda muito, principalmente nas viagens pela Europa. Já que a moeda é bem valorizada mundo a fora. Mas, quando você chega na cidade e passa um mês pagando contas em real, dói muito o bolso.&lt;/p&gt;
+
+&lt;h1 id=&quot;bedtime&quot;&gt;Bedtime&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.tradingwinner.com/wp-content/uploads/2011/04/sorry-we-are-closed.jpg&quot; alt=&quot;&quot; class=&quot;center-image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Outra coisa que incomoda muito um paulista é como a cidade fecha cedo. Ainda não consegui ajustar meu cronograma de vida para a cidade ainda.&lt;/p&gt;
+
+&lt;p&gt;Eu sempre entrei no trabalho tarde e trabalhava até tarde porque, em São Paulo, eu poderia, após as 9, dar uma passada no shopping para comprar algumas coisas, passar em um restaurante e supermercado antes de ir para casa.&lt;/p&gt;
+
+&lt;p&gt;Sabe aquela coisa de paulista de fazer esquenta até às 12 e depois ir para a balada? Por aqui, 8 da noite e as coisas já estão fechando. O horário oficial de fechamento dos pubs é 11 horas!!!&lt;/p&gt;
+
+&lt;p&gt;Eu fui em um show do Nightwish aqui e não consegui achar nada aberto para poder jantar depois… Traumático.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Gostaria de mencionar que eu sei que tem muitos clubs que ficam abertos até as 4 da matina&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;almoço&quot;&gt;Almoço&lt;/h1&gt;
+
+&lt;p&gt;Algo que achei que fazia parte da cultura da empresa que trabalho, mas depois descobri que não é como funciona o horário de almoço.&lt;/p&gt;
+
+&lt;p&gt;Normalmente, as pessoas compram o que vão comer (sanduíches ou pratos completos) e comem em frente ao computador, em suas mesas de trabalho.&lt;/p&gt;
+
+&lt;p&gt;Para quem passava 2 horas de almoço em uma mesa, com os amigos, tomando uma breja de boa, é algo, no mínimo, estranho.&lt;/p&gt;
+
+&lt;h1 id=&quot;winter-blue&quot;&gt;Winter blue&lt;/h1&gt;
+
+&lt;p&gt;Gostaria de resaltar que &lt;a href=&quot;http://www.dailyedge.ie/penguins-antidepressants-weather-1306136-Feb2014/&quot;&gt;o clima é realmente ruim&lt;/a&gt; em Londres. Tão ruim que as pessoas que vem de paises tropicais são recomendados a tomar injeções de vitamina D de tempos em tempos.&lt;/p&gt;
+
+&lt;p&gt;Algo que atinge muitas pessoas (eu incluso) é o chamado &lt;a href=&quot;https://en.wikipedia.org/wiki/Seasonal_affective_disorder&quot;&gt;winter blue&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;A falta de sol afeta o psicológico das pessoas, que começam a ter muito mais sonolência e sintomas semelhantes à depresão. Podendo, inclusive, levar à depressão.&lt;/p&gt;
+
+&lt;p&gt;É algo pelo qual passei e, honestamente, é algo bem ruim! Inclusive, esse post deveria ter saído no dia 2 de fevereiro. Mas, eu estive tão mal no mês passado que não consegui escrever nem 1 linha se quer.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h1&gt;
+
+&lt;p&gt;Acho que isso cobre alguns pontos que gostaria de cobrir sobre meu período em Londres &lt;em&gt;so far&lt;/em&gt;. Qualquer coisa, só mandar um tweet para &lt;a href=&quot;https://twitter.com/icastanheda&quot;&gt;@icastaneda&lt;/a&gt; que eu posso responder dúvidas.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>🎄 2015</title>
+   <link href="http://igorcferreira.com/life/2016/01/02/ano-2015/"/>
+   <updated>2016-01-02T00:00:00+00:00</updated>
+   <id>http://igorcferreira.com/life/2016/01/02/ano-2015</id>
+   <content type="html">&lt;p&gt;Por anos, minhas metas de ano novo se resumem a:&lt;/p&gt;
+
+&lt;p&gt;`
+Metas para o ano n:
+Preparar metas para o ano n+1
+`&lt;/p&gt;
+
+&lt;p&gt;Nunca fiz planejamento/pensamento maiores que um mês. Sendo honesto, nunca planejei nada em minha vida.&lt;/p&gt;
+
+&lt;p&gt;Acredito que os principais fatores para isso (dentre muitos) são: minha falta de ambição, desapego de muitas coisas e a segurança que tenho em família e amigos.&lt;/p&gt;
+
+&lt;p&gt;Sempre tive a liberdade de arriscar e fazer o que achava que queria fazer (algo que não aproveitei como deveria), sabendo que caso algo desse errado, teria ombros amigos para recorrer. Isso me permitiu tentar diversas coisas, como música, teatro, eletrônica, game development, etc. Além de diversas viagens e troca de empregos. ^^&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Isso, entretanto, não excluíu minha “timidez” e o perfil categorizado por muitos como introvertido, me acompanha.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-mudou-em-2015&quot;&gt;##O que mudou em 2015&lt;/h2&gt;
+
+&lt;p&gt;Como diria a propaganda, o que mudou foi tudo. 2015 foi um ano onde minha vida deu um giro grande.&lt;/p&gt;
+
+&lt;p&gt;O principal deles aconteceu como tudo mais na minha vida, com o suporte de família e amigos: Me mudei para Londres, onde consegui um trabalho na &lt;a href=&quot;http://futureworkshops.com/&quot;&gt;Future Workshops&lt;/a&gt;. Admito que a decisão de tomar esse passo não foi fácil (de fato, tenho postergado esse passo por muito tempo).&lt;/p&gt;
+
+&lt;p&gt;O que me fez olhar, considerar e aceitar essa mudança foi o ano de 2015. Neste ano, mais viagens, onde conversei com 3 empresas de fora do Brasil sobre a possibilidade de deixar o país. Isso, somado à situação econômica do país tupiniquim, me fez decidir.&lt;/p&gt;
+
+&lt;p&gt;Recebi críticas por essa decisão por algumas poucas pessoas e a maioria ficou feliz que tomei este passo, sempre lembrando que a saudade seria algo forte, e, realmente, é algo que pesa. DIARIAMENTE (mas isso será tema para um novo dia)!&lt;/p&gt;
+
+&lt;h2 id=&quot;e-o-natal&quot;&gt;##E o Natal?&lt;/h2&gt;
+
+&lt;p&gt;Foi um ano muito cheio, corrido. Então, como sempre, não pensei, apenas passei por ele fazendo o que me deixa confortável e feliz. Foi o período de Natal que me pegou de surpresa, principalmente por três fatores:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Cheguei no fim do ano com algum dinheiro para gastar.&lt;/li&gt;
+  &lt;li&gt;Teria que tirar 7 dias de folga até o fim do ano.&lt;/li&gt;
+  &lt;li&gt;Decidi visitar o condado onde meu avô nasceu.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Dicidi fazer uma pequena viagem por múltiplas cidades da Espanha (Manilva, Málaga, Madrid e, posteriormente adicionada, Barcelona). Como sempre, de hostel e andando bastante pela cidade.&lt;/p&gt;
+
+&lt;p&gt;Lá, por várias vezes, fui confundido com um nativo e pessoas vinham fazer perguntas sobre a cidade e dia-a-dia em Espanhol, algo que foi MUITO difícil, mais do que deveria.&lt;/p&gt;
+
+&lt;p&gt;E, no final da viagem, não tinha mamãe para ver e contar como foi (por telefone não é a mesma coisa).&lt;/p&gt;
+
+&lt;p&gt;Tentei contar aqui o que me fez repensar como estou encarando minha vida. E, não sei se fui bem sucedido, mas, não vem ao caso.&lt;/p&gt;
+
+&lt;p&gt;Por fim, pensei, repensei e cumpri as resoluções de 2015:&lt;/p&gt;
+
+&lt;h2 id=&quot;metas-para-2016&quot;&gt;##Metas para 2016&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aprender o básico de Espanhol e praticar o entendimento/fala da linguagem, para poder fazer comunicações básicas.&lt;/li&gt;
+  &lt;li&gt;Aprender/praticar andar de bicicleta para poder utilizá-la, ao menos, como forma de entretenimento.&lt;/li&gt;
+  &lt;li&gt;Correr, ao menos, uma prova de 5K, uma 10K e uma +10K&lt;/li&gt;
+  &lt;li&gt;Realizar um check-out da saúde e readequar a alimentação para sair dos 80.&lt;/li&gt;
+  &lt;li&gt;Procurar um novo apartamento.&lt;/li&gt;
+  &lt;li&gt;Realinhar um plano de investimento e poupança que consuma entre 5% e 15% do salário líquido.&lt;/li&gt;
+  &lt;li&gt;Estudar a fundo uma tecnologia, preparar e postar conteúdos relacionados à essa tecnologia.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
 
 </feed>
