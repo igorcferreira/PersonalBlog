@@ -12,7 +12,7 @@ repository:          igorcferreira/PersonalBlog
 title:               Igor Ferreira
 tagline:             'Um simples blog'
 description:         'Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas'
-url:                 http://igorcferreira.com
+url:                 https://igorcferreira.com
 baseurl:             ''
 paginate:            3
 
@@ -20,21 +20,32 @@ paginate:            3
 author:
   name:              Igor Ferreira
   url:               https://twitter.com/icastanheda
-  email:             igorcferreira@hotmail.com
+  twitter:           icastanheda
+  picture:           /public/user_avatar.png
 
 # Custom vars
 version:             1.0.0
 
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-feed
-  - jekyll-mentions
+  - jekyll-multiple-languages-plugin
+
+languages: ["pt"]
+defaultLang: pt
+exclude_from_localizations: ["javascript", "images", "public"]
+languagesInfo:
+  - key: pt
+    name: Português
+    message: Ver o site em Português
+languageNames:
+  pt: Português
 
 feed:
   path: atom.xml
-  excerpt_only: true
+  excerpt_only: false
 
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'static.json', 'README.md', 'CONTRIBUTING.md', 'LICENSE.md']
 
 github:
-  repo:           https://github.com/igorcferreira/PersonalBlog
+  repo: https://github.com/igorcferreira/PersonalBlog
