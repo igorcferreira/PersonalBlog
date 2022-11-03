@@ -4,7 +4,6 @@ information:
   description: |
     Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas
 titles:
-  about: Sobre
   post: {}
 descriptions:
   post: {}
