@@ -1,0 +1,30 @@
+information:
+  title: Igor Ferreira
+  tagline: Um simples blog
+  description: |
+    Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas
+titles:
+  about: Sobre
+  post: {}
+descriptions:
+  post: {}
+error:
+  404:
+    title: 404 - Página não encontrada
+    message: Perdão, nós perdemos essa página. Ou essa URL aponta para algo que não existe (ainda).
+    link: Volte para o ínicio e tente novamente
+date:
+  month: [Jan, Fev, Mar, Abr, Mai, Jun, Jul, Ago, Set, Out, Nov, Dez]
+sidebar:
+  currently: Atualmente
+  copyright: Todos os direitos reservados
+  github: Projeto github
+  atom: Feed Atom
+  home: Página inicial
+navigation:
+  older: Mais antigo
+  newer: Mais recente
+  other_language: Outros idiomas
+  categories: Categorias
+footer:
+  related: Posts relacionados

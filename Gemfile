@@ -9,4 +9,5 @@ group :jekyll_plugins do
 	gem 'jekyll-paginate', '~> 1.1.0'
 	gem 'jekyll-mentions', '~> 1.6.0'
 	gem 'jekyll-feed', '~> 0.17.0'
+	gem 'jekyll-multiple-languages-plugin', '~> 1.8.0'
 end

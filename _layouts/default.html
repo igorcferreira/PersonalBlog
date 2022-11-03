@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+  {% include dateformat.html date=page.date %}
   {% include head.html %}
 
   <body class="theme-base-08">
@@ -13,8 +14,8 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <a href="{{ site.baseurl }}/" title="{% t sidebar.home %}">{% t information.title %}</a>
+            <small>{% t information.tagline %}</small>
           </h3>
         </div>
       </div>
