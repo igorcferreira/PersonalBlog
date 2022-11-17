@@ -6,7 +6,7 @@ title: Body image
 
 **Aviso: Esse texto falará sobre minha visão sobre meu corpo. Se você não tem interesse sobre isso, melhor pular esse post. E, se esse foi um assunto delicado para sua sanidade mental, melhor pular também. P.s.: Esse artigo conterá referência à nudez. Para os que vão parar por aqui, fique com um GIF:**
 
-<center><iframe src="https://giphy.com/embed/RBBWIAfTzuHxS" width="480" height="249" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+![Gatos tomando um sol](http://www.lolgifs.net/wp-content/uploads/2019/01/cat-gif.gif){: .center-image }
 
 ---
 
