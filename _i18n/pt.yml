@@ -17,9 +17,8 @@ date:
 sidebar:
   currently: Atualmente
   copyright: Todos os direitos reservados
-  github: Projeto github
-  atom: Feed Atom
-  home: Página inicial
+  atom: Feed
+  home: Home
 navigation:
   older: Mais antigo
   newer: Mais recente
