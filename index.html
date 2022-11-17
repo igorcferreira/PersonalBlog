@@ -58,18 +58,10 @@ Igor Ferreira
 
   <body class="theme-base-08">
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
+    <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas
-</p>
-  </div>
 
-  <nav class="sidebar-nav">
+  <nav class="container sidebar-nav">
     <a class="sidebar-nav-item" href="/">Página inicial</a>
 
     
@@ -118,12 +110,6 @@ Igor Ferreira
     
      -->
   </nav>
-
-  <div class="sidebar-item">
-    <p>
-      © 2022. Todos os direitos reservados.
-    </p>
-  </div>
 </div>
 
 
@@ -291,25 +277,5 @@ Primeiro Terço - Dia 4
 </div>
       </div>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
   </body>
 </html>
