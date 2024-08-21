@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
+	gem 'rake', '~> 13.2.1'
 	gem 'puma', '~> 6.4.2'
 	gem 'rack-jekyll', '~> 0.5.0'
 	gem 'jekyll', '~> 4.3.0'
