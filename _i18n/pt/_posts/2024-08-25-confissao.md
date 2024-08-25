@@ -7,7 +7,9 @@ title: Escrita de outrora - Confissão
 [19/07/2010 - Confissão](https://www.recantodasletras.com.br/cartas/2387305)
 
 31 de Outubro
+
 Olá,
+
 Faz tempo que não nos vemos, muito tempo mesmo. Você pode não se lembrar de mim, não tem problema, sei que não sou uma pessoa muito marcante. Talvez seja até uma grande surpresa a chegada desse texto, o que é mais provável.
 
 Se essa página for declarada campeã vai ser, provavelmente, a vigésima carta que tento escrever, não posso dar certeza porque já perdi a conta, se minha mãe não recolheu algum papel do chão é a vigésima. Acho que desde a primeira vez que falei com você esta é a minha tarefa mais complicada, me fogem as palavras.
