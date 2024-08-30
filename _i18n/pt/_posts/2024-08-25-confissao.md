@@ -16,9 +16,9 @@ Se essa página for declarada campeã vai ser, provavelmente, a vigésima carta 
 
 Não sou mais o mesmo tímido que era antes, apesar de ainda carregar isso comigo, só não sou muito bom com palavras, sempre fui melhor ouvinte do que locutor. Até que, no papel, as coisas são mais fáceis, com certeza que se, um dia, esbarrar com você na rua só conseguirei sorrir e dizer oi, além de ficar vermelho como um tomate.
 
-Possivelmente esse seria o dia mais feliz da minha vida desde o ensino médio. Eu sei que é meio deprimente, na verdade muito deprimente, mas é que não tive muitas experiências de vida, minhas baladas foram leituras de Freud acompanhadas de um bom chocolate quente.
+Possivelmente esse seria o dia mais feliz da minha vida desde o ensino médio. Eu sei que é meio deprimente, na verdade, muito deprimente, mas é que não tive muitas experiências de vida, minhas baladas foram leituras de Freud acompanhadas de um bom chocolate quente.
 
-Escrevo tudo isso para poder me confessar, apesar da longa introdução é para isso que esta carta serve, me livrar de um fantasma. Inúmeras foram as vezes que ensaiei, pedi ajuda a algumas pessoas e criei esperanças, sem que chegasse ao ato, falta de coragem, por isso, inclusive, que faço isso através de uma carta.
+Escrevo tudo isso para poder me confessar, apesar da longa introdução é para isso que esta carta serve, me livrar de um fantasma. Inúmeras foram às vezes que ensaiei, pedi ajuda a algumas pessoas e criei esperanças, sem que chegasse ao ato, falta de coragem, por isso, inclusive, que faço isso através de uma carta.
 
 Acho engraçado que esse meu martírio de dias começou com uma foto. Revirava meus armários na tentativa de abrir espaço para ternos. É, agora tenho de usar ternos, requisito do trabalho. Em uma caixa escondida estava todas as fotos da turma da antiga escola, da quinta à oitava série, exatamente o tempo em que estudamos juntos.
 
