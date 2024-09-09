@@ -69,7 +69,7 @@ Por dois motivos principais: Há uma praia nudista em Sitges que tem ondas (algo
 e as praias, geralmente, são mais vazias.
 Acredito que esse é um privilégio de ser um homem,
 já que há muitos pervertidos que vão a este tipo de praia para "ver mulher nua"
-(mais perceptíveo/comum entre turistas aqui em Barcelona) e é mais seguro para eu ir a essas praias
+(mais perceptível/comum entre turistas aqui em Barcelona) e é mais seguro para eu ir a essas praias
 (mas isso é uma tangente para outro dia).
 E essas idas às praias nudistas, novamente, levantaram esse questionamento antigo de que eu não me importo
 como meu corpo parece para as outras pessoas, eu não me importo em como eu vejo o corpo das outras pessoas, mas,
