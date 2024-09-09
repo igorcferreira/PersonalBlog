@@ -50,7 +50,7 @@ E por serem raridades, eu fui me "negando" a tirar fotos,
 ao ponto de que eu ficava bravo quando alguém tirava foto minha, ou pedia para tirar foto minha.
 Tal qual a introversão e fobia social, escondo durante eventos, mas sempre desconfortável e nunca querendo ver o resultado.
 
-![Eu, de pé](../../../public/IMG_0002.jpg){: .center-image }
+![Eu, de pé](https://igorcferreira.com/public/IMG_0002.jpg){: .center-image }
 <figcaption class="imageCaption">Essa é a pessoa com a qual não consigo aceitar que sou eu</figcaption>
 
 Um fato sobre mim: Se estou em casa, sozinho, estou sempre pelado,
@@ -82,7 +82,7 @@ Tanto vestido, quando pelado.
 Para tentar fazer com que eu me acostume com a visão ou, pelo menos,
 consiga entender o que cria essa desconexão entre o que penso de mim e o que vejo/sou.
 
-![Image minha, sem roupa, sentado em um banco](../../../public/IMG_0001.jpg){: .center-image }
+![Image minha, sem roupa, sentado em um banco](https://igorcferreira.com/public/IMG_0001.jpg){: .center-image }
 <figcaption class="imageCaption">Esse é o corpo que não ligo em mostrar, mas não consigo ver</figcaption>
 
 Parte dessa terapia de choque foi criar uma conta secundária no Reddit e procurar conteúdos/subreddits de nudez não
