@@ -3,7 +3,7 @@ task "assets:precompile" do
 end
 
 task :launch do
-  exec("bundle exec jekyll build && bundle exec puma -t 8:32 -w 3 -p ${PORT:-4000}")
+  exec("bundle exec jekyll serve")
 end
 
 task :default => "assets:precompile"
