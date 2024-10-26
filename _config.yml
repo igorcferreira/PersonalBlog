@@ -11,7 +11,7 @@ permalink:           pretty
 repository:          igorcferreira/PersonalBlog
 title:               Igor Ferreira
 tagline:             'Um simples blog'
-description:         'Um blog escrito por <a href="https://twitter.com/icastanheda">mim</a> sobre coisas'
+description:         'Um blog escrito por <a href="https://mastodon.social/@igorcferreira">mim</a> sobre coisas'
 url:                 https://igorcferreira.com
 baseurl:             ''
 paginate:            3
@@ -19,8 +19,7 @@ paginate:            3
 # About/contact
 author:
   name:              Igor Ferreira
-  url:               https://twitter.com/icastanheda
-  twitter:           icastanheda
+  url:               https://mastodon.social/@igorcferreira
   picture:           /public/user_avatar.png
 
 # Custom vars

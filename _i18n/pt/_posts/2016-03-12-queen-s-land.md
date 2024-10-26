@@ -147,4 +147,4 @@ A falta de sol afeta o psicológico das pessoas, que começam a ter muito mais s
 
 # Conclusão
 
-Acho que isso cobre alguns pontos que gostaria de cobrir sobre meu período em Londres *so far*. Qualquer coisa, só mandar um tweet para [@icastaneda](https://twitter.com/icastanheda) que eu posso responder dúvidas.
+Acho que isso cobre alguns pontos que gostaria de cobrir sobre meu período em Londres *so far*. Qualquer coisa, só mandar um tweet para [@igorcferreira@mastodon.social](https://mastodon.social/@igorcferreira) que eu posso responder dúvidas.
