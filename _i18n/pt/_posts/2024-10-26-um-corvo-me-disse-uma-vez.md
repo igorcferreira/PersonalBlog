@@ -4,7 +4,7 @@ category: Pensamento
 title: Escrita de outrora - Um corvo me disse uma vez
 ---
 
-[15/09/2011 - Um corvo me disse uma vez:](https://www.recantodasletras.com.br/escrivaninha/publicacoes/index.php)
+[15/09/2011 - Um corvo me disse uma vez:](https://www.recantodasletras.com.br/mensagens/3220245)
 
 Estude, leis, questione, aprenda a ir atrás da solução de seus problemas. Tente encontrar a paz de seu espírito na plenitude da resolução. Mas, não se perca em si. Divirta-se, tenha e faça momentos memoráveis. Jogue-se em horas perdidas com “nada”.
 
