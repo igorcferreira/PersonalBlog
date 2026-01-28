@@ -44,7 +44,7 @@ feed:
   path: atom.xml
   excerpt_only: false
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'static.json', 'README.md', 'CONTRIBUTING.md', 'LICENSE.md']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'static.json', 'README.md', 'CONTRIBUTING.md', 'LICENSE.md', 'CLAUDE.md', 'AGENTS.md', 'firebase_debug.log']
 
 github:
   repo: https://github.com/igorcferreira/PersonalBlog

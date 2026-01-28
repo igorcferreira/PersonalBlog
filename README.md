@@ -1,3 +1,7 @@
+# PersonalBlog
+
+This page is a Personal Blog which uses Jekyll and the Lanyon theme.
+
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
@@ -119,6 +123,25 @@ Lanyon has two branches, but only one is used for active development.
 - `master` for development.  **All pull requests should be to submitted against `master`.**
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
+## Rendering
+
+To create the static pages, simply run:
+
+```shell
+rake
+```
+
+To preview the page content, run:
+
+```shell
+rake launch
+```
+
+After `launch`, the website will be avaiable on [http://127.0.0.1:4000/](http://127.0.0.1:4000/)
+
+## Deploy
+
+This page content is deployed using GitHub actions.
 
 ## Author
 
