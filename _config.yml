@@ -31,15 +31,19 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-sitemap
 
-languages: ["pt"]
+languages: ["pt", "en"]
 defaultLang: pt
 exclude_from_localizations: ["javascript", "images", "public"]
 languagesInfo:
   - key: pt
     name: Português
     message: Ver o site em Português
+  - key: en
+    name: English
+    message: See the site in English
 languageNames:
   pt: Português
+  en: English
 
 feed:
   path: atom.xml
