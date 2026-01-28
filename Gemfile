@@ -9,4 +9,5 @@ group :jekyll_plugins do
 	gem 'jekyll-mentions', '~> 1.6.0'
 	gem 'jekyll-feed', '~> 0.17.0'
 	gem 'jekyll-multiple-languages-plugin', '~> 1.8.0'
+	gem 'jekyll-sitemap', '~> 1.4.0'
 end

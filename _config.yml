@@ -29,6 +29,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-multiple-languages-plugin
+  - jekyll-sitemap
 
 languages: ["pt"]
 defaultLang: pt
