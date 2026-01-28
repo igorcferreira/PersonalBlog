@@ -8,7 +8,7 @@ title: Escrita de outrora - Uma noite, um corpo e uma carta
 
 Como sempre aqueles corredores estavam vazios e amedrontavam a qualquer pessoa que não estava habituado graças à falta de janela e às várias lâmpadas queimadas ou que piscavam freneticamente.
 
-Rubens adorava trabalhar a noite por poder ficar a sós com seus pensamentos e nada mais, mas odiava seus deveres. Ter de despir, limpar, catalogar e armazenar defuntos nas geladeiras do necrotério era repetitivo e entediante. A única forma de se manter ali era ficar imaginando como cada um daqueles corpos chegou até suas mãos e arriscar quantos ia chorar em seus cachões.
+Rubens adorava trabalhar a noite por poder ficar a sós com seus pensamentos e nada mais, mas odiava seus deveres. Ter de despir, limpar, catalogar e armazenar defuntos nas geladeiras do necrotério era repetitivo e entediante. A única forma de se manter ali era ficar imaginando como cada um daqueles corpos chegou até suas mãos e arriscar quantos ia chorar em seus caixões.
 
 No começo ele mantinha uma lista com nomes e seus palpites para contar e ver se acertará (teve um mês em que até montou um gráfico), mas não tinha mais tempo para isso. Agora só imaginava os números e puxava uma leve conversa com os cadáveres.
 
@@ -28,11 +28,11 @@ O papel estava meio queimado, assim como parte da mão do falecido identificado 
 >
 > Uma boa filosofia de vida. Faz-te ter um espírito livre, despreocupado e reconfortado pela incoerência e impunidade da vida. Cria uma demoníaca ilusão de que tudo pode ser feito, já que há um perdão a tudo.
 >
-> Hoje em dia eu passei do momento de festa e aproveito os magníficos sentimentos do ‘dia seguinte’. A ressaca que martela sua cabeça com o ressentimento daquilo que não deveria ser feito, mesmo que tenha trago bons momentos.
+> Hoje em dia eu passei do momento de festa e aproveito os magníficos sentimentos do ‘dia seguinte’. A ressaca que martela sua cabeça com o ressentimento daquilo que não deveria ser feito, mesmo que tenha trazido bons momentos.
 >
 > Sou circundado por questões de debatem e refletem em meu interior: O que fiz de errado? Em que momento da minha vida fiz a escolha que me trouxe até aqui? Se eu pudesse voltar e reparar um erro, qual seria ele? Qual dos tantos?
 >
-> Muitas das pessoas que me rodeiam tentam me tranqüilizar dizendo que os tropeços ao longo do caminho abrem uma chance para que eu me erga. Erguer para que? Para onde? Já que tropecei, para o mesmo lugar que estava antes? Retroceder para poder voltar ao mesmo lugar? Nunca ir à frente?
+> Muitas das pessoas que me rodeiam tentam me tranquilizar dizendo que os tropeços ao longo do caminho abrem uma chance para que eu me erga. Erguer para que? Para onde? Já que tropecei, para o mesmo lugar que estava antes? Retroceder para poder voltar ao mesmo lugar? Nunca ir à frente?
 >
 > Antes das centenas de garrafas da mais pura vodka que agora enfeitam meu ‘escritório’ em uma pilha muito bem formada ao meu lado, eu diria que este é um papo de perdedor, bêbado ou de um defunto. Mas eu digo qual a verdade nesse pensamento: ambos. Quem escreve agora é um perdedor, bêbado que não existe mais à sociedade ou a qualquer pessoa.
 >
@@ -50,7 +50,7 @@ O papel estava meio queimado, assim como parte da mão do falecido identificado 
 
 Nesse ponto em diante o papel se impossibilitava de ler. Esse era o último e inacabado relato de um defunto. Aquilo tocou Rubens de uma forma que nunca havia imaginado, um corpo havia se confessado a ele antes de partir.
 
-O enfermeiro terminou seu lanche e seu trabalho, organizou suas coisas e foi para casa. Mais tarde descobriu nos jornais que o Antônio da noite anterior essa um pé rapado que devia muito para agiotas e deixou esse mundo através dos punhos de gorilas disfarçados de gente.
+O enfermeiro terminou seu lanche e seu trabalho, organizou suas coisas e foi para casa. Mais tarde descobriu nos jornais que o Antônio da noite anterior era um pé rapado que devia muito para agiotas e deixou esse mundo através dos punhos de gorilas disfarçados de gente.
 
 Igor Castañeda Ferreira
 

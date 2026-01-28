@@ -14,7 +14,7 @@ Difícil manter a concentração em um dia ensolarado, ainda mais pra fazer uma 
 
 Detestava aquela situação, um texto em prosa com tema livre. Fazer o quê? Uma dissertação? Uma tese? Um artigo? Uma ficção? Um relato? E ainda pior, sobre o quê? Tema livre? Isso não é tema, é tortura.
 
-Durante toda a manhã, a única coisa que queria saber era qual mente maléfica mandaria fazer um texto em prosa com tema livre. Quando ia começar a escrever, a bagunça que a família fazia fez com que abandonasse a idéia de ficar no quarto.
+Durante toda a manhã, a única coisa que queria saber era qual mente maléfica mandaria fazer um texto em prosa com tema livre. Quando ia começar a escrever, a bagunça que a família fazia fez com que abandonasse a ideia de ficar no quarto.
 
 Dentro da mochila estavam os fieis cadernos, lápis e borracha, além de alguns sanduíches, balas, uma barra de chocolate e revistas em quadrinhos, apenas como fonte de inspiração.
 

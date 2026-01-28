@@ -36,7 +36,7 @@ Foi exatamente o que ouviu, mas só a fez corar como nunca, aumentar sua afliç�
 
 A causa não foi o elogio, mas a voz que o fez. Seu companheiro para aquela noite estava sentado em uma poltrona próxima ao pai, jogando videogame com o irmão caçula.
 
-O jovem levantou, abotôo o smoking, ajeitou a gravata borboleta e se aproximou para receber a moça. A maestria do movimento o deixou ainda mais elegante e belo, como se não bastassem os olhos claros, os cabelos loiros e o corpo esbelto.
+O jovem levantou, abotoou o smoking, ajeitou a gravata borboleta e se aproximou para receber a moça. A maestria do movimento o deixou ainda mais elegante e belo, como se não bastassem os olhos claros, os cabelos loiros e o corpo esbelto.
 
 Com certeza aquela seria uma noite espetacular.
 

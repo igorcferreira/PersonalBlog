@@ -18,7 +18,7 @@ Mas, pouca leitura literária de maior complexidade (amo quadrinhos, mas o volum
 
 Barcelona é uma cidade que te convida a sair do seu apartamento. Um clima lindo, arquitetura impressionante, praia convidativa, e comida MARAVILHOSA. Ainda assim, desprendia algumas tardes revendo PR que vazou do dia de trabalho, séries atrás de séries, vídeos do youtube atrás de vídeos do youtube…
 
-Se entrenter com essas formas de arte não é um problema. Mas, acredito ser válido carregar seu e-reader com publicações e sentar à beira do calçadão para ler; Andar até o cinema para ver uma sessão de um filme local; Tomar uma cerveja enquanto ouve à música ao vivo.
+Se entreter com essas formas de arte não é um problema. Mas, acredito ser válido carregar seu e-reader com publicações e sentar à beira do calçadão para ler; Andar até o cinema para ver uma sessão de um filme local; Tomar uma cerveja enquanto ouve à música ao vivo.
 
 Saber usar a internet como uma ferramenta de acesso à informação, não como uma ferramenta de socialização! :)
 

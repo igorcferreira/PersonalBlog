@@ -32,7 +32,7 @@ Londres é uma cidade movida por imigrantes. Isso é constantemente um motivo de
 
 Eu adoro gastronomia e cerveja e essa é uma cidade muito boa para os dois. Especialmente para o famoso happy hour!
 
-O país tem a cultura do pub. Um londrino toma muita cerveja! Isso é um fato. Assim, você encontra um pub em cada esquina, com ale on tap e lagger a vontade. É fácil ver o pub movimentado no café da manhã, almoço e fim de tarde. Com rodas de amigos tomando vinho, cerveja, cider, suco de tomate, ou alguma outra bebida.
+O país tem a cultura do pub. Um londrino toma muita cerveja! Isso é um fato. Assim, você encontra um pub em cada esquina, com ale on tap e lager a vontade. É fácil ver o pub movimentado no café da manhã, almoço e fim de tarde. Com rodas de amigos tomando vinho, cerveja, cider, suco de tomate, ou alguma outra bebida.
 
 # Coffee shops
 
@@ -56,7 +56,7 @@ Muitos tomam vitamina D e usam lâmpadas S.A.D. para sobreviver às chuvas const
 
 Agora, tem coisas que só se percebe quando está aqui há algum tempo, ou se pretende ficar aqui por algum tempo. O primeiro deles, e mais significativo, é o preço de moradia de Londres. Que é absurdamente caro. De verdade!
 
-Além disso, tem algumas características da residência britância que é bem diferente da brasileira. Coisas como:
+Além disso, tem algumas características da residência britânica que é bem diferente da brasileira. Coisas como:
 
 > Tomada
 ![Tomada](http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg){: .center-image }
@@ -137,13 +137,13 @@ Para quem passava 2 horas de almoço em uma mesa, com os amigos, tomando uma bre
 
 # Winter blue
 
-Gostaria de resaltar que [o clima é realmente ruim](http://www.dailyedge.ie/penguins-antidepressants-weather-1306136-Feb2014/) em Londres. Tão ruim que as pessoas que vem de paises tropicais são recomendados a tomar injeções de vitamina D de tempos em tempos.
+Gostaria de ressaltar que [o clima é realmente ruim](http://www.dailyedge.ie/penguins-antidepressants-weather-1306136-Feb2014/) em Londres. Tão ruim que as pessoas que vem de paises tropicais são recomendados a tomar injeções de vitamina D de tempos em tempos.
 
 Algo que atinge muitas pessoas (eu incluso) é o chamado [winter blue](https://en.wikipedia.org/wiki/Seasonal_affective_disorder).
 
-A falta de sol afeta o psicológico das pessoas, que começam a ter muito mais sonolência e sintomas semelhantes à depresão. Podendo, inclusive, levar à depressão.
+A falta de sol afeta o psicológico das pessoas, que começam a ter muito mais sonolência e sintomas semelhantes à depressão. Podendo, inclusive, levar à depressão.
 
-É algo pelo qual passei e, honestamente, é algo bem ruim! Inclusive, esse post deveria ter saído no dia 2 de fevereiro. Mas, eu estive tão mal no mês passado que não consegui escrever nem 1 linha se quer.
+É algo pelo qual passei e, honestamente, é algo bem ruim! Inclusive, esse post deveria ter saído no dia 2 de fevereiro. Mas, eu estive tão mal no mês passado que não consegui escrever nem 1 linha sequer.
 
 # Conclusão
 

@@ -36,13 +36,13 @@ Um homem alto e forte cobria parte do instrumento com seus longos, lisos e negro
 
 Seu olhar convidava a aproximar-se, algo que foi respeitado. Quando mais perto, tudo que estava em volta ia sumindo e a existência se limitava àquele ser e os sons que nasciam em suas mãos.
 
-Toda a mágica do acontecimento foi completada quando o concerto se encerrava. Se despedindo de um público que levantava para recitar o heróico final, o músico levantava de seu assento enquanto abria gloriosas e belas assas brancas que enchiam o palco com paz, calma e felicidade.
+Toda a mágica do acontecimento foi completada quando o concerto se encerrava. Se despedindo de um público que levantava para recitar o heróico final, o músico levantava de seu assento enquanto abria gloriosas e belas asas brancas que enchiam o palco com paz, calma e felicidade.
 
 As palmas dos fantasmas que preenchiam a platéia fizeram o regente despedir-se de sua ouvinte com um olhar de gratidão e sumir cobrindo seu corpo através da estrutura revestida de penas que saltava de suas costas.
 
 O barulho do grande livro chocando-se contra o chão fez com que a moça acordasse do mais belo sonho e se visse presa no interior de um prédio velho, consumido pelas chamas e abandonado pelo tempo.
 
-As poltronas desaparecidas eram marcadas por corpos apodrecidos e carbonizados. As paredes estavam negras pelas fumaças e tombavam pela falta de força. O palco só existia graças as suas fortes raízes de metal e o lustre principal jazia em seu interior.
+As poltronas desaparecidas eram marcadas por corpos apodrecidos e carbonizados. As paredes estavam negras pelas fumaças e tombavam pela falta de força. O palco só existia graças às suas fortes raízes de metal e o lustre principal jazia em seu interior.
 
 Com medo e confusa, correu, desejando vida, desejando presença, desejando sentir que ainda poderia caminhar como mortal. Ao atravessar um pequeno vão que a livrava daquele cemitério, viu o sol dando-lhe boas-vindas ao mundo que conhecia. Pode enfim pegar o ônibus para casa e sobreviver entre seus queridos.
 
