@@ -22,13 +22,13 @@
     {% t navigation.categories %}
     </a>
     {% endif %}
-    <!-- {% t navigation.other_language %}:
+    {% t navigation.other_language %}:
     {% for info in site.languagesInfo %}
     {% if info.key != site.lang %}
     <a class="sidebar-nav-item" href="{{ site.baseurl_root }}{% if info.key != site.defaultLang %}/{{ info.key }}{% endif %}{{ page.url }}">
       {{ info.message }}
-    <a>
+    </a>
     {% endif %}
-    {% endfor %} -->
+    {% endfor %}
   </nav>
 </div>
