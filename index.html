@@ -4,6 +4,18 @@ title: Igor Ferreira
 i18ntitle: information.title
 ---
 
+<script>
+  if (window.location.pathname === "/") {
+    const userLang = navigator.language || navigator.userLanguage;
+    const locale = new Intl.Locale(userLang);
+    if (locale.language === "en") {
+      window.location.replace("/en");
+    } else {
+      window.location.replace("/pt");
+    }
+  }
+</script>
+
 <div class="posts">
   {% for post in paginator.posts %}
   {% include postcontent.html post=post %}
