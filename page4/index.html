@@ -133,7 +133,19 @@ Igor Ferreira
 </div>
 
     <div class="wrap container content">
-      <div class="posts">
+      <script>
+  if (window.location.pathname === "/") {
+    const userLang = navigator.language || navigator.userLanguage;
+    const locale = new Intl.Locale(userLang);
+    if (locale.language === "en") {
+      window.location.replace("/en");
+    } else {
+      window.location.replace("/pt");
+    }
+  }
+</script>
+
+<div class="posts">
   
   <div class="post">
     
@@ -311,6 +323,7 @@ Quando voltou a prestar atenção ao que ocorria a sua frente viu um jovem vesti
     
   
 </div>
+
     </div>
   </body>
 </html>
