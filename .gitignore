@@ -1,49 +1,14 @@
-# Ignore docs files
-_gh_pages
-_site
-.jekyll-cache
-.ruby-gemset
-
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
-*.log
-*.rej
-*.swo
-*.swp
-*.zip
-*.vi
-*~
-Gemfile.lock
-
-# OS or Editor folders
 .DS_Store
-._*
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
-.idea
-
-# Komodo
-*.komodoproject
-.komodotools
-
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
-node_modules
-bower_components
-_site
-.sass-cache
+Build
+.build
+Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+.env
+keys/
+firebase-debug.log
 CLAUDE.md
 AGENTS.md
-firebase-debug.log

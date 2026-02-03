@@ -1,14 +1,21 @@
-# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Deploy Static files
 
 on:
   push:
     branches: [ main ]
 
+env:
+  Hostname: "https://igorcferreira.com"
+  AuthorName: "Igor Ferreira"
+  SiteName: "Blog Pessoal"
+  MastodonPage: "https://mastodon.social/@igorcferreira"
+  MastodonHandle: "@igorcferreira@mastodon.social"
+  GithubPage: "https://github.com/igorcferreira"
+
 jobs:
   publish:
-    runs-on: ubuntu-latest
     environment: main
+    runs-on: macos-latest
     steps:
       - name: Checkout plugin
         uses: actions/checkout@v2
@@ -16,9 +23,12 @@ jobs:
         name: Install dependencies
         with:
           bundler-cache: true
-      - name: Build Static files
+      - name: Install configuration
         run: |
-          rake
+          bundle exec arkana
+      - name: Create static files
+        run: |
+          swift run -c release
       - name: Checkout Static branch
         uses: actions/checkout@v2
         with:
@@ -26,13 +36,16 @@ jobs:
           clean: false
       - name: Clean folder
         run: |
-          find . -not -name '_site' -not -name '.git' -not -name '.gitignore' -not -name '.' -not -name '..' -maxdepth 1 -exec rm -r "{}" \;
+          find . -not -name 'robots.txt' -not -name 'CNAME' -not -name 'Build' -not -name '.git' -not -name '.gitignore' -not -name '.' -not -name '..' -maxdepth 1 -exec rm -r "{}" \;
+      - name: Remove built robots
+        run: |
+          rm Build/robots.txt
       - name: Move files
         run: |
-          cp -r _site/. .
+          cp -r Build/. .
       - name: Remove _site folder
         run: |
-          rm -r _site
+          rm -r Build/
       - name: Configure username
         env:
           USER_EMAIL: ${{ secrets.USER_EMAIL }} 
@@ -40,6 +53,9 @@ jobs:
         run: |
           git config user.email "$USER_EMAIL"
           git config user.name "$USER_NAME"
+      - name: Timestamp the deploy
+        run: |
+          echo "$(git log -1 --format='%H')" > .version
       - name: Commit changes
         run: |
           git add . && git commit -m "Publish new version"
