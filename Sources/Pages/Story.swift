@@ -13,7 +13,16 @@ struct Story: ArticlePage {
     }
     
     var body: some HTML {
-        Text("Hello world!")
+        Card {
+            Text {
+                Link(article)
+            }
             .font(.title1)
+            
+            Text(article.text)
+                .font(.body)
+        }
+        .style(.marginTop, "8pt")
+        .style(.marginBottom, "8pt")
     }
 }
