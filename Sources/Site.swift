@@ -2,6 +2,8 @@ import Foundation
 import Ignite
 import ArkanaKeys
 
+let kPageSize = 3
+
 @main
 struct IgniteWebsite {
     static func main() async {
@@ -30,7 +32,7 @@ struct ExampleSite: Site {
     }
     
     var pageCount: Int {
-        let reference = Double(articles.in(locale: .default).count) / 5.0
+        let reference = Double(articles.in(locale: .default).count) / Double(kPageSize)
         let limit = Int(ceil(reference))
         return limit
     }
