@@ -9,5 +9,7 @@
 "Categories" = "Categorias";
 "More" = "Mais";
 "Feed" = "Feed";
+"Older" = "Mais Antigo";
+"Newer" = "Mais Recente";
 "tagline" = "Um simples blog"
 "description" = "Um blog escrito por <a href=\"https://mastodon.social/@igorcferreira\">me</a>"

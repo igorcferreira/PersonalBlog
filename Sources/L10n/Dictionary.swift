@@ -68,16 +68,16 @@ struct Dictionary {
 
 extension Locale {
     static var `default`: Locale {
-        Locale(identifier: "en")
+        Locale(identifier: "pt")
     }
     static var alternative: Locale {
-        Locale(identifier: "pt")
+        Locale(identifier: "en")
     }
     var linkLabel: String {
         if self == .default {
-            "Ver em Português"
-        } else {
             "See in English"
+        } else {
+            "Ver em Português"
         }
     }
     var linkTarget: Locale {
@@ -93,7 +93,7 @@ extension Locale {
 extension Article {
     var locale: Locale {
         guard let locale = metadata["language"] as? String else {
-            return Locale(identifier: "en")
+            return Locale.default
         }
         return Locale(identifier: locale)
     }    

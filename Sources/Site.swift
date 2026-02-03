@@ -16,6 +16,7 @@ struct IgniteWebsite {
 }
 
 struct ExampleSite: Site {
+    @Environment(\.articles) var articles
     var name: String = ArkanaKeys.Global().siteName
     var url = URL(string: ArkanaKeys.Global().hostname)!
     var builtInIconsEnabled = true
@@ -28,8 +29,20 @@ struct ExampleSite: Site {
         Story()
     }
     
+    var pageCount: Int {
+        let reference = Double(articles.in(locale: .default).count) / 5.0
+        let limit = Int(ceil(reference))
+        return limit
+    }
+    
     var staticPages: [any StaticPage] {
-        Home(locale: Locale(identifier: "en"))
-        Home(locale: Locale(identifier: "pt"))
+        let pages: [any StaticPage] = [Locale.default, .alternative].flatMap({ locale in
+            (1...pageCount).flatMap({ page in
+                [
+                    Home(locale: locale, page: page) as any StaticPage,
+                ]
+            })
+        })
+        return pages
     }
 }
