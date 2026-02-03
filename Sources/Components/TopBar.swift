@@ -22,6 +22,8 @@ struct TopBar: HTML {
             Link(page.locale.linkLabel.localised(locale: page.locale, decoder: decode), target: page.path(in: page.locale.linkTarget))
         }
         .navigationItemAlignment(.leading)
+        .navigationBarStyle(.dark)
+        .background(.bootstrapPurple)
     }
 }
 
