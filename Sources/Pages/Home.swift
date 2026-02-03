@@ -42,8 +42,16 @@ struct Home: LocalisedStaticPage {
     var body: some HTML {
         ForEach(pageContent) { article in
             Card {
-                Text { Link(article) }
+                Text {
+                    Link(article)
+                }
+                .font(.title1)
+                
+                Text(article.text)
+                    .font(.body)
             }
+            .style(.marginTop, "8pt")
+            .style(.marginBottom, "8pt")
         }
 
         Footer(isLastPage: isLastPage, isFirstPage: isFirstPage, locale: locale, page: page)
