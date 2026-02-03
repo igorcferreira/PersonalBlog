@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Home</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/home/page2" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Home" />
+    <meta name="twitter:title" content="Home" />
+    <meta property="og:url" content="https://igorcferreira.com/en/home/page2" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/home/page2" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2024-10-24-homesick">Writing from the past - Homesick</a></h1>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contoscotidianos/3162190">15/08/2011 - Homesick</a></p>
+          <p>It’s very cold here. Much more than I imagined. I went out to get firewood early today and could barely cross the street without my nose freezing. It’s abnormal.</p>
+          <p>The children went on vacation yesterday. The streets are happy now. A bit of color runs through the white and gray. It seems like I haven’t seen the sun in months. It’s very nice to be able to watch so much joy through my window, with a cup of hot chocolate in my hands.</p>
+          <p>Although it only snows at the end of the day, it’s very windy. Many were the times I needed to leave the house with several coats, scarf, hat, and gloves. All this to protect myself from this cutting winter air. My colleagues have been mocking me for a long time. It’s strange to wear so many clothes like this.</p>
+          <p>Last year I was there, at the beach. Another world, which I now worship and desire. I really miss that hellish heat. My neighbors say it’s not that cold and that in July it’s very hot. It’s sad, it seems I’ll have to wear a sweater even in summer.</p>
+          <p>Now a bunch of gnomes are throwing snowballs at my window. I feel like joining them and fulfilling that childhood dream, but I’m too lazy to go outside. It’s a very dubious moment I’m living.</p>
+          <p>I’ve reached a moment where anything makes me remember home. A tree that looks like the one in front of the house. The song that always played on the radio there. The smell of feijoada… It’s incredible how the mind starts playing tricks when we’re homesick.</p>
+          <p>A few nights ago I dreamed I was landing in the city, hugging you, my parents, and my siblings. It was so real. I was very sad when I realized I was still in this empty bed. I miss you so much. It’s normal for me to catch myself thinking about our walks in the park.</p>
+          <p>I think you would love to be here. There are many trees. Everything is calm. The house is nice and the people are friendly. It’s a great place to be and live, when you have someone to share meals with.</p>
+          <p>I still have that necklace you gave me. I didn’t have the courage to take it off. It’s been with me all this time and brought me a lot of luck. I hope you’re rooting for me, praying for me, remembering me… That’s what makes me want to go to work in the morning, instead of heading to the airport.</p>
+          <p>Tomorrow I’m going to the neighboring town to visit a potential client. My boss arranged a car for us and said I’ll be driving it. Imagine the thrill of crossing unknown roads. It’s a prank for the “newly exported” (as they call it around here): take the boss, without a map and without a cell phone.</p>
+          <p>It sounds like a cheesy horror movie. Only without the girl to save and without the hero wanting to show off. Just a car headed through the snow without direction and without communication. The complete package of solitude. It’s really a good prank.</p>
+          <p>Behind this letter is a photo with a dog I found in the neighborhood. My newest companion during my stay. He’s beautiful. Maybe I’ll take him with me. See if the little one can handle the heat with so much fur. Yeah… I think that’s all for today.</p>
+          <p>Hugs,<br />Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2024-09-13-uma-noite-de-baile">Writing from the past - A ball night</a></h1>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contoscotidianos/3099766">16/07/2011 - A ball night</a></p>
+          <p>- Stop being silly and come here, girl. - Ordered the mother in a mix of impatience with curiosity and enthusiasm.</p>
+          <p>The daughter came out of the bathroom with small steps. Her long brown hair was held by a lilac band, but still flew loose with each step. Her white skin burned in a shy blush and her eyes looked at the floor.</p>
+          <p>When she raised her face and received the amazed look from her mother, she covered her face with her hands and let out a moan of someone about to burst into tears.</p>
+          <p>- Stop that, dear! You look beautiful. - The mother hugged her daughter and led her to a bench in front of a mirror.</p>
+          <p>That statement wasn’t unreal. The long lilac dress passed a few centimeters from the floor thanks to the high-heeled sandals, the black bodice tightened and accentuated her breasts, and a band squeezed her belly, closing in a luxurious and discreet bow on her back. Even lacking the makeup and final touches on her hair, the young woman (used to wearing jeans and t-shirts) already had a majestic and enchanting glow.</p>
+          <p>Her anxiety increased with every tick of the clock, her stomach hadn’t left her in peace for a long time, and her mother’s silly smile made everything worse. She must look ridiculous in that dress, but she liked it, which made her more nervous. It was a sign that she liked being ridiculous.</p>
+          <p>Foundation, mascara, eyeshadow, eyeliner, lipstick, and the picture kept getting more and more beautiful. The mirror seemed to frame a painting that was being worked on at that moment by a great artist. She wished her friends were there with her, it would be really cool to accompany this change in all of them, but she realized it would be even more fun to see the surprised faces when she walked through the doors of the ballroom.</p>
+          <p>- No mom, please! Leave my hair down! - She gestured in supplication. She looked very pretty, but she couldn’t afford to go out showing her ears, they were too ugly.</p>
+          <p>After a small discussion, the mother convinced her to at least arrange it in a more elaborate hairstyle. The anticipation made it seem like an eternity, but the result was glorious.</p>
+          <p>The lighter makeup brought light that, embraced by the hair color, highlighted the beauty of her thin and rounded face. Her beautiful eyes stood out from the harmonious ensemble with a youthful sparkle, as did the discreet smile that had come to her face and stayed.</p>
+          <p>The small discomfort, the fear, and the knot in her stomach returned when the mother clapped her hands and announced she was done. It was time to go down the stairs and be embarrassed by her father who, for sure, would be with the camera and would say something silly. But the worst would be having to put up with the pest of a younger brother who would mock her, even though she was fabulous.</p>
+          <p>On the way, she noticed that the stairs of the house were bigger than she imagined, they seemed to never end. Thousands of things went through her head. Giving up was the most recurring word, along with millions of flimsy excuses. Some were even good, but she was so nervous she didn’t even notice.</p>
+          <p>Upon arriving in the living room, the silence that followed was worse than any nonsense or joke. She needed to hear a sincere opinion and, more than that, she needed to hear that she was beautiful.</p>
+          <p>That was exactly what she heard, but it only made her blush like never before, increase her anxiety, and only manage to stay still because her legs didn’t respond (her wish was to run like never before, to where, she didn’t know).</p>
+          <p>The cause wasn’t the compliment, but the voice that made it. Her companion for that night was sitting in an armchair near her father, playing video games with her younger brother.</p>
+          <p>The young man stood up, buttoned his tuxedo, adjusted his bow tie, and approached to receive the girl. The mastery of the movement made him even more elegant and handsome, as if the light eyes, blond hair, and slender body weren’t enough.</p>
+          <p>Surely that would be a spectacular night.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2024-09-09-melodia-de-um-anjo">Writing from the past - Melody of an angel</a></h1>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contossurreais/2986670">22/05/2011 - Melody of an angel</a></p>
+          <p>The theater stood in the middle of the city. The tall buildings, majestic and refined, surrounded that construction from the last millennium. Wood, scaffolding, and metal pieces covered its doors and windows, and its walls had their paint peeling and hiding the life that once reigned there.</p>
+          <p>For many years, people passed in front of the building and ignored it completely. Some generations held marches, protested, spoke, and were heard, but no renovation was ever completed. The few that started to be done were cursed with accidents and deaths.</p>
+          <p>Against the wishes of the big businessmen, the city kept the building’s facade and maintains it standing as a reminder of the years of glory of what was the greatest stage of all time, until forces closed its doors forever.</p>
+          <p>Many elders are still able to recount how the glorious flames danced in its windows while consuming everything and everyone inside. According to the newspapers, nothing managed to cross the portals and reach life since the statues that adorned the passages were the first to fall, placing tons of art in the paths of salvation.</p>
+          <p>Those who pass through the lively square in the dead of night are able to say they heard the singing of thousands of people claiming life through a harmonious and beautiful choir, accompanied by the beautiful steps of the old curtains that come out to the audience, having the wind as their dance partner.</p>
+          <p>On one of these nights, when the full moon reigned at night, accompanied by its stars, a young woman who had missed the chance to catch the last transport home decided to wait the hours pass reading at the door of the old mausoleum.</p>
+          <p>As so many others had reported, it took only twelve tolls of the bell for the notes to begin to sound and the leaves of the trees to follow their rhythm. At first, the innocent winds passing through there were blamed for the melody, but it soon became clear that they contributed nothing to the phenomenon.</p>
+          <p>The girl, enchanted by the sound reaching her ears, closed her books along with her eyes and traveled in the suffering that allegro brought to her heart, while at the same time filling her soul with calm and radiance.</p>
+          <p>At the entrance of the second movement, a cello joined, removing the voices from the a cappella art, inserting them into a magical and morbid duet. The listener’s mind added violins, horns, trumpets, and oboes to the music, completing a glorious and false symphony.</p>
+          <p>While reason forced the opposite movement, the young woman’s body followed into the interior of the great stone monument, even without knowing the way. Her curiosity could not be contained before the fear of the unknown.</p>
+          <p>Inside, the scene was supernatural. Candles hung on glorious copper chandeliers were lit on the wall, and the ceiling shone with the help of a majestic crystal chandelier hanging by strong chains of the strongest iron. The antechamber, empty and enchanted with the most beautiful carpets, enchanted with a brightness invisible to its exterior.</p>
+          <p>Continuing, the vision was even more majestic. In the main room, the boxes leapt glamorous, living above the seats of the most beautiful red wool that contrasted with the oak that completed the seats. In them, several people sang with tuned voices, accompanied by the maestro playing at center stage.</p>
+          <p>The young woman knew it was impossible for a wooden object to sound with such force to fill the place with such vivacity, but the reality of the moment made everything seem real and plausible. Even more so when she glimpsed who moved the strings with such skill.</p>
+          <p>A tall and strong man covered part of the instrument with his long, straight, and black hair. His face was white, well-defined, and young. He was dressed in a smooth, beautiful, and well-tailored tuxedo that showed no resistance to the movements of his arms.</p>
+          <p>His gaze invited one to approach, something that was respected. The closer she got, everything around was disappearing and existence was limited to that being and the sounds that were born in his hands.</p>
+          <p>All the magic of the event was completed when the concert ended. Saying goodbye to an audience that stood up to recite the heroic finale, the musician rose from his seat while opening glorious and beautiful white wings that filled the stage with peace, calm, and happiness.</p>
+          <p>The applause of the ghosts that filled the audience made the conductor say goodbye to his listener with a look of gratitude and disappear covering his body through the feathered structure that leapt from his back.</p>
+          <p>The noise of the large book hitting the floor made the girl wake from the most beautiful dream and find herself trapped inside an old building, consumed by flames and abandoned by time.</p>
+          <p>The disappeared seats were marked by rotting and charred bodies. The walls were black from smoke and were falling from lack of strength. The stage only existed thanks to its strong metal roots, and the main chandelier lay within it.</p>
+          <p>Scared and confused, she ran, wishing for life, wishing for presence, wishing to feel she could still walk as mortal. Upon crossing a small gap that freed her from that cemetery, she saw the sun welcoming her to the world she knew. She could finally catch the bus home and survive among her loved ones.</p>
+          <p>The theater was still dead among the modernity that had risen around it, but the young woman never passed by there again without wishing and without fearing, longing to hear that beautiful sound played by the most beautiful creature and accompanied by the most wretched souls.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+      <div style="padding: 20px; display: grid; grid-template-columns: 1fr 1fr; column-gap: 16pt">
+        <a href="/en/home/page3" class="btn btn-primary">Older</a>
+        <a href="/en/home" class="btn btn-primary">Newer</a>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

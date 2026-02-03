@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="15/08/2011 - Homesick" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Writing from the past - Homesick</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/2024-10-24-homesick" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Writing from the past - Homesick" />
+    <meta name="twitter:title" content="Writing from the past - Homesick" />
+    <meta property="og:description" content="15/08/2011 - Homesick" />
+    <meta name="twitter:description" content="15/08/2011 - Homesick" />
+    <meta property="og:url" content="https://igorcferreira.com/en/2024-10-24-homesick" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/2024-10-24-homesick" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2024-10-24-homesick">Writing from the past - Homesick</a></h1>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contoscotidianos/3162190">15/08/2011 - Homesick</a></p>
+          <p>It’s very cold here. Much more than I imagined. I went out to get firewood early today and could barely cross the street without my nose freezing. It’s abnormal.</p>
+          <p>The children went on vacation yesterday. The streets are happy now. A bit of color runs through the white and gray. It seems like I haven’t seen the sun in months. It’s very nice to be able to watch so much joy through my window, with a cup of hot chocolate in my hands.</p>
+          <p>Although it only snows at the end of the day, it’s very windy. Many were the times I needed to leave the house with several coats, scarf, hat, and gloves. All this to protect myself from this cutting winter air. My colleagues have been mocking me for a long time. It’s strange to wear so many clothes like this.</p>
+          <p>Last year I was there, at the beach. Another world, which I now worship and desire. I really miss that hellish heat. My neighbors say it’s not that cold and that in July it’s very hot. It’s sad, it seems I’ll have to wear a sweater even in summer.</p>
+          <p>Now a bunch of gnomes are throwing snowballs at my window. I feel like joining them and fulfilling that childhood dream, but I’m too lazy to go outside. It’s a very dubious moment I’m living.</p>
+          <p>I’ve reached a moment where anything makes me remember home. A tree that looks like the one in front of the house. The song that always played on the radio there. The smell of feijoada… It’s incredible how the mind starts playing tricks when we’re homesick.</p>
+          <p>A few nights ago I dreamed I was landing in the city, hugging you, my parents, and my siblings. It was so real. I was very sad when I realized I was still in this empty bed. I miss you so much. It’s normal for me to catch myself thinking about our walks in the park.</p>
+          <p>I think you would love to be here. There are many trees. Everything is calm. The house is nice and the people are friendly. It’s a great place to be and live, when you have someone to share meals with.</p>
+          <p>I still have that necklace you gave me. I didn’t have the courage to take it off. It’s been with me all this time and brought me a lot of luck. I hope you’re rooting for me, praying for me, remembering me… That’s what makes me want to go to work in the morning, instead of heading to the airport.</p>
+          <p>Tomorrow I’m going to the neighboring town to visit a potential client. My boss arranged a car for us and said I’ll be driving it. Imagine the thrill of crossing unknown roads. It’s a prank for the “newly exported” (as they call it around here): take the boss, without a map and without a cell phone.</p>
+          <p>It sounds like a cheesy horror movie. Only without the girl to save and without the hero wanting to show off. Just a car headed through the snow without direction and without communication. The complete package of solitude. It’s really a good prank.</p>
+          <p>Behind this letter is a photo with a dog I found in the neighborhood. My newest companion during my stay. He’s beautiful. Maybe I’ll take him with me. See if the little one can handle the heat with so much fur. Yeah… I think that’s all for today.</p>
+          <p>Hugs,<br />Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

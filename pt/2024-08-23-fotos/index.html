@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="18/07/2010 - Fotos" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Escrita de outrora - Fotos</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/pt/2024-08-23-fotos" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Escrita de outrora - Fotos" />
+    <meta name="twitter:title" content="Escrita de outrora - Fotos" />
+    <meta property="og:description" content="18/07/2010 - Fotos" />
+    <meta name="twitter:description" content="18/07/2010 - Fotos" />
+    <meta property="og:url" content="https://igorcferreira.com/pt/2024-08-23-fotos" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/pt/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/pt/categories" class="nav-link text-nowrap">Categorias</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/en/2024-08-23-fotos" class="nav-link text-nowrap">See in English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/pt/2024-08-23-fotos">Escrita de outrora - Fotos</a></h1>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/pensamentos/2385723">18/07/2010 - Fotos</a></p>
+          <p>Já ouvi e vi em algumas produções que a cultura oriental, na inserção da máquina fotográfica, repudiou a foto com medo de que o dispositivo fosse capaz de absorver e aprisionar a alma.</p>
+          <p>Todos sabemos que isso não é verdade, mas acho incrível como a fotografia tem o poder em muitas situações. As vezes quando alguém pega uma foto de uma viagem de outra pessoa acha grotesco como o indivíduo aceita posar com uma cara de paisagem, só que quem está nessa foto e quem a tirou é varrido com memórias e sentimentos.</p>
+          <p>Uma imagem pode não conseguir manter sua alma, porém carrega em si diversos sentimentos e “fantasmas”, usando-os contra as pessoas com uma precisão cirúrgica. Ela põe a mão em seu coração e o acaricia ou o aperta como se os dois fossem a mesma coisa.</p>
+          <p>Este é um poder que só as imagens inertes têm, já que exigem sua criatividade e memórias para que os passos possam ser refeitos, além de lhe dar uma clara e nítida descrição do se trata.</p>
+          <p>É possível rever formas, cores e, principalmente, olhares. Como aqueles de seu melhor amigo de infância, sua primeira paixão de escola, sua primeira desavença daquela pessoa que não vê há anos.</p>
+          <p>Estas ferramentas conseguem captar desde infravermelho até o mais claro arco-íris e, mas além disso, consegue captar momentos.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Another quick thought: In which language should I post my content?" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Quick thought - Language</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/2016-06-30-language" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Quick thought - Language" />
+    <meta name="twitter:title" content="Quick thought - Language" />
+    <meta property="og:description" content="Another quick thought: In which language should I post my content?" />
+    <meta name="twitter:description" content="Another quick thought: In which language should I post my content?" />
+    <meta property="og:url" content="https://igorcferreira.com/en/2016-06-30-language" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/2016-06-30-language" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2016-06-30-language">Quick thought - Language</a></h1>
+          <p class="card-text">
+            <meta property="og:image" content="http://ricardojorge.net/wp-content/uploads/2010/03/ingvspt.png" /> </p>
+          <center> 
+            <blockquote class="twitter-tweet" data-lang="en">
+              <p lang="pt" dir="ltr">Já "sofremos" com a falta de conteúdo e de influenciadores locais. Brasileiros gerando conteúdo só em inglês, pra mim, é estrelismo.</p>— Neto Marin (@netomarin) 
+              <a href="https://twitter.com/netomarin/status/699646795631218688">February 16, 2016</a>
+            </blockquote> 
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> 
+          </center> 
+          <p>Another quick thought: In which language should I post my content?</p>
+          <p>This is a question that hits me every time I open a new post file, or even Twitter. In which language should I write my opinion?</p>
+          <p>I believe the Brazilian community needs more content in Portuguese! Especially in the technology area. But my reality isn’t just Brazil.</p>
+          <p>On Twitter, I have followers who speak the most diverse languages and most speak or understand English. My coworkers, including, speak English.</p>
+          <p>So I’m left with this doubt: In which language should I post? Not just technical opinions, but things from my daily life. I don’t want to distance myself from my homeland and friends, but I feel I lose interaction with people by posting only in Portuguese.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

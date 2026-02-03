@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Once again I went to San Francisco to participate (initially) in AltConf. This year was a bit different: Besides the 12-hour direct flight, seeing Brazilian colleagues/friends again was different and I traveled with several coworkers. It was a different experience from previous trips to SF." />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Quick thought - WWDC/Alt 2016</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/2016-06-26-wwdc-alt" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Quick thought - WWDC/Alt 2016" />
+    <meta name="twitter:title" content="Quick thought - WWDC/Alt 2016" />
+    <meta property="og:description" content="Once again I went to San Francisco to participate (initially) in AltConf. This year was a bit different: Besides the 12-hour direct flight, seeing Brazilian colleagues/friends again was different and I traveled with several coworkers. It was a different experience from previous trips to SF." />
+    <meta name="twitter:description" content="Once again I went to San Francisco to participate (initially) in AltConf. This year was a bit different: Besides the 12-hour direct flight, seeing Brazilian colleagues/friends again was different and I traveled with several coworkers. It was a different experience from previous trips to SF." />
+    <meta property="og:url" content="https://igorcferreira.com/en/2016-06-26-wwdc-alt" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/2016-06-26-wwdc-alt" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2016-06-26-wwdc-alt">Quick thought - WWDC/Alt 2016</a></h1>
+          <p class="card-text"></p>
+          <center>
+            <blockquote class="twitter-tweet" data-lang="en">
+              <p lang="en" dir="ltr">Thank you <a href="https://twitter.com/Microsoft">@Microsoft</a> for the awesome after party! <a href="https://t.co/s0ihOsvy4o">pic.twitter.com/s0ihOsvy4o</a></p>— AltConf (@AltConference) 
+              <a href="https://twitter.com/AltConference/status/743621272307826688">June 17, 2016</a>
+            </blockquote> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </center> 
+          <p>Once again I went to San Francisco to participate (initially) in <a href="http://altconf.com">AltConf</a>. This year was a bit different: Besides the 12-hour direct flight, seeing Brazilian colleagues/friends again was different and I traveled with several coworkers. It was a different experience from previous trips to SF.</p>
+          <p>As always, the conferences managed to make me hate my personality! I’m absurdly introverted and, therefore, don’t take 100% advantage of the opportunities given to me to build new friendships/contacts. And at the end of the day, I’m left with the feeling that I don’t dedicate myself/study as I should, being merely mediocre in my career.</p>
+          <p>But this text being published demonstrates the other side of conferences: It motivates me to question and produce. To try to understand where I’m going wrong and look for the best way to solve it.</p>
+          <p>I went to/stayed more at WWDC and roaming around the city than at Alt. So I missed some very good talks, which I’ll have to watch online when the videos are available.</p>
+          <p>However, I had the opportunity to talk with some Apple engineers about problems/implementations I’m doing in my day-to-day and calm down knowing that the problems I’m facing are related to bugs in the APIs and not in my code.</p>
+          <p>I left the US thinking it was a great and productive week, but at the same time, with the feeling that it wasn’t a 100% week.</p>
+          <p>On the non-technical side: I missed some great opportunities to be with the Brazilian folks and should have prepared to run more around the city. But it was great to go out for drinks/chat with coworkers and to sit, drink, and talk with friends I hadn’t seen in a long time.</p>
+          <p>I look forward eagerly to next year.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

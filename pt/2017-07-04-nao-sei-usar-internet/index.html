@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados." />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Gostaria de dizer que não sei usar a internet!</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/pt/2017-07-04-nao-sei-usar-internet" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Gostaria de dizer que não sei usar a internet!" />
+    <meta name="twitter:title" content="Gostaria de dizer que não sei usar a internet!" />
+    <meta property="og:description" content="Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados." />
+    <meta name="twitter:description" content="Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados." />
+    <meta property="og:url" content="https://igorcferreira.com/pt/2017-07-04-nao-sei-usar-internet" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/pt/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/pt/categories" class="nav-link text-nowrap">Categorias</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/en/2017-07-04-nao-sei-usar-internet" class="nav-link text-nowrap">See in English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/pt/2017-07-04-nao-sei-usar-internet">Gostaria de dizer que não sei usar a internet!</a></h1>
+          <p class="card-text"></p>
+          <p>Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados.</p>
+          <p>Isso provoca uma mudança de vida: Não posso usar a internet fora do trabalho, além de mensagens de textos. E, honestamente, foi algo muito bom. Porque me provou uma coisa: Eu não sei usar a internet.</p>
+          <p>A internet é uma ferramenta sensacional, que proporciona a interligação de unidades de processamento e armazenamento por todo o mundo. Com isso, o acesso a informação é facilitada, tal qual processamento e análise das mesmas!</p>
+          <p>Mas, na nossa realidade do dia-a-dia, não é para isso que a internet é usada… E, sim, para entretenimento: Séries, vídeos aleatórios, gifs de gatos, etc.</p>
+          <p>Como uma pessoa que usa a internet para se manter em contato com família e amigos que moram em outros países, eu me coloquei em uma situação bem ruim. Youtube vídeo, atrás de youtube vídeo. Milhões de séries na playlist. Uma longa lista de quadrinhos para ler.</p>
+          <p>Mas, pouca leitura literária de maior complexidade (amo quadrinhos, mas o volume reduzido não permite um grande trabalho filosófico, tal qual livros); Pouca leitura técnica; E, principalmente, me fechando ao mundo online.</p>
+          <p>Barcelona é uma cidade que te convida a sair do seu apartamento. Um clima lindo, arquitetura impressionante, praia convidativa, e comida MARAVILHOSA. Ainda assim, desprendia algumas tardes revendo PR que vazou do dia de trabalho, séries atrás de séries, vídeos do youtube atrás de vídeos do youtube…</p>
+          <p>Se entreter com essas formas de arte não é um problema. Mas, acredito ser válido carregar seu e-reader com publicações e sentar à beira do calçadão para ler; Andar até o cinema para ver uma sessão de um filme local; Tomar uma cerveja enquanto ouve à música ao vivo.</p>
+          <p>Saber usar a internet como uma ferramenta de acesso à informação, não como uma ferramenta de socialização! :)</p>
+          <p>Um extra:</p>
+          <center> 
+            <iframe src="https://open.spotify.com/embed?uri=spotify%3Atrack%3A41obHLt3mui2I7w2wBqAsV" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
+          </center> 
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

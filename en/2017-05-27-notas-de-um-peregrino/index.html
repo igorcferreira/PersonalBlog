@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="![Boots and notebook in front of Santiago church]({{ site.url }}/public/boots.jpg){: .center-image }" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>First Third — Notes from a pilgrim</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/2017-05-27-notas-de-um-peregrino" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="First Third — Notes from a pilgrim" />
+    <meta name="twitter:title" content="First Third — Notes from a pilgrim" />
+    <meta property="og:description" content="![Boots and notebook in front of Santiago church]({{ site.url }}/public/boots.jpg){: .center-image }" />
+    <meta name="twitter:description" content="![Boots and notebook in front of Santiago church]({{ site.url }}/public/boots.jpg){: .center-image }" />
+    <meta property="og:url" content="https://igorcferreira.com/en/2017-05-27-notas-de-um-peregrino" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/2017-05-27-notas-de-um-peregrino" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title"><a href="/en/2017-05-27-notas-de-um-peregrino">First Third — Notes from a pilgrim</a></h1>
+          <p class="card-text"></p>
+          <p>![Boots and notebook in front of Santiago church]({{ site.url }}/public/boots.jpg){: .center-image }</p>
+          <p>I decided to post here, first in Portuguese, the log of a small trip I took through northern Spain: The first third of the <a href="https://en.wikipedia.org/wiki/Camino_de_Santiago">Camino de Santiago</a>.</p>
+          <p>These texts that will come over an uncertain period are extracts from a diary that was written during the trip, with small edits and translations (since it had passages in Portuguese, English, and Spanish). I decided to write this account to resume the practice of writing, and to preserve in words some things that may disappear or fade in memory.</p>
+          <p>Additionally, some other decisions were made: No specific dates, no names of people, no detailed physical descriptions, no going into the minutiae of the route, and no heavy filtering of the thoughts that permeated me during the journey.</p>
+          <p>At this moment, I’ve already finished the path, and I’m at home, with a beer, or a coffee, or churros, writing what this red notebook holds. Some have already seen some photos, or have already heard a bit about the events. But for those who have heard nothing, enjoy!</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
