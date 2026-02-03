@@ -38,13 +38,18 @@ struct ExampleSite: Site {
     }
     
     var staticPages: [any StaticPage] {
-        let pages: [any StaticPage] = [Locale.default, .alternative].flatMap({ locale in
+        var pages: [any StaticPage] = [Locale.default, .alternative].flatMap({ locale in
             (1...pageCount).flatMap({ page in
                 [
                     Home(locale: locale, page: page) as any StaticPage,
                 ]
             })
         })
+        pages.append(contentsOf: [Locale.default, .alternative].flatMap({ locale in
+            [
+                Categories(locale: locale) as any StaticPage,
+            ]
+        }))
         return pages
     }
 }
