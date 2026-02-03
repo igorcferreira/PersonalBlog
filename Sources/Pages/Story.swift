@@ -19,6 +19,8 @@ struct Story: ArticlePage {
             }
             .font(.title1)
             
+            Text(article.date.formatted(date: .abbreviated, time: .omitted))
+            
             Text(article.text)
                 .font(.body)
         }
