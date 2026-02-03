@@ -46,12 +46,6 @@ struct Home: LocalisedStaticPage {
             }
         }
 
-        Group {
-            Link("Older".localised(locale: locale, decoder: decode), target: Home(locale: locale, page: page + 1).path)
-                .linkStyle(.button)
-
-            Link("Newer".localised(locale: locale, decoder: decode), target: Home(locale: locale, page: page - 1).path)
-                .linkStyle(.button)
-        }
+        Footer(isLastPage: isLastPage, isFirstPage: isFirstPage, locale: locale, page: page)
     }
 }
