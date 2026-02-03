@@ -1,0 +1,148 @@
+//
+//  Dictionary.swift
+//  IgniteStarter
+//
+//  Created by Igor Ferreira on 23/01/2026.
+//
+import Foundation
+import Ignite
+
+extension String {
+    func localised(
+        locale: Locale,
+        decoder: DecodeAction,
+    ) -> String {
+        Dictionary().localised(self, locale: locale, decoder: decoder)
+    }
+    
+    func localised(
+        decoder: DecodeAction,
+        locale: Locale,
+        _ arguments: any CVarArg...
+    ) -> String {
+        Dictionary().localised(decoder: decoder, locale: locale, format: self, arguments)
+    }
+}
+extension String.LocalizationValue {
+    func localised(
+        locale: Locale,
+        decoder: DecodeAction
+    ) -> String {
+        Dictionary().localised(self, locale: locale, decoder: decoder)
+    }
+}
+
+struct Dictionary {
+    func localised(
+        _ key: String,
+        locale: Locale,
+        decoder: DecodeAction,
+    ) -> String {
+        return localised(String.LocalizationValue(key), locale: locale, decoder: decoder)
+    }
+    
+    func localised(
+        decoder: DecodeAction,
+        locale: Locale,
+        format: String,
+        _ arguments: any CVarArg...
+    ) -> String {
+        return String(format: localised(format, locale: locale, decoder: decoder), arguments: arguments)
+    }
+    
+    func localised(
+        _ key: String.LocalizationValue,
+        locale: Locale,
+        decoder: DecodeAction
+    ) -> String {
+        guard let url = decoder.url(forResource: "Localizable.bundle") else {
+            return "\(key)"
+        }
+        return String(localized: LocalizedStringResource(
+            key,
+            locale: locale,
+            bundle: .atURL(url)
+        ))
+    }
+}
+
+extension Locale {
+    static var `default`: Locale {
+        Locale(identifier: "en")
+    }
+    static var alternative: Locale {
+        Locale(identifier: "pt")
+    }
+    var linkLabel: String {
+        if self == .default {
+            "Ver em Português"
+        } else {
+            "See in English"
+        }
+    }
+    var linkTarget: Locale {
+        if self == .default {
+            .alternative
+        } else {
+            .default
+        }
+    }
+}
+
+
+extension Article {
+    var locale: Locale {
+        guard let locale = metadata["language"] as? String else {
+            return Locale(identifier: "en")
+        }
+        return Locale(identifier: locale)
+    }    
+}
+
+extension ArticleLoader {
+    func `in`(locale: Locale) -> [Article] {
+        all.filter({ article in
+            article.locale == locale
+        })
+    }
+}
+
+extension PageMetadata {
+    var locale: Locale {
+        url.locale
+    }
+    var path: String {
+        url.path()
+    }
+    func path(in other: Locale) -> String {
+        guard other != locale else {
+            return path
+        }
+        var components = url.pathComponents
+            .filter({ $0 != "/" })
+        if !components.isEmpty {
+            _ = components.removeFirst()
+        }
+        components.insert(other.identifier, at: 0)
+        if components.count == 1 {
+            components.append("home")
+        }
+        return "/\(components.joined(separator: "/"))"
+    }
+}
+
+extension URL {
+    var locale: Locale {
+        let elements = pathComponents
+            .filter({ $0 != "/" })
+        guard let firstElement = elements.first else {
+            return Locale.default
+        }
+        
+        return if firstElement == Locale.alternative.identifier {
+            .alternative
+        } else {
+            .default
+        }
+    }
+}

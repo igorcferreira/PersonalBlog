@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  
+
+  Created by Igor Ferreira on 25/05/2024.
+  
+*/
+"Home" = "Home";
+"Categories" = "Categorias";
+"More" = "Mais";
+"Feed" = "Feed";
+"tagline" = "Um simples blog"
+"description" = "Um blog escrito por <a href=\"https://mastodon.social/@igorcferreira\">me</a>"

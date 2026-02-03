@@ -1,0 +1,30 @@
+//
+//  Index.swift
+//  IgniteStarter
+//
+//  Created by Igor Ferreira on 02/02/2026.
+//
+import Foundation
+import Ignite
+
+struct Index: StaticPage {
+    @Environment(\.page) var page
+    @Environment(\.decode) var decode
+    typealias LayoutType = EmptyPageLayout
+    var layout: EmptyPageLayout = EmptyPageLayout()
+    var title: String {
+        "Home".localised(locale: page.locale, decoder: decode)
+    }
+    
+    var body: some HTML {
+        Script(code: """
+            const userLang = navigator.language || navigator.userLanguage;
+            const locale = new Intl.Locale(userLang);
+            if (locale.language === "\(Locale.alternative.identifier)") {
+                window.location.replace("/\(Locale.alternative.identifier)/home");
+            } else {
+                window.location.replace("/\(Locale.default.identifier)/home");
+            }
+            """)
+    }
+}
