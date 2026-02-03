@@ -1,5 +1,5 @@
 ---
-layout: post
+language: pt
 category: Life
 title: Primeiro Terço — Notas de um peregrino
 ---

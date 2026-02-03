@@ -1,5 +1,5 @@
 ---
-
+language: pt
 category: Pensamento
 title: Escrita de outrora - A família das cordas
 ---

@@ -1,5 +1,5 @@
 ---
-
+language: pt
 category: Pensamento
 title: Escrita de outrora - Durante um verão
 ---

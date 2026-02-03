@@ -1,5 +1,5 @@
 ---
-layout: post
+language: pt
 category: Review
 title: Batman vs Superman
 ---
