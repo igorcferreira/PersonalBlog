@@ -13,6 +13,7 @@ struct MainLayout: Layout {
             }
             MetaTag(name: "apple-mobile-web-app-title", content: site.name)
             MetaTag(name: "fediverse:creator", content: ArkanaKeys.Global().mastodonHandle)
+            MetaLink(href: "/css/style.css", rel: "stylesheet")
         }
 
         Body {
