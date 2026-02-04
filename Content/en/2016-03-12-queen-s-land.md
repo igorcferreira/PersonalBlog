@@ -28,7 +28,7 @@ London is a city powered by immigrants. This is constantly a topic of political 
 
 # Pub culture
 
-![](http://www.english-blogs.com/wp-content/uploads/2008/02/uk-fullerspub.jpg){: .center-image }
+![](http://www.english-blogs.com/wp-content/uploads/2008/02/uk-fullerspub.jpg)
 
 I love gastronomy and beer, and this is a very good city for both. Especially for the famous happy hour!
 
@@ -36,7 +36,7 @@ The country has a pub culture. A Londoner drinks a lot of beer! This is a fact. 
 
 # Coffee shops
 
-![Coffee shops](http://cdn.images.express.co.uk/img/dynamic/1/590x/Phone-box-coffee-595709.jpg){: .center-image }
+![Coffee shops](http://cdn.images.express.co.uk/img/dynamic/1/590x/Phone-box-coffee-595709.jpg)
 
 It's not just beer that moves London, we also have coffee and, of course, tea! The amount of tea a British person drinks is ridiculous. The kettle is always boiling water, all day long, especially in offices.
 
@@ -44,7 +44,7 @@ That's why, just like pubs, it's very easy to find a coffee shop. Big brands lik
 
 # Weather
 
-![Weather](https://kniftonholdingcourt.files.wordpress.com/2014/05/wpid-img_5055690190826.jpeg?w=620){: .center-image }
+![Weather](https://kniftonholdingcourt.files.wordpress.com/2014/05/wpid-img_5055690190826.jpeg?w=620)
 
 One thing that's a recurring topic here (and taken very seriously) is the weather! Something that can be summed up as: awful!
 
@@ -52,34 +52,34 @@ Many take vitamin D and use S.A.D. lamps to survive the constant rain, gray skie
 
 # House
 
-![Kitchen](http://www.inciteinteriors.co.uk/images/ww/Golive-Images/Slipper%20Satin%20Painted%20and%20Walnut%20kitchen.jpg){: .center-image }
+![Kitchen](http://www.inciteinteriors.co.uk/images/ww/Golive-Images/Slipper%20Satin%20Painted%20and%20Walnut%20kitchen.jpg)
 
 Now, there are things you only notice when you've been here for a while, or if you plan to stay here for a while. The first and most significant is the price of housing in London. Which is absurdly expensive. Really!
 
 Also, there are some characteristics of British residences that are quite different from Brazilian ones. Things like:
 
 > Power outlet
-![Power outlet](http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg){: .center-image }
+![Power outlet](http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg)
 
 <p> </p>
 
 > Heating
-![Heating](http://www.woodpelletstove.co.uk/images/artel_01_2008/house_diagram.gif){: .center-image }
+![Heating](http://www.woodpelletstove.co.uk/images/artel_01_2008/house_diagram.gif)
 
 <p> </p>
 
 > Washing machine in the kitchen
-![Washing machine](http://www.kwkitchens.co.uk/media/10123/washing-machine-ceramic-sink-and-swivel-tap.jpg){: .center-image }
+![Washing machine](http://www.kwkitchens.co.uk/media/10123/washing-machine-ceramic-sink-and-swivel-tap.jpg)
 
 <p> </p>
 
 > Clothesline inside the house
-![Clothesline](http://spartanandhannah.files.wordpress.com/2012/09/built-in-clothes-line-from-third-floor-stairs-web.jpg){: .center-image }
+![Clothesline](http://spartanandhannah.files.wordpress.com/2012/09/built-in-clothes-line-from-third-floor-stairs-web.jpg)
 
 
 # Self checkout
 
-![Self checkout](https://regmedia.co.uk/2013/10/04/checkout.jpg?x=1200&y=794){: .center-image }
+![Self checkout](https://regmedia.co.uk/2013/10/04/checkout.jpg?x=1200&y=794)
 
 Another thing that's quite different is shopping. Unlike São Paulo, shopping is usually done at pound stores and neighborhood markets. Not at giant supermarkets. Places like Sainsbury's and Tesco.
 
@@ -89,7 +89,7 @@ Now, one phenomenal thing is self checkout. All smaller supermarkets have termin
 
 # Contactless
 
-![Contactless](https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Universal_Contactless_Card_Symbol.svg/1280px-Universal_Contactless_Card_Symbol.svg.png){: .center-image }
+![Contactless](https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Universal_Contactless_Card_Symbol.svg/1280px-Universal_Contactless_Card_Symbol.svg.png)
 
 Along with self checkout, something that helps a lot is contactless payment. This is a system that uses NFC on your debit card and allows you to make payments without having to enter your PIN.
 
@@ -97,7 +97,7 @@ This way, you can quickly pay for small purchases, metro (underground), and buse
 
 # Public system
 
-![Underground](https://upload.wikimedia.org/wikipedia/commons/0/02/London_Underground_Interior_Jubilee_line.jpg){: .center-image }
+![Underground](https://upload.wikimedia.org/wikipedia/commons/0/02/London_Underground_Interior_Jubilee_line.jpg)
 
 One thing that works beautifully is the British public system. At least, the services I've needed!
 
@@ -105,7 +105,7 @@ Complete and punctual public transport (just not cheap); The health system is pu
 
 # Cost of living
 
-![](http://i.telegraph.co.uk/multimedia/archive/02854/ed_2854911b.jpg){: .center-image }
+![](http://i.telegraph.co.uk/multimedia/archive/02854/ed_2854911b.jpg)
 
 The city isn't perfect for several reasons. But one of the strongest is the cost of living!
 
@@ -115,7 +115,7 @@ Earning in pounds helps a lot, especially when traveling around Europe. Since th
 
 # Bedtime
 
-![](http://www.tradingwinner.com/wp-content/uploads/2011/04/sorry-we-are-closed.jpg){: .center-image }
+![](http://www.tradingwinner.com/wp-content/uploads/2011/04/sorry-we-are-closed.jpg)
 
 Another thing that bothers a paulista a lot is how early the city closes. I still haven't managed to adjust my life schedule to the city.
 

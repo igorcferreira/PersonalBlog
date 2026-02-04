@@ -10,7 +10,7 @@ And if this is a sensitive subject for your mental health, better skip it too.
 P.s.: this article will contain references to nudity.
 For those who will stop here, here's a GIF:**
 
-![Cats sunbathing](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExem9kZnI4bXk3a2NsNHlhdWpsNXAwdDdkcmdvYWVsaWhnNW9zaHJ0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/120eBxHlA604Cs/giphy.gif){: .center-image }
+![Cats sunbathing](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExem9kZnI4bXk3a2NsNHlhdWpsNXAwdDdkcmdvYWVsaWhnNW9zaHJ0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/120eBxHlA604Cs/giphy.gif)
 
 ---
 
@@ -50,7 +50,7 @@ And because they're rarities, I kept "refusing" to take photos,
 to the point where I would get angry when someone took a photo of me, or asked to take a photo of me.
 Just like introversion and social phobia, I hide during events, but always uncomfortable and never wanting to see the result.
 
-![Me, standing](https://igorcferreira.com/public/IMG_0002.jpg){: .center-image }
+![Me, standing](/IMG_0002.jpg)
 <figcaption class="imageCaption">This is the person I can't accept is me</figcaption>
 
 A fact about me: If I'm at home, alone, I'm always naked,
@@ -82,7 +82,7 @@ Both clothed and naked.
 To try to get used to the sight or, at least,
 understand what creates this disconnect between what I think of me and what I see/am.
 
-![Image of me, without clothes, sitting on a bench](https://igorcferreira.com/public/IMG_0001.jpg){: .center-image }
+![Image of me, without clothes, sitting on a bench](/IMG_0001.jpg)
 <figcaption class="imageCaption">This is the body I don't mind showing, but can't see</figcaption>
 
 Part of this shock therapy was creating a secondary account on Reddit and looking for non-"pornographic" nudity content/subreddits,

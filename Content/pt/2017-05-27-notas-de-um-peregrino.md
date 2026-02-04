@@ -4,7 +4,7 @@ category: Life
 title: Primeiro Terço — Notas de um peregrino
 ---
 
-![Botas e caderno em frente à igreja de Santiago]({{ site.url }}/public/boots.jpg){: .center-image }
+![Botas e caderno em frente à igreja de Santiago](/boots.jpg)
 
 Eu resolvi colocar aqui, primeiramente em português, o log de uma pequena viagem que fiz pelo norte da Espanha: O primeiro terço do [Caminho de Santiago](https://pt.wikipedia.org/wiki/Caminhos_de_Santiago).
 

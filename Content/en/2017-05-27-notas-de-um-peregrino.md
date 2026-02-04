@@ -4,7 +4,7 @@ category: Life
 title: First Third — Notes from a pilgrim
 ---
 
-![Boots and notebook in front of Santiago church]({{ site.url }}/public/boots.jpg){: .center-image }
+![Boots and notebook in front of Santiago church](/boots.jpg)
 
 I decided to post here, first in Portuguese, the log of a small trip I took through northern Spain: The first third of the [Camino de Santiago](https://en.wikipedia.org/wiki/Camino_de_Santiago).
 

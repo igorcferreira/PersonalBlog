@@ -28,7 +28,7 @@ Londres é uma cidade movida por imigrantes. Isso é constantemente um motivo de
 
 # Pub culture
 
-![](http://www.english-blogs.com/wp-content/uploads/2008/02/uk-fullerspub.jpg){: .center-image }
+![](http://www.english-blogs.com/wp-content/uploads/2008/02/uk-fullerspub.jpg)
 
 Eu adoro gastronomia e cerveja e essa é uma cidade muito boa para os dois. Especialmente para o famoso happy hour!
 
@@ -36,7 +36,7 @@ O país tem a cultura do pub. Um londrino toma muita cerveja! Isso é um fato. A
 
 # Coffee shops
 
-![Coffee shops](http://cdn.images.express.co.uk/img/dynamic/1/590x/Phone-box-coffee-595709.jpg){: .center-image }
+![Coffee shops](http://cdn.images.express.co.uk/img/dynamic/1/590x/Phone-box-coffee-595709.jpg)
 
 Não é só de cerveja que se move Londres, temos, também o café e, claro, chá! É ridículo a quantidade de chá que um britânico toma. A chaleira está sempre fervendo água, o dia todo, especialmente em escritórios.
 
@@ -44,7 +44,7 @@ Por isso, assim como pub, é muito fácil encontrar um coffee shop. Grandes marc
 
 # Weather
 
-![Clima](https://kniftonholdingcourt.files.wordpress.com/2014/05/wpid-img_5055690190826.jpeg?w=620){: .center-image }
+![Clima](https://kniftonholdingcourt.files.wordpress.com/2014/05/wpid-img_5055690190826.jpeg?w=620)
 
 Uma coisa que é um tema recorrente aqui (e levado bem a sério) é o clima! Algo que pode ser resumido em: awful!
 
@@ -52,34 +52,34 @@ Muitos tomam vitamina D e usam lâmpadas S.A.D. para sobreviver às chuvas const
 
 # House
 
-![Kitchen](http://www.inciteinteriors.co.uk/images/ww/Golive-Images/Slipper%20Satin%20Painted%20and%20Walnut%20kitchen.jpg){: .center-image }
+![Kitchen](http://www.inciteinteriors.co.uk/images/ww/Golive-Images/Slipper%20Satin%20Painted%20and%20Walnut%20kitchen.jpg)
 
 Agora, tem coisas que só se percebe quando está aqui há algum tempo, ou se pretende ficar aqui por algum tempo. O primeiro deles, e mais significativo, é o preço de moradia de Londres. Que é absurdamente caro. De verdade!
 
 Além disso, tem algumas características da residência britânica que é bem diferente da brasileira. Coisas como:
 
 > Tomada
-![Tomada](http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg){: .center-image }
+![Tomada](http://f.tqn.com/y/gouk/1/0/Q/1/-/-/wall.jpg)
 
 <p> </p>
 
 > Aquecimento
-![Aquecimento](http://www.woodpelletstove.co.uk/images/artel_01_2008/house_diagram.gif){: .center-image }
+![Aquecimento](http://www.woodpelletstove.co.uk/images/artel_01_2008/house_diagram.gif)
 
 <p> </p>
 
 > Máquina de lavar roupa na cozinha
-![Máquina de lavar](http://www.kwkitchens.co.uk/media/10123/washing-machine-ceramic-sink-and-swivel-tap.jpg){: .center-image }
+![Máquina de lavar](http://www.kwkitchens.co.uk/media/10123/washing-machine-ceramic-sink-and-swivel-tap.jpg)
 
 <p> </p>
 
 > Varal dentro de casa
-![Varal](http://spartanandhannah.files.wordpress.com/2012/09/built-in-clothes-line-from-third-floor-stairs-web.jpg){: .center-image }
+![Varal](http://spartanandhannah.files.wordpress.com/2012/09/built-in-clothes-line-from-third-floor-stairs-web.jpg)
 
 
 #  Self checkout
 
-![Self checkout](https://regmedia.co.uk/2013/10/04/checkout.jpg?x=1200&y=794){: .center-image }
+![Self checkout](https://regmedia.co.uk/2013/10/04/checkout.jpg?x=1200&y=794)
 
 Outra coisa que é bem diferente é mercado. Diferente de São Paulo, as compras, geralmente, são feitas em pound stores e mercados de bairro. Não nos gigantes supermercados. Locais como Sainsburg's e Tesco.
 
@@ -89,7 +89,7 @@ Agora, uma coisa fenomenal é o self checkout. Todos os supermercados menores po
 
 # Contactless 
 
-![Contactless](https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Universal_Contactless_Card_Symbol.svg/1280px-Universal_Contactless_Card_Symbol.svg.png){: .center-image }
+![Contactless](https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Universal_Contactless_Card_Symbol.svg/1280px-Universal_Contactless_Card_Symbol.svg.png)
 
 Junto com o self checkout, algo que ajuda muito é o contactless payment. Esse é um sistema que aplica RFC no seu cartão de débito e te permite fazer pagamentos sem precisar digitar a senha.
 
@@ -97,7 +97,7 @@ Assim, você pode, rapidamente, pagar por compras pequenas, metrô (underground)
 
 # Public system
 
-![Underground](https://upload.wikimedia.org/wikipedia/commons/0/02/London_Underground_Interior_Jubilee_line.jpg){: .center-image }
+![Underground](https://upload.wikimedia.org/wikipedia/commons/0/02/London_Underground_Interior_Jubilee_line.jpg)
 
 Uma coisa que funciona lindamente é o sistema público britânico. Pelo menos, os serviços que precisei! 
 
@@ -105,7 +105,7 @@ Transporte público completo e pontual (só não barato); O sistema de saúde é
 
 # Custo de vida
 
-![](http://i.telegraph.co.uk/multimedia/archive/02854/ed_2854911b.jpg){: .center-image }
+![](http://i.telegraph.co.uk/multimedia/archive/02854/ed_2854911b.jpg)
 
 A cidade não é perfeita por vários motivos. Mas, um dos mais fortes é o custo de vida!
 
@@ -115,7 +115,7 @@ Ganhar em libra ajuda muito, principalmente nas viagens pela Europa. Já que a m
 
 # Bedtime
 
-![](http://www.tradingwinner.com/wp-content/uploads/2011/04/sorry-we-are-closed.jpg){: .center-image }
+![](http://www.tradingwinner.com/wp-content/uploads/2011/04/sorry-we-are-closed.jpg)
 
 Outra coisa que incomoda muito um paulista é como a cidade fecha cedo. Ainda não consegui ajustar meu cronograma de vida para a cidade ainda.
 
