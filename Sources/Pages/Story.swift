@@ -13,18 +13,6 @@ struct Story: ArticlePage {
     }
     
     var body: some HTML {
-        Card {
-            Text {
-                Link(article)
-            }
-            .font(.title1)
-            
-            Text(article.date.formatted(date: .abbreviated, time: .omitted))
-            
-            Text(article.text)
-                .font(.body)
-        }
-        .style(.marginTop, "8pt")
-        .style(.marginBottom, "8pt")
+        StoryContent(article: article, linkTitle: false)
     }
 }

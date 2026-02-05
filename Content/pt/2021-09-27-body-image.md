@@ -50,8 +50,10 @@ E por serem raridades, eu fui me "negando" a tirar fotos,
 ao ponto de que eu ficava bravo quando alguém tirava foto minha, ou pedia para tirar foto minha.
 Tal qual a introversão e fobia social, escondo durante eventos, mas sempre desconfortável e nunca querendo ver o resultado.
 
-![Eu, de pé](/IMG_0002.jpg)
+<figure>
+<img src="/IMG_0002.jpg" alt="Eu, de pé" class="img-fluid"/>
 <figcaption class="imageCaption">Essa é a pessoa com a qual não consigo aceitar que sou eu</figcaption>
+</figure>
 
 Um fato sobre mim: Se estou em casa, sozinho, estou sempre pelado,
 porque acho que roupas são um tanto desconfortáveis e estar nu é mais cômodo.
@@ -82,8 +84,10 @@ Tanto vestido, quanto pelado.
 Para tentar fazer com que eu me acostume com a visão ou, pelo menos,
 consiga entender o que cria essa desconexão entre o que penso de mim e o que vejo/sou.
 
-![Image minha, sem roupa, sentado em um banco](/IMG_0001.jpg)
+<figure>
+<img src="/IMG_0001.jpg" alt="Image minha, sem roupa, sentado em um banco" class="img-fluid">
 <figcaption class="imageCaption">Esse é o corpo que não ligo em mostrar, mas não consigo ver</figcaption>
+</figure>
 
 Parte dessa terapia de choque foi criar uma conta secundária no Reddit e procurar conteúdos/subreddits de nudez não
 "pornográfica", para tentar ver se eu criava uma ideia do que eu entendo como "ideal"

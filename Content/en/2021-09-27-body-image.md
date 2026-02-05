@@ -50,8 +50,10 @@ And because they're rarities, I kept "refusing" to take photos,
 to the point where I would get angry when someone took a photo of me, or asked to take a photo of me.
 Just like introversion and social phobia, I hide during events, but always uncomfortable and never wanting to see the result.
 
-![Me, standing](/IMG_0002.jpg)
+<figure>
+<img src="/IMG_0002.jpg" alt="Me, standing" class="img-fluid"/>
 <figcaption class="imageCaption">This is the person I can't accept is me</figcaption>
+</figure>
 
 A fact about me: If I'm at home, alone, I'm always naked,
 because I find clothes somewhat uncomfortable and being naked is more comfortable.
@@ -82,8 +84,10 @@ Both clothed and naked.
 To try to get used to the sight or, at least,
 understand what creates this disconnect between what I think of me and what I see/am.
 
-![Image of me, without clothes, sitting on a bench](/IMG_0001.jpg)
+<figure>
+<img src="/IMG_0001.jpg" alt="Image of me, without clothes, sitting on a bench" class="img-fluid">
 <figcaption class="imageCaption">This is the body I don't mind showing, but can't see</figcaption>
+</figure>
 
 Part of this shock therapy was creating a secondary account on Reddit and looking for non-"pornographic" nudity content/subreddits,
 to try to see if I could create an idea of what I understand as "ideal"
