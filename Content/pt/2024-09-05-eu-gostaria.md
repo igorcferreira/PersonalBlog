@@ -2,6 +2,7 @@
 language: pt
 category: Pensamento
 title: Escrita de outrora - Eu gostaria
+date: 2024-09-05
 ---
 
 [23/04/2011 - Eu gostaria...](https://www.recantodasletras.com.br/mensagensdeamor/2925294)

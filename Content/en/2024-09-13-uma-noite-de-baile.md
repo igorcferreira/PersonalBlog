@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - A ball night
+date: 2024-09-13
 ---
 
 [16/07/2011 - A ball night](https://www.recantodasletras.com.br/contoscotidianos/3099766)

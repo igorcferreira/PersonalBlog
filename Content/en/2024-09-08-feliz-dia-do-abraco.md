@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - Happy hug day
+date: 2024-09-08
 ---
 
 [22/05/2011 - Happy hug day](https://www.recantodasletras.com.br/frases/2986393)

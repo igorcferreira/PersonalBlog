@@ -2,6 +2,7 @@
 language: pt
 category: Pensamento
 title: Escrita de outrora - Uma noite, um corpo e uma carta
+date: 2024-08-28
 ---
 
 [06/02/2011 - Uma noite, um corpo e uma carta](https://www.recantodasletras.com.br/causos/2775009)

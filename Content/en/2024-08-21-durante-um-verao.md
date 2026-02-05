@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - During a summer
+date: 2024-08-21
 ---
 
 [16/07/2010 - During a summer](https://www.recantodasletras.com.br/contoscotidianos/2380485)

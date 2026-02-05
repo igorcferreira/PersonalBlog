@@ -2,6 +2,7 @@
 language: pt
 category: Life
 title: Gostaria de dizer que não sei usar a internet!
+date: 2017-07-04
 ---
 
 Recentemente me mudei para Barcelona e, por conta da burocracia Espanhola, eu não posso assinar contratos de longo período (a parte de meu contrato de aluguel). Por causa disso, um fato me permeia: Não tenho internet em casa, e estou com um plano mobile de dados limitados.

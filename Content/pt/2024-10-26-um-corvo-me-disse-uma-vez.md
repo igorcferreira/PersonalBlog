@@ -2,6 +2,7 @@
 language: pt
 category: Pensamento
 title: Escrita de outrora - Um corvo me disse uma vez
+date: 2024-10-26
 ---
 
 [15/09/2011 - Um corvo me disse uma vez:](https://www.recantodasletras.com.br/mensagens/3220245)

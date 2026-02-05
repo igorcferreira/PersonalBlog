@@ -2,6 +2,7 @@
 language: en
 category: Life
 title: Body image
+date: 2021-09-27
 ---
 
 **Warning: This text will talk about my view of my body.

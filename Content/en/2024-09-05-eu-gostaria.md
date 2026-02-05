@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - I would like
+date: 2024-09-05
 ---
 
 [23/04/2011 - I would like...](https://www.recantodasletras.com.br/mensagensdeamor/2925294)

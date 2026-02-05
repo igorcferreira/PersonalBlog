@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - Paulista - Trianon
+date: 2024-08-30
 ---
 
 [12/02/2011 - Paulista - Trianon](https://www.recantodasletras.com.br/contoscotidianos/2788451)

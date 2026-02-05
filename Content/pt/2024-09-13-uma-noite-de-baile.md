@@ -2,6 +2,7 @@
 language: pt
 category: Pensamento
 title: Escrita de outrora - Uma noite de baile
+date: 2024-09-13
 ---
 
 [16/07/2011 - Uma noite de baile](https://www.recantodasletras.com.br/contoscotidianos/3099766)

@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - The string family
+date: 2024-09-02
 ---
 
 [08/12/2013 - The string family](https://www.recantodasletras.com.br/pensamentos/2844740)

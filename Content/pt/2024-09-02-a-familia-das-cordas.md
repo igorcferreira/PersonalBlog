@@ -2,6 +2,7 @@
 language: pt
 category: Pensamento
 title: Escrita de outrora - A família das cordas
+date: 2024-09-02
 ---
 
 [08/12/2013 - A família das cordas](https://www.recantodasletras.com.br/pensamentos/2844740)

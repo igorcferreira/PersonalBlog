@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - A crow once told me
+date: 2024-10-26
 ---
 
 [15/09/2011 - A crow once told me:](https://www.recantodasletras.com.br/mensagens/3220245)

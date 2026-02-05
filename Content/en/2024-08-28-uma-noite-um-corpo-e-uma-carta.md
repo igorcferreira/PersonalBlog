@@ -2,6 +2,7 @@
 language: en
 category: Pensamento
 title: Writing from the past - A night, a body, and a letter
+date: 2024-08-28
 ---
 
 [06/02/2011 - A night, a body, and a letter](https://www.recantodasletras.com.br/causos/2775009)

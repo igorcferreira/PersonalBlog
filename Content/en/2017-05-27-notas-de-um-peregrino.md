@@ -2,6 +2,7 @@
 language: en
 category: Life
 title: First Third — Notes from a pilgrim
+date: 2017-05-27
 ---
 
 ![Boots and notebook in front of Santiago church](/boots.jpg)

@@ -2,6 +2,7 @@
 language: pt
 category: Review
 title: Batman vs Superman
+date: 2016-03-27
 ---
 
 ![Batman vs Superman](http://images-cdn.moviepilot.com/images/c_fill,h_449,w_800/t_mp_quality/wnw0sltgej1ltlsietrg/is-this-darkseid-s-role-in-batman-vs-superman-832749.jpg)
