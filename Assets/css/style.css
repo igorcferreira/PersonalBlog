@@ -1,3 +1,40 @@
+/* Improved contrast colors for accessibility (WCAG AA+) */
+
+/* Light mode: darker blue for better contrast on white (~7:1 ratio) */
+/* Exclude navbar links and buttons */
+a:not(.nav-link):not(.navbar-brand):not(.btn) {
+    color: rgb(0 70 180) !important;
+}
+a:not(.nav-link):not(.navbar-brand):not(.btn):hover {
+    color: rgb(0 50 140) !important;
+}
+
+/* Dark mode links via media query */
+@media (prefers-color-scheme: dark) {
+    a:not(.nav-link):not(.navbar-brand):not(.btn) {
+        color: rgb(100 200 255) !important;
+    }
+    a:not(.nav-link):not(.navbar-brand):not(.btn):hover {
+        color: rgb(150 220 255) !important;
+    }
+}
+
+/* Primary button - same style for both modes: blue background, white text */
+.btn-primary,
+a.btn-primary,
+.btn.btn-primary {
+    background-color: rgb(0 70 180) !important;
+    border-color: rgb(0 70 180) !important;
+    color: rgb(255 255 255) !important;
+}
+.btn-primary:hover,
+a.btn-primary:hover,
+.btn.btn-primary:hover {
+    background-color: rgb(0 50 140) !important;
+    border-color: rgb(0 50 140) !important;
+    color: rgb(255 255 255) !important;
+}
+
 img {
     display: block;
     margin-left: auto;
