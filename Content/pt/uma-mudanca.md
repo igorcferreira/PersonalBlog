@@ -6,7 +6,7 @@ date: 2026-01-28
 ---
 
 Há 11 anos eu me mudava de São Paulo para Londres. 
-E há 9 anos eu escrevi o post [So long... Thanks for all the fish!](/pt/2017-03-28-so-long), 
+E há 9 anos eu escrevi o post [So long... Thanks for all the fish!](/pt/so-long), 
 onde eu falei sobre minha mudança de Londres para Barcelona.
 
 Agora, uma nova mudança acontece em minha vida. Ao final de março, eu me despeço da [Future Workshops](https://futureworkshops.com), 
@@ -16,7 +16,7 @@ Me despeço porque a empresa chegou em um ponto onde eu não me identifico mais.
 e o dia-a-dia já não são mais os mesmos. A estratégia de investir no mercado da Arábia Saudita, e as consequências 
 desse investimento, não me deixam mais confortável em estar na empresa.
 
-No começo desse investimento eu escrevi o post [Assexualidade](/pt/2020-05-17-assexualidade), e a vontade de escrever
+No começo desse investimento eu escrevi o post [Assexualidade](/pt/assexualidade), e a vontade de escrever
 esse post veio, em parte, da mudança de realidade que é estar envolvido na cultura da Arábia Saudita. Por anos eu tentei
 entender as consequências e o que vinha acontecendo, e nos últimos 2 anos eu tentei motivar a empresa a terminar/mudar
 a relação com a região. Agora, chegou meu momento de me distanciar.

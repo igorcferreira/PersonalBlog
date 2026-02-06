@@ -6,7 +6,7 @@ date: 2026-01-28
 ---
 
 11 years ago I was moving from São Paulo to London.
-And 9 years ago I wrote the post [So long... Thanks for all the fish!](/en/2017-03-28-so-long),
+And 9 years ago I wrote the post [So long... Thanks for all the fish!](/en/so-long),
 where I talked about my move from London to Barcelona.
 
 Now, a new change is happening in my life. At the end of March, I say goodbye to [Future Workshops](https://futureworkshops.com),
@@ -16,7 +16,7 @@ I say goodbye because the company has reached a point where I no longer identify
 and the day-to-day are no longer the same. The strategy of investing in the Saudi Arabia market, and the consequences
 of that investment, no longer make me comfortable being at the company.
 
-At the beginning of this investment, I wrote the post [Asexuality](/en/2020-05-17-assexualidade), and the desire to write
+At the beginning of this investment, I wrote the post [Asexuality](/en/assexualidade), and the desire to write
 that post came, in part, from the change in reality that is being involved in Saudi Arabian culture. For years I tried
 to understand the consequences and what was happening, and in the last 2 years I tried to motivate the company to end/change
 the relationship with the region. Now, it's my moment to distance myself.
