@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="11 years ago I was moving from São Paulo to London. And 9 years ago I wrote the post So long… Thanks for all the fish!, where I talked about my move from London to Barcelona." />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>A change</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/uma-mudanca" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="A change" />
+    <meta name="twitter:title" content="A change" />
+    <meta property="og:description" content="11 years ago I was moving from São Paulo to London. And 9 years ago I wrote the post So long… Thanks for all the fish!, where I talked about my move from London to Barcelona." />
+    <meta name="twitter:description" content="11 years ago I was moving from São Paulo to London. And 9 years ago I wrote the post So long… Thanks for all the fish!, where I talked about my move from London to Barcelona." />
+    <meta property="og:url" content="https://igorcferreira.com/en/uma-mudanca" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/uma-mudanca" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title">A change</h1>
+          <p class="card-text">Jan 28, 2026</p>
+          <p class="card-text"></p>
+          <p>11 years ago I was moving from São Paulo to London. And 9 years ago I wrote the post <a href="/en/so-long">So long… Thanks for all the fish!</a>, where I talked about my move from London to Barcelona.</p>
+          <p>Now, a new change is happening in my life. At the end of March, I say goodbye to <a href="https://futureworkshops.com">Future Workshops</a>, a company where I’ve worked for the last 10 years. A decade that ends.</p>
+          <p>I say goodbye because the company has reached a point where I no longer identify with it. The projects, the clients, the challenges, and the day-to-day are no longer the same. The strategy of investing in the Saudi Arabia market, and the consequences of that investment, no longer make me comfortable being at the company.</p>
+          <p>At the beginning of this investment, I wrote the post <a href="/en/assexualidade">Asexuality</a>, and the desire to write that post came, in part, from the change in reality that is being involved in Saudi Arabian culture. For years I tried to understand the consequences and what was happening, and in the last 2 years I tried to motivate the company to end/change the relationship with the region. Now, it’s my moment to distance myself.</p>
+          <p>I still really like the people who work at the company, in London and Barcelona, and ending this relationship was not an easy decision, since I would like to still work with this team. But, in fact, it’s my moment to distance myself.</p>
+          <p>You, who read this here, and are not related to the company nor know the company, must be wondering: “And what does this have to do with me?”</p>
+          <p>My answer to you is: I don’t know.</p>
+          <p>I just wanted to write and publish my thought. Especially since, now, comes the biggest question: And what do I do now?</p>
+          <p>My job was a big factor for my staying in Barcelona. Living in Europe has great benefits. But I feel alone. I didn’t make friendships outside of work, and my family is an ocean away. It’s time to decide if staying in Europe is still an option. And even if I stay in Europe, whether staying in Barcelona is a good option.</p>
+          <p>I believe I’ll write again when I’ve decided, but I wanted to write that I need to think.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

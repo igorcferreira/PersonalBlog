@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="09/04/2011 - Uma manhã" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Escrita de outrora - Uma manhã</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/pt/uma-manha" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Escrita de outrora - Uma manhã" />
+    <meta name="twitter:title" content="Escrita de outrora - Uma manhã" />
+    <meta property="og:description" content="09/04/2011 - Uma manhã" />
+    <meta name="twitter:description" content="09/04/2011 - Uma manhã" />
+    <meta property="og:url" content="https://igorcferreira.com/pt/uma-manha" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/pt/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/pt/categories" class="nav-link text-nowrap">Categorias</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/en/uma-manha" class="nav-link text-nowrap">See in English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title">Escrita de outrora - Uma manhã</h1>
+          <p class="card-text">4 de set. de 2024</p>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contos-de-amor/2898713">09/04/2011 - Uma manhã</a></p>
+          <p>O relógio eletrônico acendeu em sete horas e começou a tocar uma música estranha sobre os males de quem sofre. Na cadeira ao lado, estava postado um homem em seu traje social, acompanhado de uma garrafa de uísque vazia e um copo cheio que descansava em sua mão esquecida pelo próprio corpo.</p>
+          <p>Ele levantou, pousou o copo na mesa junto ao relógio, tampou e pegou a garrafa. “Uma bela noite meu caro johnny”. Foi até a janela, abriu a velha cortina de pano e viu a grande luz do sol começar a cobrir a cidade que acordava para mais um dia de correria.</p>
+          <p>- É. Parece que isso recomeça mais uma vez.</p>
+          <p>Deu alguns passos para trás e lançou a garrafa o mais longe que pode. Ainda ficou alguns segundos parado esperando ouvir o som do vidro se despedaçando vinte andares abaixo, mas quando nada aconteceu bufou em conformidade e voltou ao quarto para religar o telefone que havia desligado algumas horas antes.</p>
+          <p>Foi só o plug terminar de ser encaixado na parede para que uma luz vermelha piscasse em um botão sobre o aparelho. Ao apertá-lo uma voz mecanizada se estendeu em informações de números e datas. Logo em seguida uma voz levemente rouca e conhecida tomou lugar.</p>
+          <p>- Opa. Eae, cara? Sou eu, Luiz. Você está aí? Não estou conseguindo falar com você no seu celular. Me liga.</p>
+          <p>Um apito, novamente a voz mecanizada e uma nova mensagem.</p>
+          <p>- Cara, estou preocupado com você. A Ana disse que te viu saindo um pouco depois do discurso. Você já devia estar em casa, me liga. (bip)</p>
+          <p>- Ei, estou aqui em baixo e o porteiro não está querendo me deixar entrar. Aparece aí, me deixa subir. Eu sei que você precisa falar com alguém. (bip)</p>
+          <p>- Não adianta você se fechar agora. O que aconteceu, aconteceu, não tem mais volta. Devíamos agora era sair, conversar, falar mal, xingar para poder voltar a dar risada. Ficar aí sentado sozinho não vale… (bip)</p>
+          <p>- Como ia dizendo, é uma grande injustiça você e esse black aí sozinhos. Eu sei que já deve ter apenas a raspa do taxo, mas é sempre chato não poder brindar a um label. Eu conheço um lugar que você vai adorar. Sem brincadeira. Lembra do Evan… (bip)</p>
+          <p>- Me lembra após te dar um novo telefone. Essa secretária eletrônica sua dá nos nervos. Eu não vou tentar te tirar de casa, mas aproveita esse tempo para pensar e, principalmente, esquecer. Às vezes a felicidade está em parar de sofrer pelo que aconteceu e trilhar seu caminho em busca de novos acontecimentos. Va… (bip)</p>
+          <p>Desistiu de ficar parado ouvindo às mensagens e se dirigiu para a cozinha. Pegou uma chaleira no armário sob a pia e, no mais silêncio possível, a encheu de água e pôs no fogo. Ouviu barulhos no corredor e viu um jornal muito mal dobrado sendo passado pela abertura para cartas na porta.</p>
+          <p>Recolheu aquele conjunto de papel, abriu e viu sua foto estampada na primeira página, logo abaixo de um pequeno texto que dizia: “Jovem estudante abala comunidade científica em palestra sobre o impacto da manipulação de estruturas básicas de vida”.</p>
+          <p>Folheou algumas páginas até achar a matéria completa, onde um jornalista sem qualquer conhecimento em biologia descrevia como seu discurso havia causado conversas, discussões e até brigas no conselho internacional de biotecnologia.</p>
+          <p>Essa leitura fez um pequeno sorriso surgir em seu rosto, mas logo foi desfeito. Parecia que cada pequeno momento de calma ou felicidade fazia sua mente entrar em conflito com seu coração trazendo a dor guardada nas memórias e fincado-a profundamente na alma.</p>
+          <p>Percebeu que o telefone ainda despejava mensagens de seu amigo e se perguntou quantas ainda havia. Voltou para a cozinha, vasculhou atrás do bule de café e o achou sujo na pia, aguardando para ser lavado. Desistiu dele, pegou uma jarra de vidro, o coador, café e açúcar e deixou tudo pronto à espera da água.</p>
+          <p>Com o café pronto, encheu uma grande caneca com o líquido quente, pegou algumas bolachas em um pote de vidro em cima da geladeira, jogou-se novamente na poltrona ao lado do telefone e ocupou-se de fazer sua barriga parar de reclamar de fome.</p>
+          <p>Estava terminando seu café quando a voz que saía do aparelho ao seu lado começar a encher. Levantou e dirigiu-se decidido a fazer o telefone calar-se, mas não foi necessário. A voz metálica voltou a surgir para informar que a memória estava cheia e que nenhuma mensagem seria mais armazenada até que fosse tomada uma providência.</p>
+          <p>Reconfortado com a notícia, voltou-se a sentar e ter um pouco de paz antes de ouvir o sino do telefone tocando insistentemente. Sabia que devia ser seu amigo disposto a incomodar novamente, então deixou o aparelho cair no atendimento automático. Mas, a voz que saiu do telefone não foi exatamente o que ele esperava, fazendo seu corpo ficar imóvel e seu peito apertar em uma doce dor.</p>
+          <p>“Eu entendo que você não quer falar comigo, mas também sei que está aí, postado ao lado nessa sua poltrona que tanto gosta. - Começou uma doce e trêmula voz feminina. - Eu provavelmente não vou me lembrar disso amanhã, então espero que não esteja sendo gravado na sua secretária e que você não esteja ouvindo. Aquela garrafa de champanhe que você esqueceu aqui está sendo muito útil. É uma bebida muito ruim, mas ajuda a pensar. Muito mágico isso.”</p>
+          <p>“Mas eu estou ligando para poder falar o que realmente queria ter dito. Você não tem o direito de estragar a sua vida por minha causa. Não é justo! Eu não tenho nada além de uma vida meia boca como ajudante em um escritório meia boca. Pedir para você ficar seria uma injustiça muito grande e eu percebi isso vendo sua apresentação hoje.”</p>
+          <p>“E eu não digo isso apenas por causa dos diversos cientistas que te aplaudiram de pé no final, mas também pelo brilho em seus olhos enquanto falava, o sorriso escondido na seriedade imposta pela ocasião e o resplendor da realização e sucesso que o circundava. Não posso que deixe de ser essa figura perfeita apenas para fazer com que meu coração sinta a mais profunda alegria de uma alma realizada.”</p>
+          <p>“Agora sim eu terminei de falar tudo que tinha para falar e, do fundo do meu coração, espero que você me odeie da mesma forma e proporção com que sempre te amarei.”</p>
+          <p>- Te odiar vai ser impossível. - A caneca que antes havia café estava em pedaços no chão e o telefone tremia em sua mão enquanto reunia forças para responder. - Toda vez que ver o sorriso de uma criança lembrarei do doce prazer de te ver sorrir. Cada vez que eu sentir a brisa fresca da manhã meu coração ficará pequeno com as lembranças das melhores alvoradas de minha vida quando a via em meus braços. E injustiça maior é fazer com que duas almas chorem a distância enquanto um simples empecilho as mantém afastadas e sofrendo.</p>
+          <p>Os dois permaneceram no mais absoluto silêncio enquanto pequenas lágrimas escorriam do cansado rosto do jovem que tinha todo o seu ser focado na busca de sua ouvinte enquanto o sol preenchia o quarto com as boas-vindas para mais uma manhã na vida cotidiana dos amantes.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="29/10/2011 - Café da manhã" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Escrita de outrora - Café da manhã</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/pt/cafe-da-manha" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Escrita de outrora - Café da manhã" />
+    <meta name="twitter:title" content="Escrita de outrora - Café da manhã" />
+    <meta property="og:description" content="29/10/2011 - Café da manhã" />
+    <meta name="twitter:description" content="29/10/2011 - Café da manhã" />
+    <meta property="og:url" content="https://igorcferreira.com/pt/cafe-da-manha" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/pt/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/pt/categories" class="nav-link text-nowrap">Categorias</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/en/cafe-da-manha" class="nav-link text-nowrap">See in English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title">Escrita de outrora - Café da manhã</h1>
+          <p class="card-text">25 de nov. de 2024</p>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contoscotidianos/3304201">29/10/2011 - Café da manhã</a></p>
+          <p>Acendeu a luz pelo costume da claridade. Com passos arrastados, atravessou a cozinha e abriu as janelas, deixando que o forte sol matinal invadisse o ambiente. Retornou e deixou que a mão caísse sobre o interruptor, desligando a lâmpada sem alterar a luminosidade da área. Ficou parado ali por mais alguns instantes. Seu corpo e sua mente não haviam acordado por completo e aproveitavam cada oportunidade para parar e voltar a dormir.</p>
+          <p>Reuniu todas as forças que tinha e preparou um forte café. Percorreu os armários e a geladeira atrás de acompanhamentos e frutas, e postou um completo e incrivelmente simétrico banquete para seu desjejum.</p>
+          <p>Sentou na extremidade de uma larga e comprida mesa retangular, de costas para a janela para não se cegar com a luz que entrava por ela e poder ficar a vontade. Além disso, desfrutava de uma boa brisa por trás e uma agradável contra corrente de ar provocada pelos armários próximos. Ainda podia ver todas as outras cadeiras. Estava no centro e na extremidade ao mesmo tempo. Aquele, definitivamente, era o melhor lugar.</p>
+          <p>Por último, colocou os talheres cuidadosamente ao lado do prato vazio e passou a mexer e remexer no que estava sobre a mesa para garantir a simetria. Após alguns minutos na tarefa desnecessária desistiu e decidiu começar a comer, mesmo um pouco descontente com a diferença de cores entre o pote de geléia e manteiga (que dividiam o centro da mesa). Serviu-se com o máximo de cuidado para manter a posição das coisas, relaxou e deixou sua mente voar a cada pedaço de pão.</p>
+          <p>As memórias, favorecidas pelo ambiente a sua volta, o levaram a uma festa de natal que ocorrera há muitos anos. Aquela ainda era a casa de seus pais e podia entregar-se às futilidades da infância. Os cômodos estavam cheios de parentes e amigos que comiam e bebiam e diversas crianças corriam por todos os lados. O prazeroso caos tradicional de fim de ano.</p>
+          <p>Como sempre, cuidava de realinhar e redistribuir os copos, bebidas e doces conforme estes eram consumidos. A mesa (que agora recebia seu desjejum) permanecia com as guloseimas devidamente equilibradas e distribuídas, com o mínimo de falhas que era possível. Afinal, ainda era jovem, não podia se forçar tanto. Se ainda houvesse este tipo de reunião na casa a organização estaria perfeita.</p>
+          <p>- Uma moeda por seus pensamentos. - Seu déjà vu foi interrompido por uma doce voz que lhe saudava.</p>
+          <p>Parada à porta, uma linda moça de cabelos e olhos castanhos olhava fixamente para ele. O corpo dela estava coberto apenas por uma curta camisa regata cinza e uma discreta calcinha, deixando suas pernas sensualmente a mostra.</p>
+          <p>- Apenas voltei alguns anos no tempo.</p>
+          <p>- Hmm - Balbuciou a jovem, indo se sentar na cadeira que estava livre logo à esquerda, próximo ao jovem. - Nostalgia nunca foi muito seu perfil.</p>
+          <p>- Vejo que você não me conhece mais tão bem. Antigamente nem precisaria te dizer em que pensava.</p>
+          <p>- Você me afastou, fez com que me afastasse de você. Acreditou nas histórias e conselhos de sua família e deixou de falar comigo. Já faz muitos anos.</p>
+          <p>- E eu ainda não acredito que voltei a vê-la. Devo estar muito desesperado.</p>
+          <p>A jovem lançou-lhe um olhar agressivo, bufou e ficou encarando-o por alguns instantes antes de apoiar sua mão docemente sobre a do jovem. Este até pensou em recuar, mas hesitou.</p>
+          <p>- Muita coisa aconteceu. - tentou reconfortar a jovem.</p>
+          <p>Havia muita verdade embarcada naquelas palavras. Muita coisa acontecera nos últimos dias. A vida pacata e doce deixou de existir e um caos assumiu o lugar. Nunca sua mente esteve em um turbilhão tão intenso e as coisas só pareciam piorar. Não havia uma luz no final daquele túnel, apenas escuridão.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

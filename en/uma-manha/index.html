@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="09/04/2011 - A morning" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Writing from the past - A morning</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/en/uma-manha" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Writing from the past - A morning" />
+    <meta name="twitter:title" content="Writing from the past - A morning" />
+    <meta property="og:description" content="09/04/2011 - A morning" />
+    <meta name="twitter:description" content="09/04/2011 - A morning" />
+    <meta property="og:url" content="https://igorcferreira.com/en/uma-manha" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/en/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/en/categories" class="nav-link text-nowrap">Categories</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/pt/uma-manha" class="nav-link text-nowrap">Ver em Português</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title">Writing from the past - A morning</h1>
+          <p class="card-text">Sep 4, 2024</p>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contos-de-amor/2898713">09/04/2011 - A morning</a></p>
+          <p>The electronic clock lit up at seven o’clock and started playing a strange song about the woes of those who suffer. In the chair beside it, a man was posted in his formal attire, accompanied by an empty whiskey bottle and a full glass that rested in his hand, forgotten by his own body.</p>
+          <p>He got up, placed the glass on the table next to the clock, capped it, and picked up the bottle. “A beautiful night, my dear Johnny.” He went to the window, opened the old cloth curtain, and saw the great light of the sun beginning to cover the city waking up for another day of hustle.</p>
+          <p>- Yeah. Looks like this starts again.</p>
+          <p>He took a few steps back and threw the bottle as far as he could. He still stood for a few seconds waiting to hear the sound of glass shattering twenty floors below, but when nothing happened, he snorted in compliance and returned to the room to reconnect the phone he had disconnected a few hours before.</p>
+          <p>As soon as the plug finished being inserted into the wall, a red light blinked on a button on the device. Upon pressing it, a mechanized voice extended in information about numbers and dates. Soon after, a slightly hoarse and familiar voice took over.</p>
+          <p>- Hey. What’s up, man? It’s me, Luiz. Are you there? I can’t reach you on your cell. Call me.</p>
+          <p>A beep, again the mechanized voice and a new message.</p>
+          <p>- Man, I’m worried about you. Ana said she saw you leaving a little after the speech. You should be home by now, call me. (beep)</p>
+          <p>- Hey, I’m downstairs and the doorman doesn’t want to let me in. Show up, let me come up. I know you need to talk to someone. (beep)</p>
+          <p>- It’s no use closing yourself off now. What happened, happened, there’s no going back. We should go out now, talk, complain, curse so we can laugh again. Sitting there alone isn’t worth it… (beep)</p>
+          <p>- As I was saying, it’s a great injustice, you and that black label there alone. I know you must have only the dregs left, but it’s always bad not being able to toast a label. I know a place you’ll love. No joke. Remember Evan… (beep)</p>
+          <p>- Remind me after I get you a new phone. This answering machine of yours gets on my nerves. I’m not going to try to get you out of the house, but use this time to think and, most importantly, forget. Sometimes happiness is in stopping suffering for what happened and paving your way in search of new events. Go… (beep)</p>
+          <p>He gave up standing there listening to the messages and headed for the kitchen. He grabbed a kettle from the cupboard under the sink and, in the most silence possible, filled it with water and put it on the stove. He heard noises in the hallway and saw a very poorly folded newspaper being passed through the mail slot in the door.</p>
+          <p>He collected that set of papers, opened them, and saw his photo stamped on the front page, just below a small text that said: “Young student shakes scientific community in lecture on the impact of manipulating basic life structures.”</p>
+          <p>He flipped through a few pages until he found the complete article, where a journalist with no knowledge of biology described how his speech had caused conversations, discussions, and even fights at the international biotechnology council.</p>
+          <p>This reading made a small smile appear on his face, but it was soon undone. It seemed that every small moment of calm or happiness made his mind conflict with his heart, bringing the pain stored in memories and driving it deep into his soul.</p>
+          <p>He noticed that the phone was still spewing messages from his friend and wondered how many more there were. He went back to the kitchen, searched for the coffee pot and found it dirty in the sink, waiting to be washed. He gave up on it, got a glass jar, the filter, coffee, and sugar and left everything ready waiting for the water.</p>
+          <p>With the coffee ready, he filled a large mug with the hot liquid, grabbed some cookies from a glass jar on top of the fridge, threw himself back in the armchair next to the phone, and busied himself making his stomach stop complaining of hunger.</p>
+          <p>He was finishing his coffee when the voice coming from the device beside him started to get annoying. He got up and headed decisively to silence the phone, but it wasn’t necessary. The metallic voice returned to inform that the memory was full and no more messages would be stored until action was taken.</p>
+          <p>Comforted by the news, he sat back down to have some peace before hearing the phone bell ringing insistently. He knew it must be his friend willing to bother again, so he let the device go to the answering machine. But the voice that came out of the phone was not exactly what he expected, making his body freeze and his chest tighten in a sweet pain.</p>
+          <p>“I understand you don’t want to talk to me, but I also know you’re there, posted next to that armchair of yours that you like so much. - Began a sweet and trembling female voice. - I probably won’t remember this tomorrow, so I hope it’s not being recorded on your answering machine and that you’re not listening. That bottle of champagne you left here is being very useful. It’s a very bad drink, but it helps to think. Very magical.”</p>
+          <p>“But I’m calling to be able to say what I really wanted to have said. You have no right to ruin your life because of me. It’s not fair! I have nothing but a mediocre life as an assistant in a mediocre office. Asking you to stay would be a very great injustice and I realized this watching your presentation today.”</p>
+          <p>“And I say this not only because of the many scientists who gave you a standing ovation at the end, but also because of the sparkle in your eyes while you spoke, the smile hidden in the seriousness imposed by the occasion, and the splendor of achievement and success that surrounded you. I can’t let you stop being this perfect figure just to make my heart feel the deepest joy of a fulfilled soul.”</p>
+          <p>“Now I’ve finished saying everything I had to say and, from the bottom of my heart, I hope you hate me in the same way and proportion with which I will always love you.”</p>
+          <p>- Hating you will be impossible. - The mug that once had coffee was in pieces on the floor and the phone trembled in his hand as he gathered strength to respond. - Every time I see a child’s smile I will remember the sweet pleasure of seeing you smile. Every time I feel the fresh morning breeze my heart will shrink with the memories of the best dawns of my life when I saw you in my arms. And greater injustice is to make two souls cry from a distance while a simple obstacle keeps them apart and suffering.</p>
+          <p>Both remained in absolute silence while small tears ran down the tired face of the young man who had his whole being focused on the search for his listener while the sun filled the room with welcome for another morning in the daily life of the lovers.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>

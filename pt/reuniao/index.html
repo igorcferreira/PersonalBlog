@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="06/02/2011 - Reunião" />
+    <meta name="author" content="Igor Ferreira" />
+    <meta name="generator" content="Ignite v0.6.0" />
+    <title>Escrita de outrora - Reunião</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/css/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="/css/ignite-core.min.css" rel="stylesheet" />
+    <link href="https://igorcferreira.com/pt/reuniao" rel="canonical" />
+    <script>(function() {
+    function getThemePreference() {
+        return localStorage.getItem('custom-theme') || 'auto';
+    }
+
+    function applyTheme(themeID) {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightThemeID = document.documentElement.getAttribute('data-light-theme') || 'light';
+        const darkThemeID = document.documentElement.getAttribute('data-dark-theme') || 'dark';
+        const actualThemeID = themeID === 'auto' ? (prefersDark ? darkThemeID : lightThemeID) : themeID;
+
+        document.documentElement.setAttribute('data-bs-theme', actualThemeID);
+        document.documentElement.setAttribute('data-theme-state', themeID);
+    }
+
+    function applySyntaxTheme() {
+        const syntaxTheme = getComputedStyle(document.documentElement)
+            .getPropertyValue('--syntax-highlight-theme').trim().replace(/"/g, '');
+
+        if (!syntaxTheme) return;
+
+        document.querySelectorAll('link[data-highlight-theme]').forEach(link => {
+            link.setAttribute('disabled', 'disabled');
+        });
+
+        const themeLink = document.querySelector(`link[data-highlight-theme="${syntaxTheme}"]`);
+        if (themeLink) {
+            themeLink.removeAttribute('disabled');
+        }
+    }
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        const currentTheme = getThemePreference();
+        if (currentTheme === 'auto') {
+            applyTheme('auto');
+            applySyntaxTheme();
+        }
+    });
+
+    const savedTheme = getThemePreference();
+    applyTheme(savedTheme);
+    applySyntaxTheme();
+})();
+</script>
+    <meta property="og:site_name" content="Blog Pessoal" />
+    <meta property="og:title" content="Escrita de outrora - Reunião" />
+    <meta name="twitter:title" content="Escrita de outrora - Reunião" />
+    <meta property="og:description" content="06/02/2011 - Reunião" />
+    <meta name="twitter:description" content="06/02/2011 - Reunião" />
+    <meta property="og:url" content="https://igorcferreira.com/pt/reuniao" />
+    <meta name="twitter:domain" content="igorcferreira.com" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:dnt" content="on" />
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon" />
+    <link href="https://mastodon.social/@igorcferreira" rel="me" />
+    <meta name="apple-mobile-web-app-title" content="Blog Pessoal" />
+    <meta name="fediverse:creator" content="@igorcferreira@mastodon.social" />
+    <link href="/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="container">
+    <header>
+      <nav class="navbar navbar-expand-md" style="background-color: rgb(111 66 193 / 100%)" data-bs-theme="dark">
+        <div class="container flex-wrap flex-lg-nowrap">
+          <button type="button" class="navbar-toggler btn" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav mb-2 mb-md-0 col ">
+              <li class="nav-item"><a href="/pt/home" class="nav-link text-nowrap">Home</a></li>
+              <li class="nav-item"><a href="/pt/categories" class="nav-link text-nowrap">Categorias</a></li>
+              <li class="nav-item"><a href="https://github.com/igorcferreira" class="nav-link text-nowrap">GitHub</a></li>
+              <li class="nav-item"><a href="https://mastodon.social/@igorcferreira" class="nav-link text-nowrap">Mastodon</a></li>
+              <li class="nav-item"><a href="/feed.rss" class="nav-link text-nowrap">Feed</a></li>
+              <div class="ms-auto"></div>
+              <li class="nav-item"><a href="/en/reuniao" class="nav-link text-nowrap">See in English</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="ig-main-content">
+      <div class="card" style="margin-top: 8pt; margin-bottom: 8pt">
+        <div class="card-body">
+          <h1 class="card-title">Escrita de outrora - Reunião</h1>
+          <p class="card-text">26 de ago. de 2024</p>
+          <p class="card-text"></p>
+          <p><a href="https://www.recantodasletras.com.br/contos/2774962">06/02/2011 - Reunião</a></p>
+          <p>Nada do que acontecera antes poderia prever ou explicar aquela cena. Os dois homens se entreolhavam como se seus olhos conversassem. Eles se conheciam tão bem que não era necessário trocar uma única palavra, podiam prever o que seria dito.</p>
+          <p>- Por favor. Eu te avisei. Você sabia. - Um homem alto que vestia uma roupa calça social risca de giz e uma camiseta azul coberta por um jaleco branco cortou o silêncio.</p>
+          <p>- Eu simplesmente não acreditei. Nunca poderia acreditar nisso. Eu me forçava a não acreditar. - O segundo homem tinha um porte e um tom de voz que mostravam superioridade ao seu ouvinte, mas vestia apenas uma calça jeans rasgada e esburacada e um colar prateado. Seu peito, braços estavam sujos, enlameados e cobertos de sangue e feridas.</p>
+          <p>Uma possível hierarquia ficava mais clara, pois o homem com o jaleco estava sentado em uma cadeira em frente a uma pequena mesa de madeira enquanto o outro estava de pé do outro lado do móvel de jacarandá.</p>
+          <p>- Escute Andrew. Eles pediram por isso. Pediram-nos para criar algo que não poderia ser criado e eu tinha de convencê-los disso. - Disse enquanto tirava seu crachá e seu jaleco e colocava sobre a mesa.</p>
+          <p>A foto do documento mostrava o rosto de um homem forte, com barba mal feita e um cabelo loiro e bem penteado. Porém, o homem que agora esfregava os olhos e apoiava-se na mesa enquanto apontava para uma cadeira onde seu colega podia sentar-se aparentava estar cansado, tinha a barba grande, grossa e desarrumada, assim como seu cabelo.</p>
+          <p>- A sim. Brilhante ideia. Realmente funcionou. E como você pretende chamar essa nova doença que VOCÊ criou? Mal de Santos? Seria uma linda homenagem a você Túlio. - Andrew expressou-se com extrema calma, mas ao final chutou a cadeira que lhe foi mostrada, fazendo com que o móvel atravessasse a pequena sala, chocando com a parede de concreto sólido.</p>
+          <p>- Não. Inventaria outro nome. Nunca gostei muito desse meu sobrenome. Além do que faria as pessoas se confundirem. O epicentro não foi a baixada. O sarcasmo de Túlio fez com que Andrew ficasse extremamente nervoso. Com uma força sobre-humana arremessou a mesa, que se dividiu em vários pedaços ao encontrar um obstáculo, e levantou o outro homem pelo pescoço.</p>
+          <p>- Então é por isso que está tão nervoso. Você está doente. - A voz fraca e rouca devido à garganta obstruída era interessada e encantada assim como seu olhar. - Não entenda isso como o fim do mundo. Há pontos fortes. Podemos criar uma vacina. Você pode aprender a controlar isso. O olhar e as palavras de Túlio foi de encontro a algo enterrado no fundo do coração de Andrew. Sua mente começou a fervilhar de lembranças. Seus braços tremeram e sua cabeça começou a arder. Por alguns instantes esteve em outros lugares e o silêncio se manteve na área. Ao voltar a si, seus olhos estavam cobertos por lágrimas que por pouco não encontravam seu trajeto pelo rosto machucado.</p>
+          <p>- Você está se divertindo? Está gostando de ficar enclausurado em uma sala minúscula nos subsolos de uma cidade abandonada ao caos? Ou apenas gosta de ficar nesse seu traje social brincado de cientista? - Gritou, arremessando o homem até a parede do outro lado da sala que bateu na parede arfou de dor e cuspiu sangue enquanto tentava levantar. Túlio limpou as lágrimas com o verso das mãos, virou-se e admirou o homem que tentava colocar força nos músculos dos braços ao tentar se levantar e fracassava. Ficou olhando aquela cena por mais alguns segundos até se cansar daquilo e voltar sua atenção para o crachá que pousava próximo ao homem caído.</p>
+          <p>- Você não tem ideia do que fiz. Do que eu estou me tornando. - disse pegando o crachá. - O grande cientista, ganhador de tantos prêmios, PHD, trabalhador para o governo quase não existe mais.</p>
+          <p>- Eu vi o que você irá se tornar. Eu tenho trabalhado com seres como você. Eu busco uma cura. E você pode me ajudar, basta se manter calmo. - Ele desistira de se levantar e apenas girou o corpo para poder olhar a sala. - Acho que você quebrou algum osso meu.</p>
+          <p>- Eu te falei que esse seu jeito insolente iria me irritar um dia. - Finalizou Andrew dirigindo-se à saída e pisando no abdômen de seu colega ao passar por ele.</p>
+          <p>- Espere. - Balbuciou Túlio quando Andrew girou a maçaneta e fez a forte porta de metal maciço girar com um grunhido de ferrugem. - Você não pode sair dessa porta no estado que está. Tem de ficar e esperar que eu o ajude. Se você transpassar essa porta o exército irá atrás de você.</p>
+          <p>- Andrew parou por um tempo, considerando o que acabara de ouvir e ignorou voltando apenas para pegar o jaleco branco, cobrir seu corpo desnudo parcialmente com ele e dirigir-se novamente para a saída. Perto à porta, Túlio segurou a perna do colega e falou:</p>
+          <p>- Para onde for sua carne morta não ganhará rubor. Seu peito não mais vibrará no ritmo de sua respiração, já que está não existirá mais. Seu coração não será capaz de sentir, seja ódio, ou seja, amor, nem mesmo seu sangue (antes quente e veloz) conseguirá mover. Seus olhos não estarão mais abertos em seu brilho majestoso, pois não terão uma alma para iluminar.</p>
+          <p>Igor Castañeda Ferreira</p>
+          <hr />
+          <p>Nota do autor: Esse texto nasceu de uma tentativa de elaborar um roteiro que nasceu durante uma aula de roteiro para jogos.</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-5">Created in Swift with <a href="https://github.com/twostraws/Ignite">Ignite</a></p>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/ignite-core.js"></script>
+  </body>
+</html>
