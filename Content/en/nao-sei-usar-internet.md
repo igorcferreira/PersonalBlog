@@ -3,6 +3,7 @@ language: en
 category: Life
 title: I'd like to say I don't know how to use the internet!
 date: 2017-07-04
+published: true
 ---
 
 I recently moved to Barcelona and, due to Spanish bureaucracy, I can't sign long-term contracts (apart from my rental contract). Because of this, one fact permeates my life: I don't have internet at home, and I have a mobile plan with limited data.

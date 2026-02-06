@@ -4,6 +4,7 @@ category: Life
 title: Primeiro Terço - Dia 4
 image: public/pamplona_exposition.jpg
 date: 2018-04-15
+published: true
 ---
 
 ![Sala de exposições, em Pamplona](/pamplona_exposition.jpg)

@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Uma manhã
 date: 2024-09-04
+published: true
 ---
 
 [09/04/2011 - Uma manhã](https://www.recantodasletras.com.br/contos-de-amor/2898713)

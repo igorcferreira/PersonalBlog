@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - Confession
 date: 2024-08-25
+published: true
 ---
 
 [19/07/2010 - Confession](https://www.recantodasletras.com.br/cartas/2387305)

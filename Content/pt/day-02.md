@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Primeiro Terço - Dia 2
 date: 2018-03-28
+published: true
 ---
 
 ![Saída de Roncesvalles](/roncesvalles_exit.jpg)

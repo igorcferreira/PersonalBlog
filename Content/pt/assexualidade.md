@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Assexualidade
 date: 2020-05-17
+published: true
 ---
 
 Este texto comentará algo pessoal, e mencionará sexualidade. Se você não tem interesse, recomendo pular meus próximos posts. Dito isso:

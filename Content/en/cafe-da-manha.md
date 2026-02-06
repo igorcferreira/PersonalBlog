@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - Breakfast
 date: 2024-11-25
+published: true
 ---
 
 [29/10/2011 - Breakfast](https://www.recantodasletras.com.br/contoscotidianos/3304201)

@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Fotos
 date: 2024-08-23
+published: true
 ---
 
 [18/07/2010 - Fotos](https://www.recantodasletras.com.br/pensamentos/2385723)

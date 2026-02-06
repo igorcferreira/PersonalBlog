@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - In the morning, an accident
 date: 2024-09-06
+published: true
 ---
 
 [14/05/2011 - In the morning, an accident](https://www.recantodasletras.com.br/contos-de-amor/2970284)

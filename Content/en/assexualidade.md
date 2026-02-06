@@ -3,6 +3,7 @@ language: en
 category: Life
 title: Asexuality
 date: 2020-05-17
+published: true
 ---
 
 This text will discuss something personal and will mention sexuality. If you're not interested, I recommend skipping my next posts. That said:

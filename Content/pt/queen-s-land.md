@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Queen's Land <abbr title="United Kingdom">🇬🇧</abbr>
 date: 2016-03-12
+published: true
 ---
 
 ![Congress](http://wiki.mindseyesociety.org/images/thumb/5/5d/London-england-at-night-banner-no-logo.jpg/850px-London-england-at-night-banner-no-logo.jpg)

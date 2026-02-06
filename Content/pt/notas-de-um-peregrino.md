@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Primeiro Terço — Notas de um peregrino
 date: 2017-05-27
+published: true
 ---
 
 ![Botas e caderno em frente à igreja de Santiago](/boots.jpg)

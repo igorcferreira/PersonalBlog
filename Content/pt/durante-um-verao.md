@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Durante um verão
 date: 2024-08-21
+published: true
 ---
 
 [16/07/2010 - Durante um verão](https://www.recantodasletras.com.br/contoscotidianos/2380485)

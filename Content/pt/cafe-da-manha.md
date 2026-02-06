@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Café da manhã
 date: 2024-11-25
+published: true
 ---
 
 [29/10/2011 - Café da manhã](https://www.recantodasletras.com.br/contoscotidianos/3304201)

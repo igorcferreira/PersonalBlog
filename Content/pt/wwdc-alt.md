@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Quick thought - WWDC/Alt 2016
 date: 2016-06-26
+published: true
 ---
 
 <center><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Thank you <a href="https://twitter.com/Microsoft">@Microsoft</a> for the awesome after party! <a href="https://t.co/s0ihOsvy4o">pic.twitter.com/s0ihOsvy4o</a></p>&mdash; AltConf (@AltConference) <a href="https://twitter.com/AltConference/status/743621272307826688">June 17, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>

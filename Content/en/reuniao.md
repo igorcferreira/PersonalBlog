@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - Meeting
 date: 2024-08-26
+published: true
 ---
 
 [06/02/2011 - Meeting](https://www.recantodasletras.com.br/contos/2774962)

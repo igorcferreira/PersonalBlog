@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - A morning
 date: 2024-09-04
+published: true
 ---
 
 [09/04/2011 - A morning](https://www.recantodasletras.com.br/contos-de-amor/2898713)

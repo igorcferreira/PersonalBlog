@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Quick thought - Language
 date: 2016-06-30
+published: true
 ---
 
 <meta property="og:image" content="http://ricardojorge.net/wp-content/uploads/2010/03/ingvspt.png"/>

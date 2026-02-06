@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Uma mudança
 date: 2026-01-28
+published: true
 ---
 
 Há 11 anos eu me mudava de São Paulo para Londres. 

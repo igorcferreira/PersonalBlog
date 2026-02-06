@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Melodia de um anjo
 date: 2024-09-09
+published: true
 ---
 
 [22/05/2011 - Melodia de um anjo](https://www.recantodasletras.com.br/contossurreais/2986670)

@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - Melody of an angel
 date: 2024-09-09
+published: true
 ---
 
 [22/05/2011 - Melody of an angel](https://www.recantodasletras.com.br/contossurreais/2986670)

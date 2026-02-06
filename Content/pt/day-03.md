@@ -3,6 +3,7 @@ language: pt
 category: Life
 title: Primeiro Terço - Dia 3
 date: 2018-04-02
+published: true
 ---
 
 ![Uma bela vista na entrada do vilarejo](/villa_entrance.jpg)

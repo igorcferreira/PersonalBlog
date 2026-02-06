@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Na manhã, um acidente
 date: 2024-09-06
+published: true
 ---
 
 [14/05/2011 - Na manhã, um acidente](https://www.recantodasletras.com.br/contos-de-amor/2970284)

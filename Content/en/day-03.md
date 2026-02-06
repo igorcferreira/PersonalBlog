@@ -3,6 +3,7 @@ language: en
 category: Life
 title: First Third - Day 3
 date: 2018-04-02
+published: true
 ---
 
 ![A beautiful view at the village entrance](/villa_entrance.jpg)

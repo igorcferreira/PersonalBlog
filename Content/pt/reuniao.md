@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Reunião
 date: 2024-08-26
+published: true
 ---
 
 [06/02/2011 - Reunião](https://www.recantodasletras.com.br/contos/2774962)

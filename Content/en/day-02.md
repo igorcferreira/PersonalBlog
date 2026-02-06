@@ -3,6 +3,7 @@ language: en
 category: Life
 title: First Third - Day 2
 date: 2018-03-28
+published: true
 ---
 
 ![Leaving Roncesvalles](/roncesvalles_exit.jpg)

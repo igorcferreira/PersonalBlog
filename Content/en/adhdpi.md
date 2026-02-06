@@ -3,6 +3,7 @@ language: en
 category: Life
 title: Daily ADHD
 date: 2016-09-02
+published: true
 ---
 
 <meta property="og:image" content="http://blogs.discovermagazine.com/sciencenotfiction/files/2011/03/Braaaains.jpg"/>

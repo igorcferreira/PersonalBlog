@@ -3,6 +3,7 @@ language: en
 category: Life
 title: A change
 date: 2026-01-28
+published: true
 ---
 
 11 years ago I was moving from São Paulo to London.

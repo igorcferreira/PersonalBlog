@@ -3,6 +3,7 @@ language: en
 category: Pensamento
 title: Writing from the past - The text
 date: 2024-08-20
+published: true
 ---
 
 [15/07/2010 - The Text](https://www.recantodasletras.com.br/pensamentos/2380117)

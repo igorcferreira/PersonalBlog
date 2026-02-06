@@ -3,6 +3,7 @@ language: pt
 category: Pensamento
 title: Escrita de outrora - Confissão
 date: 2024-08-25
+published: true
 ---
 
 [19/07/2010 - Confissão](https://www.recantodasletras.com.br/cartas/2387305)

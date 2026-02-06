@@ -4,6 +4,7 @@ category: Life
 title: First Third - Day 4
 image: public/pamplona_exposition.jpg
 date: 2018-04-15
+published: true
 ---
 
 ![Exhibition hall, in Pamplona](/pamplona_exposition.jpg)
