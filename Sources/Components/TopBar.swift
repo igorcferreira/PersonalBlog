@@ -16,8 +16,6 @@ struct TopBar: HTML {
         NavigationBar(logo: nil) {
             Link("Home".localised(locale: page.locale, decoder: decode), target: Home(locale: page.locale))
             Link("Categories".localised(locale: page.locale, decoder: decode), target: Categories(locale: page.locale))
-            Link("GitHub".localised(locale: page.locale, decoder: decode), target: ArkanaKeys.Global().githubPage)
-                .target(.blank)
             Link("Mastodon".localised(locale: page.locale, decoder: decode), target: ArkanaKeys.Global().mastodonPage)
                 .target(.blank)
             Link("Feed".localised(locale: page.locale, decoder: decode), target: "/feed.rss")
